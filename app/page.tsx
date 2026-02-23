@@ -1,5 +1,6 @@
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+import { AboutCarousel } from "@/components/about-carousel"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import Image from "next/image"
@@ -136,21 +137,12 @@ export default function HomePage() {
         {/* About Us Section */}
         <section className="py-16 lg:py-24 bg-secondary">
           <div className="container mx-auto px-4 lg:px-8">
-            <div className="flex flex-col lg:flex-row gap-12 lg:gap-16">
-              {/* Binary pattern decoration */}
-              <div className="lg:w-1/2 hidden lg:flex items-center justify-center">
-                <div className="text-6xl font-mono text-muted-foreground/20 select-none">
-                  <p>1 0 1 1 0 1</p>
-                  <p>0 1 1 0 1 0</p>
-                  <p>1 1 0 1 0 1</p>
-                </div>
-              </div>
-
+            <h2 className="text-2xl lg:text-3xl font-bold text-foreground mb-12">
+              About us
+            </h2>
+            <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-start">
+              {/* Left Content */}
               <div className="lg:w-1/2">
-                <h2 className="text-2xl lg:text-3xl font-bold text-foreground mb-8">
-                  About us
-                </h2>
-
                 <div className="space-y-6">
                   <div>
                     <h3 className="text-lg font-semibold text-[#7A1E1E] mb-2">
@@ -168,41 +160,12 @@ export default function HomePage() {
                       decades of industry experience in various technologies.
                     </p>
                   </div>
-
-                  <div>
-                    <h3 className="text-lg font-semibold text-[#7A1E1E] mb-2">
-                      Beyond Services, Building Partnerships
-                    </h3>
-                    <p className="text-muted-foreground text-sm leading-relaxed">
-                      At BitString, we go beyond delivering IT services - we
-                      focus on building strong partnerships. Together, we grow,
-                      adapt, and create meaningful impact in the digital era.
-                    </p>
-                  </div>
-
-                  <div>
-                    <h3 className="text-lg font-semibold text-[#7A1E1E] mb-2">
-                      Technology for a Dynamic World
-                    </h3>
-                    <p className="text-muted-foreground text-sm leading-relaxed">
-                      The digital world is always changing, and so are we. Our
-                      team stays ahead of trends, ensuring your business is
-                      always empowered with the latest and most effective
-                      solutions.
-                    </p>
-                  </div>
-
-                  <div>
-                    <h3 className="text-lg font-semibold text-[#7A1E1E] mb-2">
-                      Innovation at the Core
-                    </h3>
-                    <p className="text-muted-foreground text-sm leading-relaxed">
-                      Innovation isn&apos;t just a buzzword for us - it&apos;s a
-                      way of working. Every problem, every challenge, and every
-                      idea we tackle is designed to bring fresh value.
-                    </p>
-                  </div>
                 </div>
+              </div>
+
+              {/* Right Carousel */}
+              <div className="lg:w-1/2 w-full flex justify-center lg:justify-end">
+                <AboutCarousel />
               </div>
             </div>
           </div>

@@ -1,63 +1,115 @@
 "use client"
 
-import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
+import { useState } from "react"
 import { Menu, X } from "lucide-react"
+import { Button } from "@/components/ui/button"
 
-export default function Header() {
-  const [isOpen, setIsOpen] = useState(false)
-
-  const navItems = [
-    { label: "Home", href: "/" },
-    { label: "Services", href: "/services" },
-    { label: "Training", href: "#" },
-    { label: "Career", href: "/career" },
-    { label: "Contact us", href: "/contact" },
-  ]
+export function Header() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="w-full bg-background border-b border-border">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+    <header className="sticky top-0 z-50 bg-background border-b border-border">
+      <div className="container mx-auto px-4 lg:px-8">
+        <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center hover:opacity-80 transition-opacity">
-            <Image src="/logo.png" className="w-12 h-12" width="12" height="12" alt="logo" />
-            <span className="text-xl font-bold text-foreground">BITSTRING</span>
+          <Link href="/" className="flex items-center gap-2">
+            <Image
+              src="/images/logo.png"
+              alt="BitString Logo"
+              width={32}
+              height={32}
+              className="h-8 w-8"
+            />
+            <span className="font-bold text-lg text-foreground">BITSTRING</span>
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex gap-8">
-            {navItems.map((item) => (
-              <Link
-                key={item.label}
-                href={item.href}
-                className="text-sm text-foreground hover:text-brand transition-colors"
-              >
-                {item.label}
-              </Link>
-            ))}
+          <nav className="hidden lg:flex items-center gap-8">
+            <Link
+              href="/"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+            >
+              Home
+            </Link>
+            <Link
+              href="/services"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+            >
+              Services
+            </Link>
+            <Link
+              href="/training"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+            >
+              Training
+            </Link>
+            <Link
+              href="/career"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+            >
+              Career
+            </Link>
           </nav>
 
+          {/* Contact Button */}
+          <div className="hidden lg:block">
+            <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
+              <Link href="/contact">Contact us</Link>
+            </Button>
+          </div>
+
           {/* Mobile Menu Button */}
-          <button className="md:hidden" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle menu">
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
+          <button
+            type="button"
+            className="lg:hidden p-2 text-foreground"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
+          >
+            {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
         </div>
 
         {/* Mobile Navigation */}
-        {isOpen && (
-          <nav className="md:hidden pb-4 flex flex-col gap-4">
-            {navItems.map((item) => (
+        {mobileMenuOpen && (
+          <div className="lg:hidden py-4 border-t border-border">
+            <nav className="flex flex-col gap-4">
               <Link
-                key={item.label}
-                href={item.href}
-                className="text-sm text-foreground hover:text-brand transition-colors"
+                href="/"
+                className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
               >
-                {item.label}
+                Home
               </Link>
-            ))}
-          </nav>
+              <Link
+                href="/services"
+                className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Services
+              </Link>
+              <Link
+                href="/training"
+                className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Training
+              </Link>
+              <Link
+                href="/career"
+                className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Career
+              </Link>
+              <Button asChild className="w-fit bg-primary hover:bg-primary/90 text-primary-foreground">
+                <Link href="/contact" onClick={() => setMobileMenuOpen(false)}>
+                  Contact us
+                </Link>
+              </Button>
+            </nav>
+          </div>
         )}
       </div>
     </header>

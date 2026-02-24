@@ -29,25 +29,25 @@ export function Header() {
           <nav className="hidden lg:flex items-center gap-12">
             <Link
               href="/"
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors duration-200"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors duration-200 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full"
             >
               Home
             </Link>
             <Link
               href="/services"
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors duration-200"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors duration-200 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full"
             >
               Services
             </Link>
             <Link
               href="/training"
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors duration-200"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors duration-200 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full"
             >
               Training
             </Link>
             <Link
               href="/career"
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors duration-200"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors duration-200 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full"
             >
               Career
             </Link>
@@ -55,7 +55,7 @@ export function Header() {
 
           {/* Contact Button */}
           <div className="hidden lg:block">
-            <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium transition-all duration-200">
+            <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium transition-all duration-200 shadow-md hover:shadow-lg">
               <Link href="/contact">Contact us</Link>
             </Button>
           </div>

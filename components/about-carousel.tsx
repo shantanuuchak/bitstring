@@ -61,55 +61,55 @@ export function AboutCarousel() {
   const getNextIndex = (index: number) => (index + 1) % items.length
 
   return (
-    <div className="w-full max-w-md">
+    <div className="w-full max-w-sm">
       {/* Carousel Container */}
-      <div className="relative h-96 overflow-hidden">
-        <div className="relative w-full h-full flex flex-col items-center justify-center">
-          {/* Previous Card - Peeking from top */}
-          <div className="absolute top-0 w-full opacity-40 scale-95 transition-all duration-500 ease-out">
-            <div className="bg-white rounded-lg border border-gray-200 p-6 space-y-3">
-              <div className="w-10 h-10 text-gray-300">
-                {items[getPrevIndex(currentIndex)].icon}
-              </div>
-              <h3 className="text-base font-semibold text-gray-400 line-clamp-2">
-                {items[getPrevIndex(currentIndex)].title}
-              </h3>
+      <div className="relative h-80 overflow-hidden px-2">
+        {/* Previous Card - Peeking from top */}
+        <div className="absolute top-0 left-2 right-2 transition-all duration-500 ease-out" style={{ opacity: 0.3, transform: 'scale(0.95) translateY(-140px)' }}>
+          <div className="bg-white rounded-lg border border-gray-200 p-5 shadow-sm">
+            <div className="w-8 h-8 text-gray-300 mb-2">
+              {items[getPrevIndex(currentIndex)].icon}
             </div>
+            <h3 className="text-sm font-semibold text-gray-400 line-clamp-2">
+              {items[getPrevIndex(currentIndex)].title}
+            </h3>
           </div>
+        </div>
 
-          {/* Active Card - Center */}
-          <div className="absolute w-full transition-all duration-500 ease-out" style={{ top: '60px' }}>
-            <div className="bg-white rounded-lg border border-gray-200 shadow-md p-6 space-y-3">
-              <div className="w-10 h-10">
-                {items[currentIndex].icon}
-              </div>
-              <h3 className="text-base font-semibold text-gray-900 line-clamp-2">
+        {/* Active Card - Center */}
+        <div className="absolute top-1/2 left-2 right-2 -translate-y-1/2 transition-all duration-500 ease-out">
+          <div className="bg-white rounded-lg border border-gray-200 shadow-lg p-6 space-y-4">
+            <div className="w-10 h-10 text-cyan-500">
+              {items[currentIndex].icon}
+            </div>
+            <div>
+              <h3 className="text-base font-semibold text-gray-900 mb-2 leading-tight">
                 {items[currentIndex].title}
               </h3>
-              <p className="text-sm text-gray-600 leading-relaxed line-clamp-3">
+              <p className="text-sm text-gray-600 leading-relaxed">
                 {items[currentIndex].description}
               </p>
             </div>
           </div>
+        </div>
 
-          {/* Next Card - Peeking from bottom */}
-          <div className="absolute bottom-0 w-full opacity-40 scale-95 transition-all duration-500 ease-out">
-            <div className="bg-white rounded-lg border border-gray-200 p-6 space-y-3">
-              <div className="w-10 h-10 text-gray-300">
-                {items[getNextIndex(currentIndex)].icon}
-              </div>
-              <h3 className="text-base font-semibold text-gray-400 line-clamp-2">
-                {items[getNextIndex(currentIndex)].title}
-              </h3>
+        {/* Next Card - Peeking from bottom */}
+        <div className="absolute bottom-0 left-2 right-2 transition-all duration-500 ease-out" style={{ opacity: 0.3, transform: 'scale(0.95) translateY(140px)' }}>
+          <div className="bg-white rounded-lg border border-gray-200 p-5 shadow-sm">
+            <div className="w-8 h-8 text-gray-300 mb-2">
+              {items[getNextIndex(currentIndex)].icon}
             </div>
+            <h3 className="text-sm font-semibold text-gray-400 line-clamp-2">
+              {items[getNextIndex(currentIndex)].title}
+            </h3>
           </div>
         </div>
       </div>
 
       {/* Pagination Dots */}
-      <div className="flex justify-center gap-2 mt-8">
+      <div className="flex justify-center gap-2 mt-6">
         {items.map((_, index) => (
-          <div
+          <button
             key={index}
             className={`h-2 rounded-full transition-all duration-300 ${
               index === currentIndex
@@ -117,6 +117,7 @@ export function AboutCarousel() {
                 : 'bg-gray-300 w-2'
             }`}
             aria-label={`Slide ${index + 1}`}
+            aria-current={index === currentIndex}
           />
         ))}
       </div>

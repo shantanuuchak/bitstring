@@ -79,7 +79,7 @@ export function AboutCarousel() {
         {/* Active Card - Center */}
         <div className="absolute top-1/2 left-2 right-2 -translate-y-1/2 transition-all duration-500 ease-out">
           <div className="bg-white rounded-lg border border-gray-200 shadow-lg p-6 space-y-4">
-            <div className="w-10 h-10 text-cyan-500">
+            <div className="w-10 h-10 text-[#7A1E1E]">
               {items[currentIndex].icon}
             </div>
             <div>

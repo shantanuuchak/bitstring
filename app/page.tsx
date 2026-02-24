@@ -41,25 +41,25 @@ export default function HomePage() {
 
         {/* Our Services Section */}
         <section className="bg-[#7A1E1E]">
-          <div className="py-12 lg:py-16">
-            <h2 className="text-2xl lg:text-3xl font-bold text-white text-center mb-12">
+          <div className="py-16 lg:py-20">
+            <h2 className="text-3xl lg:text-4xl font-bold text-white text-center mb-16 tracking-tight">
               Our services
             </h2>
           </div>
 
           {/* ServiceNow Consulting */}
-          <div className="bg-[#5a1616] py-12 lg:py-16">
+          <div className="bg-[#5a1616] py-14 lg:py-20">
             <div className="container mx-auto px-4 lg:px-8">
-              <div className="flex flex-col lg:flex-row gap-6 lg:gap-16 items-start max-w-4xl mx-auto">
+              <div className="flex flex-col lg:flex-row gap-8 lg:gap-20 items-start max-w-4xl mx-auto">
                 <div className="lg:w-2/5">
-                  <h3 className="text-xl lg:text-2xl font-bold text-white">
+                  <h3 className="text-2xl lg:text-3xl font-bold text-white leading-tight">
                     ServiceNow
                     <br />
                     consulting
                   </h3>
                 </div>
                 <div className="lg:w-3/5">
-                  <p className="text-white/80 leading-relaxed text-sm lg:text-base">
+                  <p className="text-white/85 leading-relaxed text-base lg:text-base">
                     Empowering businesses with seamless digital workflows. Our
                     ServiceNow consulting services help organizations optimize
                     processes, enhance productivity, and drive digital
@@ -73,18 +73,18 @@ export default function HomePage() {
           </div>
 
           {/* Talent Provisioning */}
-          <div className="bg-[#7A1E1E] py-12 lg:py-16">
+          <div className="bg-[#7A1E1E] py-14 lg:py-20">
             <div className="container mx-auto px-4 lg:px-8">
-              <div className="flex flex-col lg:flex-row gap-6 lg:gap-16 items-start max-w-4xl mx-auto">
+              <div className="flex flex-col lg:flex-row gap-8 lg:gap-20 items-start max-w-4xl mx-auto">
                 <div className="lg:w-2/5">
-                  <h3 className="text-xl lg:text-2xl font-bold text-white">
+                  <h3 className="text-2xl lg:text-3xl font-bold text-white leading-tight">
                     Talent
                     <br />
                     provisioning
                   </h3>
                 </div>
                 <div className="lg:w-3/5">
-                  <p className="text-white/80 leading-relaxed text-sm lg:text-base">
+                  <p className="text-white/85 leading-relaxed text-base lg:text-base">
                     We understand that efficient man-power is a crucial element
                     for the success of any project. Our talent provisioning
                     services ensures you get the right professionals with the
@@ -96,11 +96,11 @@ export default function HomePage() {
           </div>
 
           {/* Technology Consulting */}
-          <div className="bg-[#4a1212] py-12 lg:py-16">
+          <div className="bg-[#4a1212] py-14 lg:py-20">
             <div className="container mx-auto px-4 lg:px-8">
-              <div className="flex flex-col lg:flex-row gap-6 lg:gap-16 items-start max-w-4xl mx-auto">
+              <div className="flex flex-col lg:flex-row gap-8 lg:gap-20 items-start max-w-4xl mx-auto">
                 <div className="lg:w-2/5">
-                  <h3 className="text-xl lg:text-2xl font-bold text-white">
+                  <h3 className="text-2xl lg:text-3xl font-bold text-white leading-tight">
                     Technology
                     <br />
                     consulting &
@@ -109,7 +109,7 @@ export default function HomePage() {
                   </h3>
                 </div>
                 <div className="lg:w-3/5">
-                  <p className="text-white/80 leading-relaxed text-sm lg:text-base">
+                  <p className="text-white/85 leading-relaxed text-base lg:text-base">
                     We collaborate closely with our clients to understand unique
                     challenges and develop tailored solutions. Our technology
                     consulting services help you navigate complex digital
@@ -121,12 +121,12 @@ export default function HomePage() {
           </div>
 
           {/* More Services Button */}
-          <div className="bg-[#4a1212] pb-12 lg:pb-16">
+          <div className="bg-[#4a1212] pb-14 lg:pb-20 pt-6 lg:pt-8">
             <div className="container mx-auto px-4 lg:px-8 text-center">
               <Button
                 asChild
                 variant="outline"
-                className="border-white text-[#7A1E1E] bg-white hover:bg-white/90 hover:text-[#5a1616]"
+                className="border-white text-[#7A1E1E] bg-white hover:bg-white/95 hover:text-[#5a1616] text-base px-6 py-5 font-medium"
               >
                 <Link href="/services">More services</Link>
               </Button>
@@ -135,27 +135,27 @@ export default function HomePage() {
         </section>
 
         {/* About Us Section */}
-        <section className="py-16 lg:py-24 bg-secondary">
+        <section className="py-20 lg:py-32 bg-secondary">
           <div className="container mx-auto px-4 lg:px-8">
-            <h2 className="text-2xl lg:text-3xl font-bold text-foreground mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-16 tracking-tight">
               About us
             </h2>
-            <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-start">
+            <div className="flex flex-col lg:flex-row gap-16 lg:gap-20 items-start">
               {/* Left Content */}
               <div className="lg:w-1/2">
-                <div className="space-y-6">
+                <div className="space-y-8">
                   <div>
-                    <h3 className="text-lg font-semibold text-[#7A1E1E] mb-2">
+                    <h3 className="text-2xl lg:text-2xl font-semibold text-[#7A1E1E] mb-4 leading-tight text-balance">
                       Experience you can trust. Technology that delivers.
                     </h3>
-                    <p className="text-muted-foreground text-sm leading-relaxed">
+                    <p className="text-muted-foreground text-base leading-relaxed lg:leading-relaxed">
                       BitString IT Services Pvt Ltd is an ISO 27001 and ISO 9001
                       certified technology company providing Information
                       Technology and Consulting Services. We leverage deep
                       functional expertise and over 100 years of combined
                       experience to help clients transform their businesses.
                     </p>
-                    <p className="text-muted-foreground text-sm leading-relaxed mt-2">
+                    <p className="text-muted-foreground text-base leading-relaxed lg:leading-relaxed mt-4">
                       Our team is comprised of domain experts with more than two
                       decades of industry experience in various technologies.
                     </p>
@@ -164,7 +164,7 @@ export default function HomePage() {
               </div>
 
               {/* Right Carousel */}
-              <div className="lg:w-1/2 w-full flex justify-center lg:justify-end">
+              <div className="lg:w-1/2 w-full flex justify-center lg:justify-end items-center">
                 <AboutCarousel />
               </div>
             </div>
@@ -172,9 +172,9 @@ export default function HomePage() {
         </section>
 
         {/* Clients Section */}
-        <section className="py-16 lg:py-20 bg-background overflow-hidden">
+        <section className="py-20 lg:py-28 bg-background overflow-hidden">
           <div className="container mx-auto px-4 lg:px-8">
-            <h2 className="text-2xl lg:text-3xl font-bold text-foreground text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold text-foreground text-center mb-16 tracking-tight">
               Clients
             </h2>
           </div>
@@ -208,7 +208,7 @@ export default function HomePage() {
         </section>
 
         {/* Success Stories Section */}
-        <section className="relative py-16 lg:py-24 bg-[#7A1E1E] overflow-hidden min-h-[500px]">
+        <section className="relative py-20 lg:py-32 bg-[#7A1E1E] overflow-hidden min-h-[550px]">
           {/* Mountain illustration background */}
           <div className="absolute bottom-0 right-0 w-full lg:w-2/3 h-72 lg:h-full">
             <Image
@@ -233,7 +233,7 @@ export default function HomePage() {
           </div>
 
           <div className="container mx-auto px-4 lg:px-8 relative z-10">
-            <h2 className="text-2xl lg:text-3xl font-bold text-white text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold text-white text-center mb-16 tracking-tight">
               Success stories
             </h2>
 
@@ -243,11 +243,11 @@ export default function HomePage() {
                 &ldquo;
               </span>
               
-              <div className="mt-2">
-                <h3 className="text-lg font-semibold text-white mb-3">
+              <div className="mt-4">
+                <h3 className="text-lg font-semibold text-white mb-4">
                   Feedback
                 </h3>
-                <p className="text-white/90 leading-relaxed text-lg lg:text-xl italic">
+                <p className="text-white/90 leading-relaxed text-lg lg:text-lg italic">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna
                   aliqua.
@@ -260,7 +260,7 @@ export default function HomePage() {
               </div>
               
               <div className="mt-8 clear-both">
-                <p className="font-semibold text-[#7A1E1E]">Name</p>
+                <p className="font-semibold text-white">Name</p>
                 <p className="text-sm text-white/70">Company</p>
               </div>
             </div>
@@ -268,15 +268,15 @@ export default function HomePage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-16 lg:py-24 bg-[#2a2a3e]">
+        <section className="py-20 lg:py-32 bg-[#2a2a3e]">
           <div className="container mx-auto px-4 lg:px-8">
-            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-8">
+            <h2 className="text-4xl lg:text-5xl font-bold text-white mb-10 tracking-tight text-balance">
               Let&apos;s work together!
             </h2>
             <Button
               asChild
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-[#2a2a3e] bg-transparent"
+              className="border-white text-white hover:bg-white hover:text-[#2a2a3e] bg-transparent text-base px-6 py-5"
             >
               <Link href="/contact">Get in touch</Link>
             </Button>

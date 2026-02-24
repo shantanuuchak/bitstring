@@ -10,11 +10,11 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 bg-background border-b border-border">
+    <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-md border-b border-border/50">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
+          <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Image
               src="/images/logo.png"
               alt="BitString Logo"
@@ -22,32 +22,32 @@ export function Header() {
               height={32}
               className="h-8 w-8"
             />
-            <span className="font-bold text-lg text-foreground">BITSTRING</span>
+            <span className="font-bold text-lg text-foreground tracking-wide">BITSTRING</span>
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-12">
             <Link
               href="/"
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors duration-200"
             >
               Home
             </Link>
             <Link
               href="/services"
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors duration-200"
             >
               Services
             </Link>
             <Link
               href="/training"
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors duration-200"
             >
               Training
             </Link>
             <Link
               href="/career"
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors duration-200"
             >
               Career
             </Link>
@@ -55,7 +55,7 @@ export function Header() {
 
           {/* Contact Button */}
           <div className="hidden lg:block">
-            <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
+            <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium transition-all duration-200">
               <Link href="/contact">Contact us</Link>
             </Button>
           </div>

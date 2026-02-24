@@ -1,12 +1,13 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Instagram, Linkedin } from "lucide-react"
+import { Separator } from "@/components/ui/separator"
 
 export function Footer() {
   return (
-    <footer className="bg-background border-t border-border/50">
-      <div className="container mx-auto px-4 lg:px-8 py-16 lg:py-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-16">
+    <footer className="bg-background border-t border-border">
+      <div className="container mx-auto px-4 lg:px-8 py-16 lg:py-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-16 mb-12">
           {/* Company Info */}
           <div className="space-y-6">
             <div className="flex items-start gap-3">
@@ -126,16 +127,18 @@ export function Footer() {
             </div>
           </div>
         </div>
+        
+        <Separator className="my-8 lg:my-12" />
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-border/50">
-        <div className="container mx-auto px-4 lg:px-8 py-6 lg:py-8">
+      <div className="bg-secondary/30">
+        <div className="container mx-auto px-4 lg:px-8 py-8 lg:py-10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-            <p>&copy; {new Date().getFullYear()} BITSTRING. All rights reserved.</p>
+            <p className="font-medium">&copy; {new Date().getFullYear()} BITSTRING. All rights reserved.</p>
             <a
               href="mailto:connect@bitstringit.com"
-              className="hover:text-foreground transition-colors duration-200"
+              className="hover:text-foreground transition-colors duration-200 font-medium"
             >
               connect@bitstringit.com
             </a>

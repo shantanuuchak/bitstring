@@ -12,9 +12,9 @@ interface CarouselItem {
 const items: CarouselItem[] = [
   {
     id: 1,
-    title: 'Beyond Services, Building Partnerships',
+    title: "Beyond Services, Building Partnerships",
     description:
-      'At BitString, we go beyond delivering IT services—we focus on building strong partnerships. Together, we grow, adapt, and create meaningful impact in the digital era.',
+      "At BitString, we go beyond delivering IT services - we focus on building strong partnerships. Together, we grow, adapt, and create meaningful impact in the digital era.",
     icon: (
       <svg className="w-10 h-10 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.856-1.487M15 10a3 3 0 11-6 0 3 3 0 016 0zM16 16a5 5 0 010 10H4a5 5 0 010-10h12z" />
@@ -23,9 +23,9 @@ const items: CarouselItem[] = [
   },
   {
     id: 2,
-    title: 'Technology for a Dynamic World',
+    title: "Technology for a Dynamic World",
     description:
-      'The digital world is always changing, and so are we. Our team stays ahead of trends, ensuring your business is always empowered with the latest and most effective solutions.',
+      "The digital world is always changing, and so are we. Our team stays ahead of trends, ensuring your business is always empowered with the latest and most effective solutions.",
     icon: (
       <svg className="w-10 h-10 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <circle cx="12" cy="12" r="8" strokeWidth={1.5} />
@@ -35,9 +35,9 @@ const items: CarouselItem[] = [
   },
   {
     id: 3,
-    title: 'Innovation at the Core',
+    title: "Innovation at the Core",
     description:
-      'Innovation isn't just a buzzword for us—it's a way of working. Every solution, every strategy, and every line of code is designed to bring fresh ideas.',
+      "Innovation is not just a buzzword for us - it is a way of working. Every solution, every strategy, and every line of code is designed to bring fresh ideas.",
     icon: (
       <svg className="w-10 h-10 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5a4 4 0 100-8 4 4 0 000 8z" />

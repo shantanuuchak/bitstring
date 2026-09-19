@@ -2841,11 +2841,11 @@ div#mCSB_1_container{
 }
 
 .service-block-one.block-one{
-  background: #6c4ea7;
+  background: #7A1E1E;
 }
 
 .service-block-one.block-two{
-  background: #f66587;
+  background: #7A1E1E;
 }
 
 .service-block-one.block-three{
@@ -2864,11 +2864,11 @@ div#mCSB_1_container{
 }
 
 .service-block-one.block-one:hover .inner-box{
-  border-color: #6c4ea7;
+  border-color: #7A1E1E;
 }
 
 .service-block-one.block-two:hover .inner-box{
-  border-color: #f66587;
+  border-color: #7A1E1E;
 }
 
 .service-block-one.block-three:hover .inner-box{
@@ -2886,11 +2886,11 @@ div#mCSB_1_container{
 }
 
 .service-block-one.block-one .inner-box .icon-box{
-  color: #6c4ea7;
+  color: #7A1E1E;
 }
 
 .service-block-one.block-two .inner-box .icon-box{
-  color: #f66587;
+  color: #7A1E1E;
 }
 
 .service-block-one.block-three .inner-box .icon-box{
@@ -2993,11 +2993,11 @@ div#mCSB_1_container{
 }
 
 .service-block-one.block-one .inner-box .link a span:before{
-  color: #6c4ea7;
+  color: #7A1E1E;
 }
 
 .service-block-one.block-two .inner-box .link a span:before{
-  color: #f66587;
+  color: #7A1E1E;
 }
 
 .service-block-one.block-three .inner-box .link a span:before{
@@ -3021,11 +3021,11 @@ div#mCSB_1_container{
 }
 
 .service-block-one.block-one .inner-box .link a span:after{
-  background: #6c4ea7;
+  background: #7A1E1E;
 }
 
 .service-block-one.block-two .inner-box .link a span:after{
-  background: #f66587;
+  background: #7A1E1E;
 }
 
 .service-block-one.block-three .inner-box .link a span:after{
@@ -3033,11 +3033,11 @@ div#mCSB_1_container{
 }
 
 .service-block-one.block-one .inner-box .link a:hover{
-  color: #6c4ea7;
+  color: #7A1E1E;
 }
 
 .service-block-one.block-two .inner-box .link a:hover{
-  color: #f66587;
+  color: #7A1E1E;
 }
 
 .service-block-one.block-three .inner-box .link a:hover{
@@ -4532,7 +4532,7 @@ div#mCSB_1_container{
 }
 
 .news-block-one .inner-box .link a:hover{
-  color: #6c4ea7;
+  color: #7A1E1E;
 }
 
 
@@ -6245,7 +6245,7 @@ div#mCSB_1_container{
 }
 
 .service-block:first-child .service-block-one .inner-box .icon-box .icon{
-  color: #43a5e6;
+  color: #7A1E1E;
 }
 
 .service-block:nth-child(2) .service-block-one .inner-box .icon-box .icon{
@@ -6273,7 +6273,7 @@ div#mCSB_1_container{
 }
 
 .service-block:first-child .service-block-one .inner-box .link a span:before{
-  color: #43a5e6;
+  color: #7A1E1E;
 }
 
 .service-block:nth-child(2) .service-block-one .inner-box .link a span:before{
@@ -6285,7 +6285,7 @@ div#mCSB_1_container{
 }
 
 .service-block:first-child .service-block-one .inner-box .link a span:after{
-  background: #43a5e6;
+  background: #7A1E1E;
 }
 
 .service-block:nth-child(2) .service-block-one .inner-box .link a span:after{
@@ -6297,7 +6297,7 @@ div#mCSB_1_container{
 }
 
 .service-block:first-child .service-block-one .inner-box .link a:hover{
-  color: #43a5e6;
+  color: #7A1E1E;
 }
 
 .service-block:nth-child(2) .service-block-one .inner-box .link a:hover{
@@ -6347,7 +6347,7 @@ div#mCSB_1_container{
 }
 
 .service-style-two .service-block:first-child .service-block-one .inner-box:after{
-  background: #43a5e6;
+  background: #7A1E1E;
 }
 
 .service-style-two .service-block:nth-child(2) .service-block-one .inner-box:after{
@@ -7707,7 +7707,7 @@ div#mCSB_1_container{
   border: 1px solid #6cc2fc;
   border-radius: 30px 30px 0px 30px;
   padding: 10px 30px;
-  background: #43a5e6;
+  background: #7A1E1E;
 }
 
 .subscribe-section .form-inner .form-group button[type='submit']{
@@ -7720,7 +7720,7 @@ div#mCSB_1_container{
   font-size: 24px;
   text-align: center;
   border: 1px solid #6cc2fc;
-  background: #43a5e6;
+  background: #7A1E1E;
   color: #fff;
   border-top-right-radius: 30px;
 }
@@ -8705,7 +8705,7 @@ div#mCSB_1_container{
 }
 
 .funfact-block:nth-child(2) .funfact-block-two .inner-box .count-outer:before{
-  background: #57c396;
+  background: #7A1E1E;
 }
 
 .funfact-block:last-child .funfact-block-two .inner-box .count-outer:before{
@@ -9474,7 +9474,7 @@ div#mCSB_1_container{
 
 .subscribe-section.alternat-2 .form-inner .form-group input[type='email'],
 .subscribe-section.alternat-2 .form-inner .form-group button[type='submit']{
-  background: #2c9497;
+  background: #7A1E1E;
   border-color: #43b2b4;
 }
 
@@ -12544,7 +12544,7 @@ div#mCSB_1_container{
 
 .home_4 .subscribe-section.alternat-2 .form-inner .form-group input[type='email'], 
 .home_4 .subscribe-section.alternat-2 .form-inner .form-group button[type='submit']{
-  background: #fe4b24;
+  background: #7A1E1E;
 }
 
 .home_4 .subscribe-section.alternat-2 .form-inner .form-group input[type='email'], 
@@ -13542,7 +13542,7 @@ div#mCSB_1_container{
 }
 
 .service-sidebar .support-widget .theme-btn{
-  background: #f66587;
+  background: #7A1E1E;
 }
 
 .service-sidebar .support-widget .theme-btn:hover{
@@ -13651,7 +13651,7 @@ div#mCSB_1_container{
 }
 
 .project-page-section.two-columns .project-block-one .inner-box .content-inner .text-box h6{
-  color: #43a5e6;
+  color: #7A1E1E;
 }
 
 .project-page-section.two-columns .project-block-one .inner-box .content-inner .text-box h6:before{
@@ -14204,7 +14204,7 @@ div#mCSB_1_container{
 }
 
 .sidebar-page-container .support-widget .theme-btn{
-  background: #f66587;
+  background: #7A1E1E;
 }
 
 .sidebar-page-container .support-widget .theme-btn:hover{
@@ -14688,7 +14688,7 @@ div#mCSB_1_container{
   top: 50%;
   transform: translateY(-50%);
   font-size: 60px;
-  color: #f66587;
+  color: #7A1E1E;
 }
 
 .blog-details-content blockquote .icon-box:before{
@@ -14724,7 +14724,7 @@ div#mCSB_1_container{
 .blog-details-content blockquote .designation:before{
   position: absolute;
   content: '';
-  border: 2px solid #f66587;
+  border: 2px solid #7A1E1E;
   width: 10px;
   height: 10px;
   left: 0px;
@@ -15283,11 +15283,11 @@ div#mCSB_1_container{
 }
 
 .chooseus-style-five .chooseus-block-three .inner-box:hover .count-text{
-  background: #f66587;
+  background: #7A1E1E;
 }
 
 .chooseus-style-five .chooseus-block-three .inner-box h3:before{
-  color: #f66587;
+  color: #7A1E1E;
 }
 
 .chooseus-style-five .chooseus-block-three .inner-box h3{
@@ -15322,7 +15322,7 @@ div#mCSB_1_container{
 }
 
 .chooseus-style-five .owl-dots button.active{
-  background: #f66587;
+  background: #7A1E1E;
 }
 
 .chooseus-style-five .owl-dots button:before{
@@ -15938,7 +15938,7 @@ div#mCSB_1_container{
 }
 
 .info-block-one .inner-box .link a:hover{
-  color: #6c4ea7;
+  color: #7A1E1E;
 }
 
 
@@ -16107,7 +16107,7 @@ button.rtl{
   margin: 0px;
   color: #fff !important;
   border-radius: 50%;
-  background: #6c4ea7;
+  background: #7A1E1E;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
   transition: all 500ms ease;
 }
@@ -16133,7 +16133,7 @@ button.ltr {
   margin: 0px;
   color: #fff !important;
   border-radius: 50%;
-  background: #6c4ea7;
+  background: #7A1E1E;
   box-shadow: rgba(0, 0, 0, 1.0);
   transition: all 500ms ease;
 }
@@ -16156,12 +16156,12 @@ button.ltr {
 
 .home_2 button.rtl,
 .home_2 button.ltr{
-  background: #43a5e6;
+  background: #7A1E1E;
 }
 
 .home_3 button.rtl,
 .home_3 button.ltr{
-  background: #2c9497;
+  background: #7A1E1E;
 }
 
 

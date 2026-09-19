@@ -1,0 +1,15 @@
+{
+  "auto-allow-commands": {
+    "PreToolUse": [
+      {
+        "matcher": "run_command",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ./scripts/auto-allow.py"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,207 @@
+import Link from "next/link"
+import Menu from "../Menu"
+import MobileMenu from "../MobileMenu"
+
+export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSidebar, handlePopup, handleSidebar }) {
+    return (
+        <>
+            <header className={`main-header ${scroll ? "fixed-header" : ""}`}>
+  {/* header-top */}
+  <div className="header-top">
+    <div className="outer-container">
+      <ul className="info-list clearfix">
+        <li>
+          <Link href="/">News &amp; Media</Link>
+        </li>
+        <li>
+          <Link href="/">Investors</Link>
+        </li>
+        <li>
+          <Link href="/">Downloads</Link>
+        </li>
+        <li>
+          <Link href="/">Career</Link>
+        </li>
+      </ul>
+      <ul className="social-links clearfix">
+        <li>
+          <h5>Social Connect</h5>
+        </li>
+        <li>
+          <Link href="/">
+            <i className="fa-brands fa-facebook" />
+          </Link>
+        </li>
+        <li>
+          <Link href="/">
+            <i className="fa-brands fa-square-twitter" />
+          </Link>
+        </li>
+        <li>
+          <Link href="/">
+            <i className="fa-solid fa-basketball" />
+          </Link>
+        </li>
+        <li>
+          <Link href="/">
+            <i className="fa-brands fa-youtube" />
+          </Link>
+        </li>
+      </ul>
+    </div>
+  </div>
+  {/* header-upper */}
+  <div className="header-upper">
+    <div className="outer-container">
+      <div className="left-column">
+        <figure className="logo-box">
+          <Link href="/">
+            <img src="assets/images/logo.png" alt="" />
+          </Link>
+        </figure>
+        <div className="award-box">
+          <div className="award-image">
+            <img src="assets/images/icons/award-1.png" alt="" />
+          </div>
+          <h5>
+            Leading providers of investment <br />
+            advisory solutions.
+          </h5>
+        </div>
+      </div>
+      <div className="right-column">
+        <div className="support-box">
+          <div className="icon-box">
+            <i className="flaticon-headphone" />
+          </div>
+          <h5>
+            <Link href="/faq">
+              Have <br />
+              Question?
+            </Link>
+          </h5>
+        </div>
+        <div className="phone">
+          <h3>
+            <Link href="tel:4188822333">(+41) 888.22.333</Link>
+          </h3>
+        </div>
+        <div className="btn-box">
+          <Link href="/" className="theme-btn btn-one">
+            Start Consult
+          </Link>
+        </div>
+      </div>
+    </div>
+  </div>
+
+                
+                 {/* header-lower */}
+                <div className="header-lower">
+                    <div className="outer-container">
+                        <div className="outer-box">
+                            <div className="menu-area clearfix">
+                                {/* Mobile Navigation Toggler */}
+                                <div className="mobile-nav-toggler" onClick={handleMobileMenu}>
+                                    <i className="icon-bar" />
+                                    <i className="icon-bar" />
+                                    <i className="icon-bar" />
+                                </div>
+                                <nav className="main-menu navbar-expand-md navbar-light">
+                                    <div
+                                        className="collapse navbar-collapse show clearfix"
+                                        id="navbarSupportedContent"
+                                    >
+                                        <Menu />
+                                    </div>
+                                </nav>
+                            </div>
+                            <div className="menu-right-content">
+                                <div className="search-box">
+                                    <div className="search-box-outer search-toggler" onClick={handlePopup}>
+                                        <img src="/assets/images/icons/icon-2.png" alt="" />
+                                        Search
+                                    </div>
+                                </div>
+                                <div className="language-box">
+                                    <h5>
+                                        <img src="/assets/images/icons/icon-3.png" alt="" />
+                                        Global:
+                                    </h5>
+                                    <div className="select-box">
+                                        <select className="selectmenu">
+                                            <option value="eng">Eng</option>
+                                            <option value="chinese">Chinese</option>
+                                            <option value="hindi">Hindi</option>
+                                            <option value="turkish">Turkish</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div className="nav-btn nav-toggler navSidebar-button clearfix"  onClick={handleSidebar}>
+                                    <img src="/assets/images/icons/icon-4.png" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* header-lower end */}
+                {/* Sticky Header  */}
+                <div className={`sticky-header ${scroll ? "animated slideInDown" : ""}`}>
+                    {/* header-lower */}
+                <div className="header-lower">
+                    <div className="outer-container">
+                        <div className="outer-box">
+                            <div className="menu-area clearfix">
+                                {/* Mobile Navigation Toggler */}
+                                <div className="mobile-nav-toggler" onClick={handleMobileMenu}>
+                                    <i className="icon-bar" />
+                                    <i className="icon-bar" />
+                                    <i className="icon-bar" />
+                                </div>
+                                <nav className="main-menu navbar-expand-md navbar-light">
+                                    <div
+                                        className="collapse navbar-collapse show clearfix"
+                                        id="navbarSupportedContent"
+                                    >
+                                        <Menu />
+                                    </div>
+                                </nav>
+                            </div>
+                            <div className="menu-right-content">
+                                <div className="search-box">
+                                    <div className="search-box-outer search-toggler" onClick={handlePopup}>
+                                        <img src="/assets/images/icons/icon-2.png" alt="" />
+                                        Search
+                                    </div>
+                                </div>
+                                <div className="language-box">
+                                    <h5>
+                                        <img src="/assets/images/icons/icon-3.png" alt="" />
+                                        Global:
+                                    </h5>
+                                    <div className="select-box">
+                                        <select className="selectmenu">
+                                            <option value="eng">Eng</option>
+                                            <option value="chinese">Chinese</option>
+                                            <option value="hindi">Hindi</option>
+                                            <option value="turkish">Turkish</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div className="nav-btn nav-toggler navSidebar-button clearfix"  onClick={handleSidebar}>
+                                    <img src="/assets/images/icons/icon-4.png" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* header-lower end */}
+                </div>
+                {/* End Sticky Menu */}
+                {/* Mobile Menu  */}
+
+                <MobileMenu handleMobileMenu={handleMobileMenu} handleSidebar={handleSidebar} isSidebar={isSidebar} />
+            </header>
+        </>
+    )
+}

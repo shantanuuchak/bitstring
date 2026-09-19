@@ -1,0 +1,50 @@
+{
+  "services": [
+    {
+      "id": "itsm",
+      "slug": "itsm",
+      "templateRoute": "service-details",
+      "title": "ITSM (IT Service Management)",
+      "shortDescription": "Empowering businesses with seamless digital workflows to optimize processes.",
+      "longDescription": "Our ITSM consulting services help organizations optimize processes, enhance productivity, and drive digital transformation. From implementation to customization, we ensure your ServiceNow ecosystem operates efficiently and delivers maximum business value.",
+      "features": [
+        "Incident Management",
+        "Problem Management",
+        "Change Management"
+      ]
+    },
+    {
+      "id": "itom",
+      "slug": "itom",
+      "templateRoute": "service-details-2",
+      "title": "ITOM (IT Operations Management)",
+      "shortDescription": "Gain visibility into your infrastructure and applications.",
+      "longDescription": "Our ITOM services help you manage and optimize your IT operations, providing full visibility and automation across your entire digital footprint.",
+      "features": [
+        "Discovery",
+        "Service Mapping",
+        "Event Management"
+      ]
+    },
+    {
+      "id": "hrsd",
+      "slug": "hrsd",
+      "templateRoute": "service-details-3",
+      "title": "HRSD (HR Service Delivery)",
+      "shortDescription": "Transform your employee experience with unified HR services.",
+      "longDescription": "We help you streamline HR processes, automate onboarding, and provide a unified portal for employees to find answers and request services.",
+      "features": [
+        "Employee Center",
+        "Lifecycle Events",
+        "Case and Knowledge Management"
+      ]
+    }
+  ],
+  "contact": {
+    "india_address": "A-304, Nyati Empress, Vimamnagar, Pune, Maharashtra - 411014, BHARAT",
+    "india_phone": "(020) 69011184",
+    "usa_address": "1268 Howard Ct, Carson City, NV 89703, USA",
+    "usa_phone": "(949) 424-6646",
+    "email": "connect@bitstringit.com"
+  }
+}

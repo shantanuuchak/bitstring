@@ -87,7 +87,7 @@ body {
   line-height:28px;
   font-weight:400;
   background:#ffffff;
-  font-family: var(--mulish);
+  font-family: var(--serviceNowSans);
   background-size:cover;
   background-repeat:no-repeat;
   background-position:center top;
@@ -133,7 +133,7 @@ body {
 
 
 a{
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   text-decoration:none;
   transition:all 500ms ease;
   -moz-transition:all 500ms ease;
@@ -148,7 +148,7 @@ a:hover{
 }
 
 input,button,select,textarea{
-  font-family: var(--mulish);
+  font-family: var(--serviceNowSans);
   font-weight: 400;
   font-size: 16px;
   background: transparent;
@@ -186,7 +186,7 @@ textarea:focus{
 
 p{
   position: relative;
-  font-family: var(--mulish);
+  font-family: var(--serviceNowSans);
   color: #75727b;
   font-weight: 400;
   margin: 0px;
@@ -195,7 +195,7 @@ p{
 
 h1,h2,h3,h4,h5,h6{
   position:relative;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   font-weight: 400;
   color: #272e39;
   margin: 0px;
@@ -263,7 +263,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .handle-preloader .animation-preloader .txt-loading .letters-loading{
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   font-weight: 500;
   letter-spacing: 15px;
   display: inline-block;
@@ -355,7 +355,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .special_fonts{
-  font-family: var(--dM_Sans);
+  font-family: var(--serviceNowSans);
 }
 
 
@@ -384,7 +384,7 @@ img {
   font-size: 18px;
   line-height: 28px;
   font-weight: 600;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   text-align: center;
   padding: 16px 40px;
   text-transform: capitalize;
@@ -453,7 +453,7 @@ img {
   height: 40px;
   width: 40px;
   line-height: 40px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   text-align: center;
   color: #272e39;
   border-radius: 50% 50% 0px 50%;
@@ -545,7 +545,7 @@ img {
   display: inline-block;
   font-size: 16px;
   line-height: 26px;
-  font-family: var(--urbanist); 
+  font-family: var(--serviceNowSans); 
   font-weight: 700;
   padding-left: 25px;
   padding-top: 7px;
@@ -1037,7 +1037,7 @@ img {
   padding-left: 34px;
   font-size: 18px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #272e39;
   font-weight: 600;
   cursor: pointer;
@@ -1106,7 +1106,7 @@ img {
   display: inline-block;
   font-size: 18px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #75727b;
   padding-right: 20px;
   padding-left: 0px;
@@ -1381,7 +1381,7 @@ img {
   padding: 22px 0px;
   padding-left: 25px;
   font-weight:600;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   opacity:1;
   color: #272e39;
   z-index:1;
@@ -1474,7 +1474,7 @@ img {
   line-height:24px;
   font-weight:400;
   font-size:17px;
-  font-family: var(--mulish);
+  font-family: var(--serviceNowSans);
   color:#75727b;
   text-align: left;
   padding: 14px 0px;
@@ -1603,7 +1603,7 @@ img {
   line-height:24px;
   font-weight:400;
   font-size:17px;
-  font-family: var(--mulish);
+  font-family: var(--serviceNowSans);
   color:#75727b;
   text-align: left;
   padding: 14px 0px;
@@ -2344,7 +2344,7 @@ div#mCSB_1_container{
   counter-increment: slides-num;
   font-size: 24px;
   line-height: 50px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #fff;
   font-weight: 600;
 }
@@ -2431,7 +2431,7 @@ div#mCSB_1_container{
   position: absolute;
   font-size: 18px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #272e39;
   font-weight: 700;
   text-transform: uppercase;
@@ -2543,7 +2543,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 18px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   font-weight: 600;
   color: #272e39;
   padding-left: 52px;
@@ -2635,7 +2635,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 48px;
   line-height: 42px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #fff;
   font-weight: 600;
   color: #fff;
@@ -2907,7 +2907,7 @@ div#mCSB_1_container{
   bottom: 0px;
   font-size: 24px;
   line-height: 34px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   font-weight: 600;
 }
 
@@ -3180,7 +3180,7 @@ div#mCSB_1_container{
   right: 0px;
   font-size: 18px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   font-weight: 600;
 }
 
@@ -3610,7 +3610,7 @@ div#mCSB_1_container{
   text-align: center;
   font-size: 180px;
   line-height: 160px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #fff;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
   font-weight: 700;
@@ -3716,7 +3716,7 @@ div#mCSB_1_container{
   text-align: center;
   border-top-right-radius: 30px;
   font-size: 30px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   font-weight: 600;
   background: #fff;
   opacity: 0;
@@ -4172,7 +4172,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 18px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   font-weight: 600;
   padding: 14px 0px 12px 0px;
   border-bottom: 1px solid #e7e3ee;
@@ -4209,7 +4209,7 @@ div#mCSB_1_container{
   font-size: 18px;
   color: #a09ba9;
   font-weight: 600;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
 }
 
 .project-section .owl-dots:before{
@@ -4234,7 +4234,7 @@ div#mCSB_1_container{
   counter-increment: slides-num;
   font-size: 36px;
   font-weight: 600;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
 }
 
 .project-section .owl-dots button.active:before{
@@ -4326,7 +4326,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 14px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -4342,7 +4342,7 @@ div#mCSB_1_container{
   float: left;
   font-size: 18px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #75727b;
   margin-right: 30px;
 }
@@ -4588,7 +4588,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 18px;
   line-height: 30px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #fff;
   font-weight: 600;
   border-radius: 30px 30px 0px 30px;
@@ -4696,7 +4696,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 18px;
   line-height: 30px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   font-weight: 500;
   margin-bottom: 19px;
 }
@@ -4714,7 +4714,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 18px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
 }
 
 .testimonial-section .bx-viewport{
@@ -4905,7 +4905,7 @@ div#mCSB_1_container{
   text-align: center;
   font-size: 180px;
   line-height: 160px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
   font-weight: 900;
   text-transform: uppercase;
@@ -5313,7 +5313,7 @@ div#mCSB_1_container{
   position: relative;
   display: inline-block;
   font-size: 17px;
-  font-family: var(--mulish);
+  font-family: var(--serviceNowSans);
   color: #75727b;
   padding-left: 29px;
 }
@@ -5364,7 +5364,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 14px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -5468,7 +5468,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 17px;
   line-height: 28px;
-  font-family: var(--mulish);
+  font-family: var(--serviceNowSans);
   color: #9ca4af;
 }
 
@@ -5481,7 +5481,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 18px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #fff;
   font-weight: 600;
   z-index: 1;
@@ -5571,7 +5571,7 @@ div#mCSB_1_container{
 .header-top-two .language-box h5{
   font-size: 16px;
   line-height: 26px;
-  font-family: var(--mulish);
+  font-family: var(--serviceNowSans);
   font-weight: 700;
   color: #9ca4af;
 }
@@ -5580,7 +5580,7 @@ div#mCSB_1_container{
   color: #fff;
   font-size: 16px;
   font-weight: 400;
-  font-family: var(--mulish);
+  font-family: var(--serviceNowSans);
 }
 
 
@@ -5624,7 +5624,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 18px;
   line-height: 25px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #fff;
   font-weight: 600;
   padding: 20px 20px 20px 80px;
@@ -5822,7 +5822,7 @@ div#mCSB_1_container{
   font-size: 18px;
   color: #fff;
   font-weight: 600;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
 }
 
 .banner-style-two .owl-dots:before{
@@ -5847,7 +5847,7 @@ div#mCSB_1_container{
   counter-increment: slides-num;
   font-size: 36px;
   font-weight: 600;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #fff;
 }
 
@@ -5942,7 +5942,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 18px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #272e39;
   font-weight: 600;
   padding: 11px 0px 11px 28px;
@@ -6013,7 +6013,7 @@ div#mCSB_1_container{
   top: -1px;
   font-size: 60px;
   line-height: 60px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -6765,7 +6765,7 @@ div#mCSB_1_container{
   text-align: center;
   font-size: 180px;
   line-height: 160px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   text-shadow: 0px 0px 30px #dbeaf4;
   font-weight: 900;
   text-transform: uppercase;
@@ -6824,7 +6824,7 @@ div#mCSB_1_container{
   transform: translate(-50%,-50%);
   font-size: 129px;
   line-height: 120px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #eef3f6;
   font-weight: 700;
 }
@@ -7135,7 +7135,7 @@ div#mCSB_1_container{
   border-radius: 15px 15px 0px 0px;
   font-size: 14px;
   line-height: 24px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
@@ -7267,7 +7267,7 @@ div#mCSB_1_container{
   font-size: 18px;
   color: #9ca4af;
   font-weight: 600;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
 }
 
 .testimonial-style-two .owl-dots:before{
@@ -7292,7 +7292,7 @@ div#mCSB_1_container{
   counter-increment: slides-num;
   font-size: 36px;
   font-weight: 600;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #fff;
 }
 
@@ -7447,7 +7447,7 @@ div#mCSB_1_container{
   text-align: center;
   font-size: 150px;
   line-height: 120px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.40);
   font-weight: 900;
   text-transform: uppercase;
@@ -7488,7 +7488,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 14px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -7652,7 +7652,7 @@ div#mCSB_1_container{
   top: 4px;
   font-size: 180px;
   line-height: 140px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #3e9ddc;
   font-weight: 900;
   text-transform: uppercase;
@@ -7827,7 +7827,7 @@ div#mCSB_1_container{
 .footer-style-two .contact-widget .single-item p a{
   display: inline-block;
   color: #9ca4af;
-  font-family: var(--mulish);
+  font-family: var(--serviceNowSans);
 }
 
 .footer-style-two .contact-widget .single-item p a:hover{
@@ -7882,7 +7882,7 @@ div#mCSB_1_container{
   position: relative;
   display: inline-block;
   font-size: 17px;
-  font-family: var(--mulish);
+  font-family: var(--serviceNowSans);
   color: #9ca4af;
 }
 
@@ -8120,7 +8120,7 @@ div#mCSB_1_container{
   right: 0px;
   font-size: 18px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   font-weight: 600;
 }
 
@@ -8579,7 +8579,7 @@ div#mCSB_1_container{
   bottom: -20px;
   font-size: 72px;
   line-height: 70px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   font-weight: 600;
 }
 
@@ -8693,7 +8693,7 @@ div#mCSB_1_container{
   padding-top: 31px;
   font-size: 48px;
   line-height: 50px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #272e39;
   font-weight: 600;
   margin-bottom: 6px;
@@ -9024,7 +9024,7 @@ div#mCSB_1_container{
 }
 
 .team-block-one .inner-box .lower-content p a{
-  font-family: var(--mulish);
+  font-family: var(--serviceNowSans);
   color: #272e39;
   font-style: italic;
 }
@@ -9104,7 +9104,7 @@ div#mCSB_1_container{
   font-size: 18px;
   color: #a09ba9;
   font-weight: 600;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
 }
 
 .team-section .owl-dots:before{
@@ -9129,7 +9129,7 @@ div#mCSB_1_container{
   counter-increment: slides-num;
   font-size: 36px;
   font-weight: 600;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
 }
 
 .team-section .owl-dots button.active:before{
@@ -9257,7 +9257,7 @@ div#mCSB_1_container{
   background: #e7f5f5;
   text-align: center;
   font-size: 24px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #272e39;
   font-weight: 600;
   border-radius: 50% 50% 0px 50%;
@@ -9706,7 +9706,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 18px;
   line-height: 30px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   margin-bottom: 21px;
 }
 
@@ -9739,7 +9739,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 18px;
   font-weight: 600;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
 }
 
 .testimonial-style-three .owl-dots:before{
@@ -9763,7 +9763,7 @@ div#mCSB_1_container{
   counter-increment: slides-num;
   font-size: 36px;
   font-weight: 600;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
 }
 
 .testimonial-style-three .owl-dots button.active:before{
@@ -9827,7 +9827,7 @@ div#mCSB_1_container{
   text-align: center;
   font-size: 180px;
   line-height: 160px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   text-shadow: 0px 0px 30px #d7eded;
   font-weight: 900;
   text-transform: uppercase;
@@ -10003,7 +10003,7 @@ div#mCSB_1_container{
   float: left;
   font-size: 18px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #75727b;
   margin-right: 30px;
 }
@@ -10267,7 +10267,7 @@ div#mCSB_1_container{
   position: relative;
   display: inline-block;
   font-size: 17px;
-  font-family: var(--mulish);
+  font-family: var(--serviceNowSans);
   color: #9ca4af;
   padding-left: 29px;
 }
@@ -10642,7 +10642,7 @@ div#mCSB_1_container{
   top: 0px;
   font-size: 18px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   font-weight: 600;
   color: #6a7092;
   width: 100%;
@@ -11390,7 +11390,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 140px;
   line-height: 140px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   background-image: url(../images/icons/text-bg.png);
   color: transparent;
   -webkit-background-clip: text;
@@ -11962,7 +11962,7 @@ div#mCSB_1_container{
   font-size: 18px;
   color: #a09ba9;
   font-weight: 600;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
 }
 
 .project-style-two .owl-dots:before{
@@ -11987,7 +11987,7 @@ div#mCSB_1_container{
   counter-increment: slides-num;
   font-size: 36px;
   font-weight: 600;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
 }
 
 .project-style-two .owl-dots button.active:before{
@@ -12134,7 +12134,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 16px;
   line-height: 26px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
 }
 
 .testimonial-block-three .inner-box .text-box{
@@ -12353,7 +12353,7 @@ div#mCSB_1_container{
   float: left;
   font-size: 18px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #a1a3b2;
   font-weight: 500;
   margin-right: 5px;
@@ -12707,7 +12707,7 @@ div#mCSB_1_container{
   position: relative;
   display: inline-block;
   font-size: 17px;
-  font-family: var(--mulish);
+  font-family: var(--serviceNowSans);
   color: #a1a3b2;
   padding-left: 29px;
 }
@@ -12939,7 +12939,7 @@ div#mCSB_1_container{
   float: left;
   font-size: 18px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #fff;
   font-weight: 500;
   padding-right: 24px;
@@ -13021,7 +13021,7 @@ div#mCSB_1_container{
   font-size: 18px;
   color: #a09ba9;
   font-weight: 600;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
 }
 
 .service-style-five .owl-dots:before{
@@ -13046,7 +13046,7 @@ div#mCSB_1_container{
   counter-increment: slides-num;
   font-size: 36px;
   font-weight: 600;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
 }
 
 .service-style-five .owl-dots button.active:before{
@@ -13332,7 +13332,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 20px;
   line-height: 30px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #272e39;
   font-weight: 600;
   cursor: pointer;
@@ -13408,7 +13408,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 18px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #75727b;
   font-weight: 600;
   background: #fff;
@@ -13564,7 +13564,7 @@ div#mCSB_1_container{
   bottom: 25px;
   font-size: 44px;
   line-height: 50px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #7558af;
   font-weight: 700;
   writing-mode: vertical-lr;
@@ -13621,7 +13621,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 18px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   font-weight: 600;
   color: #75727b;
   margin: 0px 20px;
@@ -13834,7 +13834,7 @@ div#mCSB_1_container{
   line-height: 60px;
   text-align: center;
   font-size: 40px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #fff;
   font-weight: 600;
   text-align: center;
@@ -14083,7 +14083,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 18px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #75727b;
   margin-left: 14px;
 }
@@ -14226,7 +14226,7 @@ div#mCSB_1_container{
   bottom: 25px;
   font-size: 44px;
   line-height: 50px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #7558af;
   font-weight: 700;
   writing-mode: vertical-lr;
@@ -14319,7 +14319,7 @@ div#mCSB_1_container{
   float: left;
   font-size: 18px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #75727b;
   margin-right: 30px;
 }
@@ -14537,7 +14537,7 @@ div#mCSB_1_container{
   float: left;
   font-size: 18px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #75727b;
   margin-right: 30px;
 }
@@ -14607,7 +14607,7 @@ div#mCSB_1_container{
   height: 60px;
   line-height: 60px;
   font-size: 40px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
@@ -14719,7 +14719,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 20px;
   line-height: 30px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #9ca4af;
   font-weight: 600;
   padding-left: 18px;
@@ -14771,7 +14771,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 24px;
   line-height: 30px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #272e39;
   font-weight: 600;
   z-index: 1;
@@ -15475,7 +15475,7 @@ div#mCSB_1_container{
   text-align: center;
   font-size: 180px;
   line-height: 160px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   text-shadow: 0px 0px 30px rgba(108, 78, 167, 0.10);
   font-weight: 900;
   text-transform: uppercase;
@@ -15596,7 +15596,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 72px;
   line-height: 80px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   font-weight: 600;
   color: #272e39;
   margin-bottom: 5px;
@@ -15619,7 +15619,7 @@ div#mCSB_1_container{
   text-align: center;
   font-size: 180px;
   line-height: 160px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   text-shadow: 0px 0px 30px rgba(108, 78, 167, 0.10);
   font-weight: 900;
   text-transform: uppercase;
@@ -16017,7 +16017,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 18px;
   line-height: 28px;
-  font-family: var(--urbanist);
+  font-family: var(--serviceNowSans);
   color: #fff;
   font-weight: 600;
   margin-bottom: 12px;
@@ -16038,7 +16038,7 @@ div#mCSB_1_container{
 
 .contact-style-two .form-inner .form-group .check-box label{
   font-size: 17px;
-  font-family: var(--mulish);
+  font-family: var(--serviceNowSans);
   font-weight: 400;
   color: #9ca4af;
   padding-left: 38px;

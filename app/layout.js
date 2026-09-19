@@ -4,7 +4,7 @@ import 'swiper/css'
 import "swiper/css/pagination"
 import 'swiper/css/free-mode';
 import '@/public/assets/css/style.css';
-import { urbanist, mulish, dM_Sans } from '@/lib/font'
+import { serviceNowSans } from '@/lib/font'
 export const metadata = {
     title: 'BitString IT Services',
     description: 'Specialized IT consulting, ServiceNow implementation, and ServiceOps training.',
@@ -12,7 +12,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en" className={`${mulish.variable} ${urbanist.variable} ${dM_Sans.variable}`}>
+        <html lang="en" className={`${serviceNowSans.variable}`}>
             <body>{children}</body>
         </html>
     )

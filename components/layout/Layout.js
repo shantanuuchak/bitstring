@@ -61,11 +61,8 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
 
                 {!footerStyle && < Footer1 />}
                 {footerStyle == 1 ? < Footer1 /> : null}
-                {!footerStyle && < Footer2 />}
                 {footerStyle == 2 ? < Footer2 /> : null}
-                {!footerStyle && < Footer3 />}
                 {footerStyle == 3 ? < Footer3 /> : null}
-                {!footerStyle && < Footer4 />}
                 {footerStyle == 4 ? < Footer4 /> : null}
             </div>
             <BackToTop scroll={scroll} />

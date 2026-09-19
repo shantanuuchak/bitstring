@@ -1,0 +1,62 @@
+[
+  {
+    "id": "itsm",
+    "title": "ITSM (IT Service Management)",
+    "description": "Streamline your IT operations with modern service management workflows. Our ITSM implementations enhance productivity and drive digital transformation by giving you a unified view of your IT infrastructure.",
+    "category": "ServiceNow Consulting"
+  },
+  {
+    "id": "itom",
+    "title": "ITOM (IT Operations Management)",
+    "description": "Gain visibility into your entire IT infrastructure. We help you proactively identify and resolve issues, ensuring your ServiceNow ecosystem operates efficiently and delivers maximum business value.",
+    "category": "ServiceNow Consulting"
+  },
+  {
+    "id": "itam",
+    "title": "ITAM (IT Asset Management)",
+    "description": "Track, manage, and optimize your IT assets throughout their lifecycle. Our solutions help reduce costs, mitigate risks, and align IT assets with your business goals.",
+    "category": "ServiceNow Consulting"
+  },
+  {
+    "id": "hrsd",
+    "title": "HRSD (HR Service Delivery)",
+    "description": "Transform the employee experience with unified HR service delivery. Automate onboarding, streamline inquiries, and provide a single portal for all employee needs.",
+    "category": "ServiceNow Consulting"
+  },
+  {
+    "id": "csm",
+    "title": "CSM (Customer Service Management)",
+    "description": "Elevate your customer service with proactive, intelligent workflows. Connect customer service with other departments to resolve issues faster and improve customer satisfaction.",
+    "category": "ServiceNow Consulting"
+  },
+  {
+    "id": "spm",
+    "title": "SPM (Strategic Portfolio Management)",
+    "description": "Align your IT investments with your business strategy. Plan, deliver, and track value across your entire portfolio of projects and products.",
+    "category": "ServiceNow Consulting"
+  },
+  {
+    "id": "grc",
+    "title": "GRC (Governance, Risk, and Compliance)",
+    "description": "Manage risk and compliance in real-time. We implement robust GRC frameworks to protect your organization and ensure adherence to regulatory requirements.",
+    "category": "ServiceNow Consulting"
+  },
+  {
+    "id": "talent-provisioning",
+    "title": "Talent Provisioning",
+    "description": "Efficient man-power is a crucial element for project success. BitString ensures you get the right professionals with the precise skills and certifications your projects demand.",
+    "category": "Talent Provisioning"
+  },
+  {
+    "id": "cybersecurity",
+    "title": "Cybersecurity",
+    "description": "Collaborate with experts to build robust, secure solutions that protect your data and infrastructure while navigating complex digital transformations.",
+    "category": "Technology Consulting"
+  },
+  {
+    "id": "devops-cloud",
+    "title": "DevOps & Cloud",
+    "description": "Accelerate your delivery lifecycle and scale securely. We provide expert guidance on cloud infrastructure and DevOps practices tailored to your unique challenges.",
+    "category": "Technology Consulting"
+  }
+]

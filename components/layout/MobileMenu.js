@@ -32,7 +32,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                 <nav className="menu-box">
                     <div className="nav-logo">
                         <Link href="/">
-                            <img src="assets/images/logo-4.png" alt="" />
+                            <img src="assets/images/logo.svg" alt="" />
                         </Link>
                     </div>
 
@@ -46,10 +46,28 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                 <li className={isActive.key == 3 ? "dropdown current" : "dropdown"}>
                                     <Link href="/service" onClick={handleMobileMenu}>Services</Link>
                                     <ul style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
-                                        <li><Link href="/service-details" onClick={handleMobileMenu}>ServiceNow Implementation</Link></li>
-                                        <li><Link href="/service-details-2" onClick={handleMobileMenu}>ITOM Integration</Link></li>
-                                        <li><Link href="/service-details-3" onClick={handleMobileMenu}>ITSM Consulting</Link></li>
-                                        <li><Link href="/service-details-4" onClick={handleMobileMenu}>HRSD Automation</Link></li>
+                                        <li className={isActive.subMenuKey == 1 ? "dropdown current" : "dropdown"}>
+                                            <Link href="#" onClick={(e) => { e.preventDefault(); handleToggle(3, 1); }}>ServiceNow Consulting</Link>
+                                            <ul style={{ display: `${isActive.subMenuKey == 1 ? "block" : "none"}` }}>
+                                                <li><Link href="/services/itsm" onClick={handleMobileMenu}>ITSM</Link></li>
+                                                <li><Link href="/services/itom" onClick={handleMobileMenu}>ITOM</Link></li>
+                                                <li><Link href="/services/itam" onClick={handleMobileMenu}>ITAM</Link></li>
+                                                <li><Link href="/services/hrsd" onClick={handleMobileMenu}>HRSD</Link></li>
+                                                <li><Link href="/services/csm" onClick={handleMobileMenu}>CSM</Link></li>
+                                                <li><Link href="/services/spm" onClick={handleMobileMenu}>SPM</Link></li>
+                                                <li><Link href="/services/grc" onClick={handleMobileMenu}>GRC</Link></li>
+                                            </ul>
+                                            <div className={isActive.subMenuKey == 1 ? "dropdown-btn open" : "dropdown-btn"} onClick={(e) => { e.preventDefault(); handleToggle(3, 1); }}><span className="fa fa-angle-right" /></div>
+                                        </li>
+                                        <li><Link href="/services/talent-provisioning" onClick={handleMobileMenu}>Talent Provisioning</Link></li>
+                                        <li className={isActive.subMenuKey == 2 ? "dropdown current" : "dropdown"}>
+                                            <Link href="#" onClick={(e) => { e.preventDefault(); handleToggle(3, 2); }}>Technology Consulting</Link>
+                                            <ul style={{ display: `${isActive.subMenuKey == 2 ? "block" : "none"}` }}>
+                                                <li><Link href="/services/cybersecurity" onClick={handleMobileMenu}>Cybersecurity</Link></li>
+                                                <li><Link href="/services/devops-cloud" onClick={handleMobileMenu}>DevOps & Cloud</Link></li>
+                                            </ul>
+                                            <div className={isActive.subMenuKey == 2 ? "dropdown-btn open" : "dropdown-btn"} onClick={(e) => { e.preventDefault(); handleToggle(3, 2); }}><span className="fa fa-angle-right" /></div>
+                                        </li>
                                     </ul>
                                     <div className={isActive.key == 3 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(3)}><span className="fa fa-angle-right" /></div>
                                 </li>

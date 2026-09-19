@@ -88,7 +88,7 @@ export default function Banner() {
                         <div className="auto-container">
                             <div className="content-box">
                             <h2>
-                                Connect <span>::</span> Collaborate <span>::</span> Deliver Values
+                                Connect:: Collaborate:: Deliver Values
                             </h2>
                             <div className="lower-box">
                                 <div className="icon-box">

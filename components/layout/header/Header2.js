@@ -14,8 +14,8 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                             <div className="icon-box">
                             <img src="/assets/images/icons/icon-9.png" alt="" />
                             </div>
-                            Talk to Us: <Link href="tel:4188822333"><span>(+41) 888.22.333</span></Link> /{' '}
-                            <Link href="mailto:mailus@example.com"><span>mailus@example.com</span></Link>
+                            Talk to Us: <Link href="tel:19494246646"><span>(949) 424-6646</span></Link> /{' '}
+                            <Link href="mailto:connect@bitstringit.com"><span>connect@bitstringit.com</span></Link>
                         </li>
                         <li>
                             <div className="icon-box">

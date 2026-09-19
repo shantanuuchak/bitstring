@@ -66,7 +66,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSide
                         </div>
                         <div className="phone">
                         <h3>
-                            <a href="tel:4188822333">(+41) 888.22.333</a>
+                            <a href="tel:19494246646">(949) 424-6646</a>
                         </h3>
                         </div>
                         <div className="btn-box">

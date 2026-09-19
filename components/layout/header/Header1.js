@@ -49,16 +49,16 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
       <div className="left-column">
         <figure className="logo-box">
           <Link href="/">
-            <img src="assets/images/logo.png" alt="" />
+            <img src="assets/images/logo.svg" alt="" />
           </Link>
         </figure>
         <div className="award-box">
-          <div className="award-image">
-            <img src="assets/images/icons/award-1.png" alt="" />
+          <div className="award-image" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <i className="fa-solid fa-certificate" style={{ fontSize: '40px', color: '#0052cc' }} />
           </div>
           <h5>
             ISO 27001 & ISO 9001 <br />
-            Certified IT Services.
+            Certified IT Services
           </h5>
         </div>
       </div>
@@ -154,20 +154,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                                         Search
                                     </div>
                                 </div>
-                                <div className="language-box">
-                                    <h5>
-                                        <img src="/assets/images/icons/icon-3.png" alt="" />
-                                        Global:
-                                    </h5>
-                                    <div className="select-box">
-                                        <select className="selectmenu">
-                                            <option value="eng">Eng</option>
-                                            <option value="chinese">Chinese</option>
-                                            <option value="hindi">Hindi</option>
-                                            <option value="turkish">Turkish</option>
-                                        </select>
-                                    </div>
-                                </div>
+
                                 <div className="nav-btn nav-toggler navSidebar-button clearfix"  onClick={handleSidebar}>
                                     <img src="/assets/images/icons/icon-4.png" alt="" />
                                 </div>

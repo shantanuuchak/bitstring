@@ -22,19 +22,16 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                     <div className="content-inner">
                     <div className="logo">
                         <Link href="/">
-                        <img src="assets/images/logo.png" alt="" />
+                        <img src="assets/images/logo.svg" alt="" />
                         </Link>
                     </div>
                     <div className="content-box">
                         <h4>About Us</h4>
                         <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque laudantium, totam rem aperiam, eaque
-                        ipsa quae ab illo inventore veritatis et quasi
+                        Specialized IT services in ServiceNow consulting, offering ITSM, ITOM, HRSD, and more.
                         </p>
                         <p>
-                        Research oriented solutions for Data Science and Machine
-                        Learning business needs.
+                        Experience you can trust. Technology that delivers.
                         </p>
                         <Link href="/about" className="theme-btn btn-two">
                         About Us
@@ -43,35 +40,30 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                     <div className="contact-info">
                         <h4>Contact Info</h4>
                         <ul>
-                        <li>Chicago 12, Melborne City, USA</li>
+                        <li>A-304, Nyati Empress, Vimamnagar, Pune, MH 411014</li>
                         <li>
-                            <a href="tel:+8801682648101">+88 01682648101</a>
+                            <a href="tel:02069011184">(020) 69011184</a>
                         </li>
                         <li>
-                            <a href="mailto:info@example.com">info@example.com</a>
+                            <a href="mailto:connect@bitstringit.com">connect@bitstringit.com</a>
                         </li>
                         </ul>
                     </div>
                     <ul className="social-box clearfix">
                         <li>
-                        <a href="/">
+                        <Link href="https://www.facebook.com/BitStringIT" target="_blank">
                             <i className="fa-brands fa-facebook" />
-                        </a>
+                        </Link>
                         </li>
                         <li>
-                        <a href="/">
-                            <i className="fa-brands fa-square-twitter" />
-                        </a>
+                        <Link href="https://twitter.com/bitstring_it" target="_blank">
+                            <i className="fa-brands fa-twitter" />
+                        </Link>
                         </li>
                         <li>
-                        <a href="/">
-                            <i className="fa-solid fa-basketball" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="/">
-                            <i className="fa-brands fa-youtube" />
-                        </a>
+                        <Link href="https://www.linkedin.com/company/bitstring-it-services" target="_blank">
+                            <i className="fa-brands fa-linkedin" />
+                        </Link>
                         </li>
                     </ul>
                     </div>

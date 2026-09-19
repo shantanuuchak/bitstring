@@ -1,14 +1,23 @@
-"use client"; // Add this line
-import { useState } from 'react';
+"use client";
+import { useState, use } from 'react';
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
+import { notFound } from 'next/navigation';
+import servicesData from "@/business_data/mappings/services.json";
 
-export default function Home() {
+export default function ServiceDetails({ params }) {
+    const { id } = use(params);
+    const service = servicesData.find(s => s.id === id);
+    
+    if (!service) {
+        notFound();
+    }
+
     const [activeTab, setActiveTab] = useState('#tab-1');
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Portfolio Management">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle={service.title}>
                 <div>
                     {/* Service Details */}
                     <section className="service-details sec-pad">
@@ -18,14 +27,12 @@ export default function Home() {
                                     <div className="service-details-content">
                                         <div className="content-one">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/service-9.jpg" alt="" />
+                                                <img src="/assets/images/service/service-8.jpg" alt="" />
                                             </figure>
                                             <div className="text-box">
-                                                <h2>Portfolio Management</h2>
+                                                <h2>{service.title}</h2>
                                                 <p className="bold-text">
-                                                    “Obligations of business it will frequently occur pleasure
-                                                    have repudiated annoyances accept wise man therefore always
-                                                    holds in these matters beguiled and demoralized”.
+                                                    {service.description}
                                                 </p>
                                                 <p>
                                                     It is a long established fact that a reader will be distracted
@@ -187,37 +194,37 @@ export default function Home() {
                                         <div className="sidebar-widget category-widget">
                                             <ul className="category-list clearfix">
                                                 <li>
-                                                    <Link href="/service-details-7">
+                                                    <Link href="/service-details" className="current">
                                                         <span>Traditional Consulting</span>
                                                         <i className="flaticon-diagonal-arrow" />
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/service-details-8" className="current">
+                                                    <Link href="/service-details-2">
                                                         <span>Portfolio Management</span>
                                                         <i className="flaticon-diagonal-arrow" />
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/service-details-9">
+                                                    <Link href="/service-details-3">
                                                         <span>Asset Allocation</span>
                                                         <i className="flaticon-diagonal-arrow" />
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/service-details-10">
+                                                    <Link href="/service-details-4">
                                                         <span>Risk Management</span>
                                                         <i className="flaticon-diagonal-arrow" />
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/service-details-11">
+                                                    <Link href="/service-details-5">
                                                         <span>Policy Development</span>
                                                         <i className="flaticon-diagonal-arrow" />
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/service-details-12">
+                                                    <Link href="/service-details-6">
                                                         <span>Fiduciary Consulting</span>
                                                         <i className="flaticon-diagonal-arrow" />
                                                     </Link>
@@ -253,12 +260,12 @@ export default function Home() {
                                             <figure className="image-box">
                                                 <img src="assets/images/resource/support-1.jpg" alt="" />
                                             </figure>
-                                            <span className="big-text">Counsolve</span>
+                                            <span className="big-text">BitString</span>
                                             <h3>
-                                                Giving Wings <br />
-                                                to your Investment.
+                                                Transforming <br />
+                                                your IT landscape.
                                             </h3>
-                                            <p>Actual teachings of the great</p>
+                                            <p>Experience you can trust</p>
                                             <Link href="/contact" className="theme-btn btn-two">
                                                 Get Support
                                             </Link>
@@ -283,7 +290,7 @@ export default function Home() {
                             </figure>
                             <div className="phone">
                             <h4>
-                                Call: <Link href="tel:41888765432">(+41) 888.76.5432</Link>
+                                Call: <Link href="tel:02069011184">(020) 69011184</Link>
                             </h4>
                             </div>
                         </div>

@@ -11,454 +11,121 @@ export default function Home() {
                     <section className="blog-grid sec-pad">
                         <div className="auto-container">
                         <div className="row clearfix">
-                            <div className="col-lg-4 col-md-6 col-sm-12 news-block">
-                            <div
-                                className="news-block-one wow fadeInUp animated"
-                                data-wow-delay="00ms"
-                                data-wow-duration="1500ms"
-                            >
-                                <div className="inner-box">
-                                <div className="upper-box">
-                                    <span className="category">Investment</span>
-                                    <ul className="post-info clearfix">
-                                    <li>
-                                        <span>On</span> Mar 14, 2023
-                                    </li>
-                                    <li>
-                                        <span>By</span>{" "}
-                                        <Link href="/blog-details">Justin Langer</Link>
-                                    </li>
-                                    </ul>
-                                </div>
-                                <div className="image-box">
-                                    <figure className="image">
-                                    <Link href="/blog-details">
-                                        <img src="assets/images/news/news-1.jpg" alt="" />
-                                    </Link>
-                                    </figure>
-                                    <div className="view-btn">
-                                    <Link
-                                        href="assets/images/news/news-1.jpg"
-                                        className="lightbox-image"
-                                        data-fancybox="gallery"
-                                    >
-                                        <i className="flaticon-zoom-in" />
-                                    </Link>
-                                    </div>
-                                </div>
-                                <div className="lower-box">
-                                    <h3>
-                                    <Link href="/blog-details">
-                                        Revisiting Your Investment &amp; Distribution Goals
-                                    </Link>
-                                    </h3>
-                                    <div className="link">
-                                    <Link href="/blog-details">
-                                        <span>Explore More</span>
-                                    </Link>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 news-block">
-                            <div
-                                className="news-block-one wow fadeInUp animated"
-                                data-wow-delay="300ms"
-                                data-wow-duration="1500ms"
-                            >
-                                <div className="inner-box">
-                                <div className="upper-box">
-                                    <span className="category">Business</span>
-                                    <ul className="post-info clearfix">
-                                    <li>
-                                        <span>On</span> Feb 26, 2023
-                                    </li>
-                                    <li>
-                                        <span>By</span> <Link href="/blog-details">Colmin Neil</Link>
-                                    </li>
-                                    </ul>
-                                </div>
-                                <div className="image-box">
-                                    <figure className="image">
-                                    <Link href="/blog-details">
-                                        <img src="assets/images/news/news-2.jpg" alt="" />
-                                    </Link>
-                                    </figure>
-                                    <div className="view-btn">
-                                    <Link
-                                        href="assets/images/news/news-2.jpg"
-                                        className="lightbox-image"
-                                        data-fancybox="gallery"
-                                    >
-                                        <i className="flaticon-zoom-in" />
-                                    </Link>
-                                    </div>
-                                </div>
-                                <div className="lower-box">
-                                    <h3>
-                                    <Link href="/blog-details">
-                                        Dimensional Fund Advisors Interview with Director
-                                    </Link>
-                                    </h3>
-                                    <div className="link">
-                                    <Link href="/blog-details">
-                                        <span>Explore More</span>
-                                    </Link>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 news-block">
-                            <div
-                                className="news-block-one wow fadeInUp animated"
-                                data-wow-delay="600ms"
-                                data-wow-duration="1500ms"
-                            >
-                                <div className="inner-box">
-                                <div className="upper-box">
-                                    <span className="category">Financial Plan</span>
-                                    <ul className="post-info clearfix">
-                                    <li>
-                                        <span>On</span> Feb 05, 2023
-                                    </li>
-                                    <li>
-                                        <span>By</span>{" "}
-                                        <Link href="/blog-details">Boone Gerardo</Link>
-                                    </li>
-                                    </ul>
-                                </div>
-                                <div className="image-box">
-                                    <figure className="image">
-                                    <Link href="/blog-details">
-                                        <img src="assets/images/news/news-3.jpg" alt="" />
-                                    </Link>
-                                    </figure>
-                                    <div className="view-btn">
-                                    <Link
-                                        href="assets/images/news/news-3.jpg"
-                                        className="lightbox-image"
-                                        data-fancybox="gallery"
-                                    >
-                                        <i className="flaticon-zoom-in" />
-                                    </Link>
-                                    </div>
-                                </div>
-                                <div className="lower-box">
-                                    <h3>
-                                    <Link href="/blog-details">
-                                        Interested in Giving Back this year? Here are some tips
-                                    </Link>
-                                    </h3>
-                                    <div className="link">
-                                    <Link href="/blog-details">
-                                        <span>Explore More</span>
-                                    </Link>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 news-block">
-                            <div
-                                className="news-block-one wow fadeInUp animated"
-                                data-wow-delay="00ms"
-                                data-wow-duration="1500ms"
-                            >
-                                <div className="inner-box">
-                                <div className="upper-box">
-                                    <span className="category">Business</span>
-                                    <ul className="post-info clearfix">
-                                    <li>
-                                        <span>On</span> Feb 26, 2023
-                                    </li>
-                                    <li>
-                                        <span>By</span> <Link href="/blog-details">Colmin Neil</Link>
-                                    </li>
-                                    </ul>
-                                </div>
-                                <div className="image-box">
-                                    <figure className="image">
-                                    <Link href="/blog-details">
-                                        <img src="assets/images/news/news-8.jpg" alt="" />
-                                    </Link>
-                                    </figure>
-                                    <div className="view-btn">
-                                    <Link
-                                        href="assets/images/news/news-8.jpg"
-                                        className="lightbox-image"
-                                        data-fancybox="gallery"
-                                    >
-                                        <i className="flaticon-zoom-in" />
-                                    </Link>
-                                    </div>
-                                </div>
-                                <div className="lower-box">
-                                    <h3>
-                                    <Link href="/blog-details">
-                                        Dimensional Fund Advisors Interview with Director
-                                    </Link>
-                                    </h3>
-                                    <div className="link">
-                                    <Link href="/blog-details">
-                                        <span>Explore More</span>
-                                    </Link>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 news-block">
-                            <div
-                                className="news-block-one wow fadeInUp animated"
-                                data-wow-delay="300ms"
-                                data-wow-duration="1500ms"
-                            >
-                                <div className="inner-box">
-                                <div className="upper-box">
-                                    <span className="category">Financial Plan</span>
-                                    <ul className="post-info clearfix">
-                                    <li>
-                                        <span>On</span> Feb 05, 2023
-                                    </li>
-                                    <li>
-                                        <span>By</span>{" "}
-                                        <Link href="/blog-details">Boone Gerardo</Link>
-                                    </li>
-                                    </ul>
-                                </div>
-                                <div className="image-box">
-                                    <figure className="image">
-                                    <Link href="/blog-details">
-                                        <img src="assets/images/news/news-9.jpg" alt="" />
-                                    </Link>
-                                    </figure>
-                                    <div className="view-btn">
-                                    <Link
-                                        href="assets/images/news/news-9.jpg"
-                                        className="lightbox-image"
-                                        data-fancybox="gallery"
-                                    >
-                                        <i className="flaticon-zoom-in" />
-                                    </Link>
-                                    </div>
-                                </div>
-                                <div className="lower-box">
-                                    <h3>
-                                    <Link href="/blog-details">
-                                        Interested in Giving Back this year? Here are some tips
-                                    </Link>
-                                    </h3>
-                                    <div className="link">
-                                    <Link href="/blog-details">
-                                        <span>Explore More</span>
-                                    </Link>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 news-block">
-                            <div
-                                className="news-block-one wow fadeInUp animated"
-                                data-wow-delay="600ms"
-                                data-wow-duration="1500ms"
-                            >
-                                <div className="inner-box">
-                                <div className="upper-box">
-                                    <span className="category">Investment</span>
-                                    <ul className="post-info clearfix">
-                                    <li>
-                                        <span>On</span> Mar 14, 2023
-                                    </li>
-                                    <li>
-                                        <span>By</span>{" "}
-                                        <Link href="/blog-details">Justin Langer</Link>
-                                    </li>
-                                    </ul>
-                                </div>
-                                <div className="image-box">
-                                    <figure className="image">
-                                    <Link href="/blog-details">
-                                        <img src="assets/images/news/news-10.jpg" alt="" />
-                                    </Link>
-                                    </figure>
-                                    <div className="view-btn">
-                                    <Link
-                                        href="assets/images/news/news-10.jpg"
-                                        className="lightbox-image"
-                                        data-fancybox="gallery"
-                                    >
-                                        <i className="flaticon-zoom-in" />
-                                    </Link>
-                                    </div>
-                                </div>
-                                <div className="lower-box">
-                                    <h3>
-                                    <Link href="/blog-details">
-                                        Revisiting Your Investment &amp; Distribution Goals
-                                    </Link>
-                                    </h3>
-                                    <div className="link">
-                                    <Link href="/blog-details">
-                                        <span>Explore More</span>
-                                    </Link>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 news-block">
-                            <div
-                                className="news-block-one wow fadeInUp animated"
-                                data-wow-delay="00ms"
-                                data-wow-duration="1500ms"
-                            >
-                                <div className="inner-box">
-                                <div className="upper-box">
-                                    <span className="category">Financial Plan</span>
-                                    <ul className="post-info clearfix">
-                                    <li>
-                                        <span>On</span> Feb 05, 2023
-                                    </li>
-                                    <li>
-                                        <span>By</span>{" "}
-                                        <Link href="/blog-details">Boone Gerardo</Link>
-                                    </li>
-                                    </ul>
-                                </div>
-                                <div className="image-box">
-                                    <figure className="image">
-                                    <Link href="/blog-details">
-                                        <img src="assets/images/news/news-11.jpg" alt="" />
-                                    </Link>
-                                    </figure>
-                                    <div className="view-btn">
-                                    <Link
-                                        href="assets/images/news/news-11.jpg"
-                                        className="lightbox-image"
-                                        data-fancybox="gallery"
-                                    >
-                                        <i className="flaticon-zoom-in" />
-                                    </Link>
-                                    </div>
-                                </div>
-                                <div className="lower-box">
-                                    <h3>
-                                    <Link href="/blog-details">
-                                        Interested in Giving Back this year? Here are some tips
-                                    </Link>
-                                    </h3>
-                                    <div className="link">
-                                    <Link href="/blog-details">
-                                        <span>Explore More</span>
-                                    </Link>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 news-block">
-                            <div
-                                className="news-block-one wow fadeInUp animated"
-                                data-wow-delay="300ms"
-                                data-wow-duration="1500ms"
-                            >
-                                <div className="inner-box">
-                                <div className="upper-box">
-                                    <span className="category">Investment</span>
-                                    <ul className="post-info clearfix">
-                                    <li>
-                                        <span>On</span> Mar 14, 2023
-                                    </li>
-                                    <li>
-                                        <span>By</span>{" "}
-                                        <Link href="/blog-details">Justin Langer</Link>
-                                    </li>
-                                    </ul>
-                                </div>
-                                <div className="image-box">
-                                    <figure className="image">
-                                    <Link href="/blog-details">
-                                        <img src="assets/images/news/news-12.jpg" alt="" />
-                                    </Link>
-                                    </figure>
-                                    <div className="view-btn">
-                                    <Link
-                                        href="assets/images/news/news-12.jpg"
-                                        className="lightbox-image"
-                                        data-fancybox="gallery"
-                                    >
-                                        <i className="flaticon-zoom-in" />
-                                    </Link>
-                                    </div>
-                                </div>
-                                <div className="lower-box">
-                                    <h3>
-                                    <Link href="/blog-details">
-                                        Revisiting Your Investment &amp; Distribution Goals
-                                    </Link>
-                                    </h3>
-                                    <div className="link">
-                                    <Link href="/blog-details">
-                                        <span>Explore More</span>
-                                    </Link>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 news-block">
-                            <div
-                                className="news-block-one wow fadeInUp animated"
-                                data-wow-delay="600ms"
-                                data-wow-duration="1500ms"
-                            >
-                                <div className="inner-box">
-                                <div className="upper-box">
-                                    <span className="category">Business</span>
-                                    <ul className="post-info clearfix">
-                                    <li>
-                                        <span>On</span> Feb 26, 2023
-                                    </li>
-                                    <li>
-                                        <span>By</span> <Link href="/blog-details">Colmin Neil</Link>
-                                    </li>
-                                    </ul>
-                                </div>
-                                <div className="image-box">
-                                    <figure className="image">
-                                    <Link href="/blog-details">
-                                        <img src="assets/images/news/news-13.jpg" alt="" />
-                                    </Link>
-                                    </figure>
-                                    <div className="view-btn">
-                                    <Link
-                                        href="assets/images/news/news-13.jpg"
-                                        className="lightbox-image"
-                                        data-fancybox="gallery"
-                                    >
-                                        <i className="flaticon-zoom-in" />
-                                    </Link>
-                                    </div>
-                                </div>
-                                <div className="lower-box">
-                                    <h3>
-                                    <Link href="/blog-details">
-                                        Dimensional Fund Advisors Interview with Director
-                                    </Link>
-                                    </h3>
-                                    <div className="link">
-                                    <Link href="/blog-details">
-                                        <span>Explore More</span>
-                                    </Link>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 news-block">
+                    <div className="news-block-one wow fadeInUp animated">
+                    <div className="inner-box">
+                        <div className="upper-box">
+                        <span className="category">ITSM</span>
+                        <ul className="post-info clearfix">
+                            <li><span>On</span> Mar 15, 2024</li>
+                            <li><span>By</span> <Link href="/blog-details">BitString Team</Link></li>
+                        </ul>
                         </div>
+                        <div className="image-box">
+                        <figure className="image">
+                            <Link href="/blog-details"><img src="assets/images/news/news-1.jpg" alt="" /></Link>
+                        </figure>
+                        </div>
+                        <div className="lower-box">
+                        <h3><Link href="/blog-details">Maximizing ROI with ServiceNow ITSM</Link></h3>
+                        <div className="link"><Link href="/blog-details"><span>Explore More</span></Link></div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div className="col-lg-4 col-md-6 col-sm-12 news-block">
+                    <div className="news-block-one wow fadeInUp animated">
+                    <div className="inner-box">
+                        <div className="upper-box">
+                        <span className="category">HRSD</span>
+                        <ul className="post-info clearfix">
+                            <li><span>On</span> Feb 28, 2024</li>
+                            <li><span>By</span> <Link href="/blog-details">BitString Team</Link></li>
+                        </ul>
+                        </div>
+                        <div className="image-box">
+                        <figure className="image">
+                            <Link href="/blog-details"><img src="assets/images/news/news-2.jpg" alt="" /></Link>
+                        </figure>
+                        </div>
+                        <div className="lower-box">
+                        <h3><Link href="/blog-details">Transforming the Employee Experience with HR Service Delivery</Link></h3>
+                        <div className="link"><Link href="/blog-details"><span>Explore More</span></Link></div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div className="col-lg-4 col-md-6 col-sm-12 news-block">
+                    <div className="news-block-one wow fadeInUp animated">
+                    <div className="inner-box">
+                        <div className="upper-box">
+                        <span className="category">ITOM</span>
+                        <ul className="post-info clearfix">
+                            <li><span>On</span> Feb 10, 2024</li>
+                            <li><span>By</span> <Link href="/blog-details">BitString Team</Link></li>
+                        </ul>
+                        </div>
+                        <div className="image-box">
+                        <figure className="image">
+                            <Link href="/blog-details"><img src="assets/images/news/news-3.jpg" alt="" /></Link>
+                        </figure>
+                        </div>
+                        <div className="lower-box">
+                        <h3><Link href="/blog-details">Proactive IT Operations: Automating Issue Resolution</Link></h3>
+                        <div className="link"><Link href="/blog-details"><span>Explore More</span></Link></div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div className="col-lg-4 col-md-6 col-sm-12 news-block">
+                    <div className="news-block-one wow fadeInUp animated">
+                    <div className="inner-box">
+                        <div className="upper-box">
+                        <span className="category">Cybersecurity</span>
+                        <ul className="post-info clearfix">
+                            <li><span>On</span> Jan 22, 2024</li>
+                            <li><span>By</span> <Link href="/blog-details">BitString Team</Link></li>
+                        </ul>
+                        </div>
+                        <div className="image-box">
+                        <figure className="image">
+                            <Link href="/blog-details"><img src="assets/images/news/news-1.jpg" alt="" /></Link>
+                        </figure>
+                        </div>
+                        <div className="lower-box">
+                        <h3><Link href="/blog-details">Strengthening Your Defenses: Top Cybersecurity Trends</Link></h3>
+                        <div className="link"><Link href="/blog-details"><span>Explore More</span></Link></div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div className="col-lg-4 col-md-6 col-sm-12 news-block">
+                    <div className="news-block-one wow fadeInUp animated">
+                    <div className="inner-box">
+                        <div className="upper-box">
+                        <span className="category">Talent</span>
+                        <ul className="post-info clearfix">
+                            <li><span>On</span> Jan 05, 2024</li>
+                            <li><span>By</span> <Link href="/blog-details">BitString Team</Link></li>
+                        </ul>
+                        </div>
+                        <div className="image-box">
+                        <figure className="image">
+                            <Link href="/blog-details"><img src="assets/images/news/news-2.jpg" alt="" /></Link>
+                        </figure>
+                        </div>
+                        <div className="lower-box">
+                        <h3><Link href="/blog-details">Sourcing ServiceNow Experts in a Competitive Market</Link></h3>
+                        <div className="link"><Link href="/blog-details"><span>Explore More</span></Link></div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+</div>
                         <div className="pagination-wrapper centred">
                             <ul className="pagination clearfix">
                             <li className="prev-btn">

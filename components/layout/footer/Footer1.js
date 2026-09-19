@@ -15,7 +15,7 @@ export default function Footer1() {
                         <div className="logo-widget">
                         <figure className="footer-logo">
                             <Link href="/">
-                            <img src="assets/images/logo.png" alt="" />
+                            <img src="assets/images/logo.svg" alt="" />
                             </Link>
                         </figure>
                         <div className="copyright">
@@ -76,6 +76,11 @@ export default function Footer1() {
                             {contact.india_address} <br />
                             Phone: {contact.india_phone}
                             </p>
+                            <h5 style={{ marginTop: '15px' }}>USA Office</h5>
+                            <p>
+                            {contact.usa_address} <br />
+                            Phone: {contact.usa_phone}
+                            </p>
                             <div className="map-box">
                             <div className="icon-box">
                                 <i className="fas fa-map-location" />
@@ -132,22 +137,22 @@ export default function Footer1() {
                         <div className="widget-content">
                             <ul className="links-list clearfix">
                             <li>
-                                <Link href="/service-details">ITSM</Link>
+                                <Link href="/services/itsm">ITSM</Link>
                             </li>
                             <li>
-                                <Link href="/service-details-2">ITOM</Link>
+                                <Link href="/services/itom">ITOM</Link>
                             </li>
                             <li>
-                                <Link href="/service-details-3">HRSD</Link>
+                                <Link href="/services/hrsd">HRSD</Link>
                             </li>
                             <li>
-                                <Link href="/service-details-4">ITAM</Link>
+                                <Link href="/services/itam">ITAM</Link>
                             </li>
                             <li>
-                                <Link href="/service-details-5">CSM</Link>
+                                <Link href="/services/csm">CSM</Link>
                             </li>
                             <li>
-                                <Link href="/service-details-6">GRC</Link>
+                                <Link href="/services/grc">GRC</Link>
                             </li>
                             </ul>
                         </div>

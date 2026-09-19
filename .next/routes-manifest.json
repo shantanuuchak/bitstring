@@ -1,1 +1,293 @@
-{"version":3,"caseSensitive":false,"basePath":"","rewrites":{"beforeFiles":[],"afterFiles":[],"fallback":[]},"redirects":[{"source":"/:path+/","destination":"/:path+","permanent":true,"internal":true,"regex":"^(?:\\/((?:[^\\/]+?)(?:\\/(?:[^\\/]+?))*))\\/$"}],"headers":[]}
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/blog",
+      "regex": "^/blog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog(?:/)?$"
+    },
+    {
+      "page": "/blog-2",
+      "regex": "^/blog\\-2(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog\\-2(?:/)?$"
+    },
+    {
+      "page": "/blog-3",
+      "regex": "^/blog\\-3(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog\\-3(?:/)?$"
+    },
+    {
+      "page": "/blog-details",
+      "regex": "^/blog\\-details(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog\\-details(?:/)?$"
+    },
+    {
+      "page": "/career",
+      "regex": "^/career(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/career(?:/)?$"
+    },
+    {
+      "page": "/career-details",
+      "regex": "^/career\\-details(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/career\\-details(?:/)?$"
+    },
+    {
+      "page": "/comingsoon",
+      "regex": "^/comingsoon(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/comingsoon(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/credit-cards",
+      "regex": "^/credit\\-cards(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/credit\\-cards(?:/)?$"
+    },
+    {
+      "page": "/currency",
+      "regex": "^/currency(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/currency(?:/)?$"
+    },
+    {
+      "page": "/faq",
+      "regex": "^/faq(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/faq(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/index-2",
+      "regex": "^/index\\-2(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/index\\-2(?:/)?$"
+    },
+    {
+      "page": "/index-3",
+      "regex": "^/index\\-3(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/index\\-3(?:/)?$"
+    },
+    {
+      "page": "/index-4",
+      "regex": "^/index\\-4(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/index\\-4(?:/)?$"
+    },
+    {
+      "page": "/project",
+      "regex": "^/project(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/project(?:/)?$"
+    },
+    {
+      "page": "/project-2",
+      "regex": "^/project\\-2(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/project\\-2(?:/)?$"
+    },
+    {
+      "page": "/project-details",
+      "regex": "^/project\\-details(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/project\\-details(?:/)?$"
+    },
+    {
+      "page": "/service",
+      "regex": "^/service(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service(?:/)?$"
+    },
+    {
+      "page": "/service-details",
+      "regex": "^/service\\-details(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-details(?:/)?$"
+    },
+    {
+      "page": "/service-details-10",
+      "regex": "^/service\\-details\\-10(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-details\\-10(?:/)?$"
+    },
+    {
+      "page": "/service-details-11",
+      "regex": "^/service\\-details\\-11(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-details\\-11(?:/)?$"
+    },
+    {
+      "page": "/service-details-12",
+      "regex": "^/service\\-details\\-12(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-details\\-12(?:/)?$"
+    },
+    {
+      "page": "/service-details-13",
+      "regex": "^/service\\-details\\-13(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-details\\-13(?:/)?$"
+    },
+    {
+      "page": "/service-details-14",
+      "regex": "^/service\\-details\\-14(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-details\\-14(?:/)?$"
+    },
+    {
+      "page": "/service-details-15",
+      "regex": "^/service\\-details\\-15(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-details\\-15(?:/)?$"
+    },
+    {
+      "page": "/service-details-16",
+      "regex": "^/service\\-details\\-16(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-details\\-16(?:/)?$"
+    },
+    {
+      "page": "/service-details-17",
+      "regex": "^/service\\-details\\-17(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-details\\-17(?:/)?$"
+    },
+    {
+      "page": "/service-details-18",
+      "regex": "^/service\\-details\\-18(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-details\\-18(?:/)?$"
+    },
+    {
+      "page": "/service-details-2",
+      "regex": "^/service\\-details\\-2(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-details\\-2(?:/)?$"
+    },
+    {
+      "page": "/service-details-3",
+      "regex": "^/service\\-details\\-3(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-details\\-3(?:/)?$"
+    },
+    {
+      "page": "/service-details-4",
+      "regex": "^/service\\-details\\-4(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-details\\-4(?:/)?$"
+    },
+    {
+      "page": "/service-details-5",
+      "regex": "^/service\\-details\\-5(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-details\\-5(?:/)?$"
+    },
+    {
+      "page": "/service-details-6",
+      "regex": "^/service\\-details\\-6(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-details\\-6(?:/)?$"
+    },
+    {
+      "page": "/service-details-7",
+      "regex": "^/service\\-details\\-7(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-details\\-7(?:/)?$"
+    },
+    {
+      "page": "/service-details-8",
+      "regex": "^/service\\-details\\-8(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-details\\-8(?:/)?$"
+    },
+    {
+      "page": "/service-details-9",
+      "regex": "^/service\\-details\\-9(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-details\\-9(?:/)?$"
+    },
+    {
+      "page": "/team",
+      "regex": "^/team(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/team(?:/)?$"
+    },
+    {
+      "page": "/team-details",
+      "regex": "^/team\\-details(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/team\\-details(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

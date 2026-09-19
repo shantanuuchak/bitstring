@@ -10,7 +10,6 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
   <div className="header-top">
     <div className="outer-container">
       <ul className="info-list clearfix">
-      <ul className="info-list clearfix">
         <li>
           <Link href="/about">About Us</Link>
         </li>
@@ -26,21 +25,22 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
           <h5>Social Connect</h5>
         </li>
         <li>
-          <Link href="/">
+          <Link href="https://www.facebook.com/BitStringIT" target="_blank">
             <i className="fa-brands fa-facebook" />
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="https://www.linkedin.com/company/bitstring-it-services" target="_blank">
             <i className="fa-brands fa-linkedin" />
           </Link>
         </li>
         <li>
-          <Link href="/">
-            <i className="fa-brands fa-youtube" />
+          <Link href="https://twitter.com/bitstring_it" target="_blank">
+            <i className="fa-brands fa-twitter" />
           </Link>
         </li>
       </ul>
+
     </div>
   </div>
   {/* header-upper */}
@@ -116,20 +116,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                                         Search
                                     </div>
                                 </div>
-                                <div className="language-box">
-                                    <h5>
-                                        <img src="/assets/images/icons/icon-3.png" alt="" />
-                                        Global:
-                                    </h5>
-                                    <div className="select-box">
-                                        <select className="selectmenu">
-                                            <option value="eng">Eng</option>
-                                            <option value="chinese">Chinese</option>
-                                            <option value="hindi">Hindi</option>
-                                            <option value="turkish">Turkish</option>
-                                        </select>
-                                    </div>
-                                </div>
+
                                 <div className="nav-btn nav-toggler navSidebar-button clearfix"  onClick={handleSidebar}>
                                     <img src="/assets/images/icons/icon-4.png" alt="" />
                                 </div>

@@ -27,9 +27,9 @@ export default function Home() {
                             <h2>Experts in IT Consulting & ServiceNow Solutions</h2>
                             </div>
                             <div className="text-box">
-                            <h3>Serving Clients Since 2015</h3>
+                            <h3>Serving Clients Since 2019</h3>
                             <p>
-                                BitString IT Services Pvt Ltd is an ISO 27001 and ISO 9001 certified technology company providing Information Technology and Consulting Services. We leverage deep functional expertise and over 100 years of combined experience.
+                                We are an ISO 27001 and ISO 9001 certified technology company providing Information Technology and Consulting Services. Our team applies deep functional expertise and over 100 years of combined experience.
                             </p>
                             <div className="btn-box">
                                 <Link href="/contact" className="theme-btn btn-two">
@@ -47,7 +47,7 @@ export default function Home() {
                         <div className="col-lg-4 col-md-12 col-sm-12 inner-column">
                         <div className="inner-box">
                             <p>
-                            Our team brings decades of domain expertise across ServiceNow, cybersecurity, DevOps, and IT consulting — helping clients across industries connect, collaborate, and deliver real value.
+                            Our team brings decades of domain expertise across ServiceNow, cybersecurity, DevOps, and IT consulting. We help clients across industries connect, collaborate, and deliver real value.
                             </p>
                             <div className="single-item">
                             <div className="icon-box">
@@ -55,8 +55,7 @@ export default function Home() {
                             </div>
                             <h3>Our Mission</h3>
                             <p>
-                                It is a long established fact that a reader will distracted by
-                                the content of a page when looking.
+                                We streamline IT operations and align technology with business goals. We focus on practical outcomes that drive growth and efficiency for our clients.
                             </p>
                             </div>
                             <div className="single-item">
@@ -65,12 +64,12 @@ export default function Home() {
                             </div>
                             <h3>Our Vision</h3>
                             <p>
-                                To be the most trusted IT services partner — delivering technology solutions that create lasting business value through innovation, expertise, and integrity.
+                                To be the most trusted IT services partner. We deliver technology solutions that create lasting business value through innovation, expertise, and integrity.
                             </p>
                             <ul className="list-item clearfix">
                                 <li>ISO 27001 & ISO 9001 certified quality</li>
-                                <li>100+ years of combined team experience</li>
-                                <li>Connect :: Collaborate :: Deliver Values</li>
+                                <li>Nearly 7 years of focused IT consulting</li>
+                                <li>Connect, Collaborate, Deliver Values</li>
                             </ul>
                             </div>
                         </div>
@@ -126,11 +125,9 @@ export default function Home() {
                             </div>
                             <div className="text-box">
                             <p>
-                                Ever undertakes labor physical exercise except obtain some
-                                advantage from it? but who has any rights to find fault with man
-                                who pleasure that has no annoying consequences.
+                                Our team constantly updates their skills to master modern IT operations. We focus on integrating ITSM and ITOM to build reliable ServiceOps environments.
                             </p>
-                            <p>Physical exercise except to obtain some advantage,</p>
+                            <p>This allows your organization to automate workflows effectively.</p>
                             </div>
                             <div className="inner-box">
                             <div className="row clearfix">
@@ -377,7 +374,7 @@ export default function Home() {
                                 <img src="assets/images/resource/cart-1.jpg" alt="" />
                                 </figure>
                                 <p>
-                                Let's work together to solve your IT challenges — from ServiceNow implementation to talent provisioning and cybersecurity. We're here to help you succeed.
+                                Partner with us to solve your IT challenges. From ServiceNow implementation to talent provisioning and cybersecurity, we are here to help you succeed.
                                 </p>
                                 <Link href="/contact" className="theme-btn btn-two">
                                 Get In Touch

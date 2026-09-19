@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/home/chak/github/bitstring/app/layout\":[\"static/media/13971731025ec697-s.p.woff2\",\"static/media/3be83a346553616c-s.p.woff2\",\"static/media/a22b1dc24103c00d-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/home/chak/github/bitstring/app/layout":["static/media/de42cfb9a3b980ae-s.p.woff2","static/media/de42cfb9a3b980ae-s.p.woff2","static/media/de42cfb9a3b980ae-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';

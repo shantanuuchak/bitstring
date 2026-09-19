@@ -1,17 +1,5 @@
 <svg width="219" height="40" viewBox="0 0 219 40" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="brand-grad-w" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="100%" stop-color="#e2e8f0" />
-    </linearGradient>
-  </defs>
-  
-  <g transform="translate(2, 5)">
-    <circle cx="15" cy="15" r="11" fill="none" stroke="url(#brand-grad-w)" stroke-width="3"/>
-    <circle cx="15" cy="15" r="4" fill="#ffffff"/>
-    <path d="M 26 15 L 34 15" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
-  </g>
-
-  <text x="44" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="800" fill="#ffffff" letter-spacing="-0.5">Bit</text>
-  <text x="80" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="400" fill="#e2e8f0" letter-spacing="-0.5">String</text>
+  <text x="5" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="700" letter-spacing="-1.5">
+    <tspan fill="#ffffff">bit</tspan><tspan fill="#81B5A1">string</tspan>
+  </text>
 </svg>

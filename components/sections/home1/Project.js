@@ -66,7 +66,7 @@ export default function Project() {
                         }`}
                         onClick={() => handleTabClick("#tab-9")}
                         >
-                        Investment
+                        Cloud & DevOps
                         </li>
                         <li
                         className={`p-tab-btn ${

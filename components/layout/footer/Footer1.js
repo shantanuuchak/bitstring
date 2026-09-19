@@ -103,22 +103,22 @@ export default function Footer1() {
                                 <Link href="/">Home</Link>
                             </li>
                             <li>
-                                <Link href="/">About Us</Link>
+                                <Link href="/about">About Us</Link>
                             </li>
                             <li>
-                                <Link href="/">Professionals</Link>
+                                <Link href="/team">Our Team</Link>
                             </li>
                             <li>
-                                <Link href="/">Insights</Link>
+                                <Link href="/blog">Blog & Insights</Link>
                             </li>
                             <li>
-                                <Link href="/">Services</Link>
+                                <Link href="/#services">Services</Link>
                             </li>
                             <li>
-                                <Link href="/">Why Choose</Link>
+                                <Link href="/about#why-choose">Why Choose Us</Link>
                             </li>
                             <li>
-                                <Link href="/">Get in Touch</Link>
+                                <Link href="/contact">Get in Touch</Link>
                             </li>
                             </ul>
                         </div>
@@ -127,27 +127,27 @@ export default function Footer1() {
                     <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                         <div className="footer-widget links-widget">
                         <div className="widget-title">
-                            <h3>Essentials</h3>
+                            <h3>Services</h3>
                         </div>
                         <div className="widget-content">
                             <ul className="links-list clearfix">
                             <li>
-                                <Link href="/">How it’s Work</Link>
+                                <Link href="/service-details">ITSM</Link>
                             </li>
                             <li>
-                                <Link href="/">Partners</Link>
+                                <Link href="/service-details-2">ITOM</Link>
                             </li>
                             <li>
-                                <Link href="/">Testimonials</Link>
+                                <Link href="/service-details-3">HRSD</Link>
                             </li>
                             <li>
-                                <Link href="/">Case Studies</Link>
+                                <Link href="/service-details-4">ITAM</Link>
                             </li>
                             <li>
-                                <Link href="/">Free Quote</Link>
+                                <Link href="/service-details-5">CSM</Link>
                             </li>
                             <li>
-                                <Link href="/">Plan &amp; Pricing</Link>
+                                <Link href="/service-details-6">GRC</Link>
                             </li>
                             </ul>
                         </div>

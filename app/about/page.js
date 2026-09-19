@@ -24,18 +24,16 @@ export default function Home() {
                         <div className="content-box">
                             <div className="sec-title">
                             <span className="sub-title">About Us</span>
-                            <h2>Experts in Providing Investment Consulting Services</h2>
+                            <h2>Experts in IT Consulting & ServiceNow Solutions</h2>
                             </div>
                             <div className="text-box">
-                            <h3>Service Since 2015</h3>
+                            <h3>Serving Clients Since 2015</h3>
                             <p>
-                                Equal blame belongs to those who fail in their duty through
-                                weakness of will, which is the all same as saying through
-                                shrinking from toil and pain these cases are perfectly.
+                                BitString IT Services Pvt Ltd is an ISO 27001 and ISO 9001 certified technology company providing Information Technology and Consulting Services. We leverage deep functional expertise and over 100 years of combined experience.
                             </p>
                             <div className="btn-box">
-                                <Link href="/about" className="theme-btn btn-two">
-                                Our History
+                                <Link href="/contact" className="theme-btn btn-two">
+                                Get In Touch
                                 </Link>
                             </div>
                             </div>
@@ -49,8 +47,7 @@ export default function Home() {
                         <div className="col-lg-4 col-md-12 col-sm-12 inner-column">
                         <div className="inner-box">
                             <p>
-                            Blinded by desire, that they cannot foresee the pain and trouble
-                            that are bounds to ensure and blame belongs to those who fail.
+                            Our team brings decades of domain expertise across ServiceNow, cybersecurity, DevOps, and IT consulting — helping clients across industries connect, collaborate, and deliver real value.
                             </p>
                             <div className="single-item">
                             <div className="icon-box">
@@ -68,13 +65,12 @@ export default function Home() {
                             </div>
                             <h3>Our Vision</h3>
                             <p>
-                                There are many variations passages of lorem ipsum available, but
-                                the ma- jority have suffered.
+                                To be the most trusted IT services partner — delivering technology solutions that create lasting business value through innovation, expertise, and integrity.
                             </p>
                             <ul className="list-item clearfix">
-                                <li>Tend to repeat predefined</li>
-                                <li>first true generator the Internet</li>
-                                <li>Combined with a handful</li>
+                                <li>ISO 27001 & ISO 9001 certified quality</li>
+                                <li>100+ years of combined team experience</li>
+                                <li>Connect :: Collaborate :: Deliver Values</li>
                             </ul>
                             </div>
                         </div>
@@ -88,8 +84,8 @@ export default function Home() {
                 <section className="chooseus-style-five sec-pad">
                     <div className="auto-container">
                     <div className="sec-title centred light">
-                        <span className="sub-title">Why Coose Us</span>
-                        <h2>Reason for Choosee Counsolve</h2>
+                        <span className="sub-title">Why Choose Us</span>
+                        <h2>Reasons to Partner with BitString IT Services</h2>
                     </div>
                         <TestimonialSlider03 />
                     </div>
@@ -269,45 +265,45 @@ export default function Home() {
                                             <div className={`tab ${activeTab === 'tab-1' ? 'active-tab' : ''}`} id="tab-1">
                                                 <div className="inner-box">
                                                     <h3>Technology & Life Sciences</h3>
-                                                    <p>Pleasure is to be welcomed & every pain avoided in certain circumstances claims of duty obligations.</p>
+                                                    <p>BitString empowers tech and life sciences organizations to modernize their IT operations, accelerate innovation, and ensure compliance through tailored ServiceNow implementations.</p>
                                                     <ul className="list-item clearfix">
-                                                        <li>Denounce with righteous indignation.</li>
-                                                        <li>Belongs to those who fail.</li>
+                                                        <li>ServiceNow ITSM & ITOM implementation</li>
+                                                        <li>Regulatory compliance automation (GRC)</li>
                                                     </ul>
-                                                    <Link href="/" className="theme-btn btn-two">Explore More</Link>
+                                                    <Link href="/contact" className="theme-btn btn-two">Explore More</Link>
                                                 </div>
                                             </div>
                                             <div className={`tab ${activeTab === 'tab-2' ? 'active-tab' : ''}`} id="tab-2">
                                                 <div className="inner-box">
-                                                    <h3>Banking & Financial</h3>
-                                                    <p>Pleasure is to be welcomed & every pain avoided in certain circumstances claims of duty obligations.</p>
+                                                    <h3>Banking & Financial Services</h3>
+                                                    <p>We help banking and financial institutions streamline operations, strengthen security posture, and automate governance through integrated IT platforms.</p>
                                                     <ul className="list-item clearfix">
-                                                        <li>Denounce with righteous indignation.</li>
-                                                        <li>Belongs to those who fail.</li>
+                                                        <li>GRC & compliance management on ServiceNow</li>
+                                                        <li>Cybersecurity assessments & ISO 27001 alignment</li>
                                                     </ul>
-                                                    <Link href="/" className="theme-btn btn-two">Explore More</Link>
+                                                    <Link href="/contact" className="theme-btn btn-two">Explore More</Link>
                                                 </div>
                                             </div>
                                             <div className={`tab ${activeTab === 'tab-3' ? 'active-tab' : ''}`} id="tab-3">
                                                 <div className="inner-box">
                                                     <h3>Commercial Real Estate</h3>
-                                                    <p>Pleasure is to be welcomed & every pain avoided in certain circumstances claims of duty obligations.</p>
+                                                    <p>BitString supports real estate enterprises in digitizing their IT workflows, managing field service operations, and delivering responsive tenant and employee experiences.</p>
                                                     <ul className="list-item clearfix">
-                                                        <li>Denounce with righteous indignation.</li>
-                                                        <li>Belongs to those who fail.</li>
+                                                        <li>ITSM for facilities & asset management</li>
+                                                        <li>CSM for tenant service portals</li>
                                                     </ul>
-                                                    <Link href="/" className="theme-btn btn-two">Explore More</Link>
+                                                    <Link href="/contact" className="theme-btn btn-two">Explore More</Link>
                                                 </div>
                                             </div>
                                             <div className={`tab ${activeTab === 'tab-4' ? 'active-tab' : ''}`} id="tab-4">
                                                 <div className="inner-box">
                                                     <h3>Manufacturing</h3>
-                                                    <p>Pleasure is to be welcomed & every pain avoided in certain circumstances claims of duty obligations.</p>
+                                                    <p>We help manufacturing companies reduce downtime and drive operational efficiency by connecting IT, OT, and asset management in a unified ServiceNow platform.</p>
                                                     <ul className="list-item clearfix">
-                                                        <li>Denounce with righteous indignation.</li>
-                                                        <li>Belongs to those who fail.</li>
+                                                        <li>ITOM for infrastructure visibility</li>
+                                                        <li>ITAM for asset lifecycle management</li>
                                                     </ul>
-                                                    <Link href="/" className="theme-btn btn-two">Explore More</Link>
+                                                    <Link href="/contact" className="theme-btn btn-two">Explore More</Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -352,7 +348,7 @@ export default function Home() {
                         </figure>
                         <div className="phone">
                         <h4>
-                            Call: <Link href="tel:41888765432">(+41) 888.76.5432</Link>
+                            Call: <Link href="tel:02069011184">(020) 69011184</Link>
                         </h4>
                         </div>
                     </div>
@@ -362,9 +358,9 @@ export default function Home() {
                         </figure>
                         <div className="text-box">
                         <h6>
-                            Do you Have <br />
-                            any idea to Join <br />
-                            With Us
+                            Ready to <br />
+                            Transform <br />
+                            Your IT?
                         </h6>
                         </div>
                     </div>
@@ -373,19 +369,18 @@ export default function Home() {
                         <div className="col-lg-8 col-md-12 col-sm-12 offset-lg-2 content-column">
                             <div className="content-box">
                             <h2>
-                                Believe us when <br />
-                                it comes to investment
+                                Connect with BitString <br />
+                                and Deliver Real Value
                             </h2>
                             <div className="inner-box">
                                 <figure className="image-box">
                                 <img src="assets/images/resource/cart-1.jpg" alt="" />
                                 </figure>
                                 <p>
-                                The moment, so blinded by desire, that they cannot foresee and
-                                trouble that are bound to ensue.
+                                Let's work together to solve your IT challenges — from ServiceNow implementation to talent provisioning and cybersecurity. We're here to help you succeed.
                                 </p>
-                                <Link href="/index-3" className="theme-btn btn-two">
-                                Send Request
+                                <Link href="/contact" className="theme-btn btn-two">
+                                Get In Touch
                                 </Link>
                             </div>
                             </div>

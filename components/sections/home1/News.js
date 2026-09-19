@@ -20,20 +20,20 @@ export default function News() {
                 >
                     <div className="inner-box">
                     <div className="upper-box">
-                        <span className="category">Investment</span>
+                        <span className="category">ServiceNow</span>
                         <ul className="post-info clearfix">
                         <li>
-                            <span>On</span> Mar 14, 2023
+                            <span>On</span> Mar 14, 2024
                         </li>
                         <li>
                             <span>By</span>{" "}
-                            <Link href="/blog-details">Justin Langer</Link>
+                            <Link href="/blog">BitString Team</Link>
                         </li>
                         </ul>
                     </div>
                     <div className="image-box">
                         <figure className="image">
-                        <Link href="/blog-details">
+                        <Link href="/blog">
                             <img src="assets/images/news/news-1.jpg" alt="" />
                         </Link>
                         </figure>
@@ -49,12 +49,12 @@ export default function News() {
                     </div>
                     <div className="lower-box">
                         <h3>
-                        <Link href="/blog-details">
-                            Revisiting Your Investment &amp; Distribution Goals
+                        <Link href="/blog">
+                            How ITSM Transforms IT Operations for Modern Enterprises
                         </Link>
                         </h3>
                         <div className="link">
-                        <Link href="/blog-details">
+                        <Link href="/blog">
                             <span>Explore More</span>
                         </Link>
                         </div>
@@ -70,19 +70,19 @@ export default function News() {
                 >
                     <div className="inner-box">
                     <div className="upper-box">
-                        <span className="category">Business</span>
+                        <span className="category">Cybersecurity</span>
                         <ul className="post-info clearfix">
                         <li>
-                            <span>On</span> Feb 26, 2023
+                            <span>On</span> Feb 26, 2024
                         </li>
                         <li>
-                            <span>By</span> <Link href="/blog-details">Colmin Neil</Link>
+                            <span>By</span> <Link href="/blog">BitString Team</Link>
                         </li>
                         </ul>
                     </div>
                     <div className="image-box">
                         <figure className="image">
-                        <Link href="/blog-details">
+                        <Link href="/blog">
                             <img src="assets/images/news/news-2.jpg" alt="" />
                         </Link>
                         </figure>
@@ -98,12 +98,12 @@ export default function News() {
                     </div>
                     <div className="lower-box">
                         <h3>
-                        <Link href="/blog-details">
-                            Dimensional Fund Advisors Interview with Director
+                        <Link href="/blog">
+                            Building a Resilient Cybersecurity Strategy in 2024
                         </Link>
                         </h3>
                         <div className="link">
-                        <Link href="/blog-details">
+                        <Link href="/blog">
                             <span>Explore More</span>
                         </Link>
                         </div>
@@ -119,20 +119,20 @@ export default function News() {
                 >
                     <div className="inner-box">
                     <div className="upper-box">
-                        <span className="category">Financial Plan</span>
+                        <span className="category">Talent</span>
                         <ul className="post-info clearfix">
                         <li>
-                            <span>On</span> Feb 05, 2023
+                            <span>On</span> Feb 05, 2024
                         </li>
                         <li>
                             <span>By</span>{" "}
-                            <Link href="/blog-details">Boone Gerardo</Link>
+                            <Link href="/blog">BitString Team</Link>
                         </li>
                         </ul>
                     </div>
                     <div className="image-box">
                         <figure className="image">
-                        <Link href="/blog-details">
+                        <Link href="/blog">
                             <img src="assets/images/news/news-3.jpg" alt="" />
                         </Link>
                         </figure>
@@ -148,12 +148,12 @@ export default function News() {
                     </div>
                     <div className="lower-box">
                         <h3>
-                        <Link href="/blog-details">
-                            Interested in Giving Back this year? Here are some tips
+                        <Link href="/blog">
+                            Why the Right IT Talent is Critical to Your Digital Transformation
                         </Link>
                         </h3>
                         <div className="link">
-                        <Link href="/blog-details">
+                        <Link href="/blog">
                             <span>Explore More</span>
                         </Link>
                         </div>

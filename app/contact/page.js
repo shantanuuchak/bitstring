@@ -41,24 +41,24 @@ export default function Home() {
                                             <div className="icon-box">
                                             <i className="flaticon-chat-2" />
                                             </div>
-                                            <h6>Phone</h6>
-                                            <p>
-                                            Finance: <Link href="tel:80098765432">800.98.76.5432</Link>{" "}
-                                            <br />
-                                            Operation:{" "}
-                                            <Link href="tel:4188822333">(+41) 888.22.333</Link>
-                                            </p>
-                                        </div>
-                                        <div className="single-item">
-                                            <div className="icon-box">
-                                            <i className="flaticon-mail" />
-                                            </div>
-                                            <h6>Email</h6>
-                                            <p>
-                                            <Link href="mailto:sendmail@example.com">
-                                                sendmail@example.com
-                                            </Link>
-                                            </p>
+                                             <h6>Phone</h6>
+                                             <p>
+                                             India: <Link href="tel:02069011184">(020) 69011184</Link>{" "}
+                                             <br />
+                                             USA:{" "}
+                                             <Link href="tel:9494246646">(949) 424-6646</Link>
+                                             </p>
+                                         </div>
+                                         <div className="single-item">
+                                             <div className="icon-box">
+                                             <i className="flaticon-mail" />
+                                             </div>
+                                             <h6>Email</h6>
+                                             <p>
+                                             <Link href="mailto:connect@bitstringit.com">
+                                                 connect@bitstringit.com
+                                             </Link>
+                                             </p>
                                         </div>
                                         <div className="link">
                                             <Link href="/contact">
@@ -84,24 +84,24 @@ export default function Home() {
                                             <div className="icon-box">
                                             <i className="flaticon-location-1" />
                                             </div>
-                                            <h6>Address</h6>
-                                            <p>
-                                            280 Granite Run Drive Suite <br />
-                                            Hobert, LA 90010, USA.
-                                            </p>
-                                        </div>
-                                        <div className="single-item">
-                                            <div className="icon-box">
-                                            <i className="flaticon-time-management" />
-                                            </div>
-                                            <h6>Off. Hours</h6>
-                                            <p>Mon - Sat: 9am to 6pm</p>
-                                        </div>
-                                        <div className="link">
-                                            <Link href="https://www.google.com/maps" target="_blank">
-                                            <span>View On Map</span>
-                                            </Link>
-                                        </div>
+                                             <h6>Address</h6>
+                                             <p>
+                                             A-304, Nyati Empress, Vimamnagar <br />
+                                             Pune, Maharashtra - 411014, India
+                                             </p>
+                                         </div>
+                                         <div className="single-item">
+                                             <div className="icon-box">
+                                             <i className="flaticon-time-management" />
+                                             </div>
+                                             <h6>Off. Hours</h6>
+                                             <p>Mon - Sat: 9am to 6pm</p>
+                                         </div>
+                                         <div className="link">
+                                             <Link href="https://maps.google.com/?q=A-304,+Nyati+Empress,+Vimamnagar,+Pune,+Maharashtra+411014" target="_blank">
+                                             <span>View On Map</span>
+                                             </Link>
+                                         </div>
                                         </div>
                                     </div>
                                     </div>
@@ -161,12 +161,17 @@ export default function Home() {
                                         <div className="col-lg-12 col-md-12 col-sm-12 form-group">
                                             <label>Are you interested in?</label>
                                             <div className="select-box">
-                                            <select className="selectmenu">
-                                                <option value="traditional-consulting">Traditional Consulting</option>
-                                                <option value="portfolio-management">Portfolio Management</option>
-                                                <option value="asset-allocation">Asset Allocation</option>
-                                                <option value="risk-management">Risk Management</option>
-                                            </select>
+                                             <select className="selectmenu">
+                                                 <option value="servicenow-consulting">ServiceNow Consulting</option>
+                                                 <option value="itsm">ITSM Implementation</option>
+                                                 <option value="itom">ITOM Implementation</option>
+                                                 <option value="hrsd">HRSD Implementation</option>
+                                                 <option value="grc">GRC Implementation</option>
+                                                 <option value="talent-provisioning">Talent Provisioning</option>
+                                                 <option value="cybersecurity">Cybersecurity</option>
+                                                 <option value="devops-cloud">DevOps & Cloud</option>
+                                                 <option value="other">Other</option>
+                                             </select>
                                             </div>
                                         </div>
                                         <div className="col-lg-12 col-md-12 col-sm-12 form-group">

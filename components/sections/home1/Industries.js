@@ -77,45 +77,45 @@ export default function Industries() {
                                     <div className={`tab ${activeTab === 'tab-1' ? 'active-tab' : ''}`} id="tab-1">
                                         <div className="inner-box">
                                             <h3>Technology & Life Sciences</h3>
-                                            <p>Pleasure is to be welcomed & every pain avoided in certain circumstances claims of duty obligations.</p>
+                                            <p>BitString empowers tech and life sciences organizations to modernize their IT operations, accelerate innovation, and ensure compliance through tailored ServiceNow implementations.</p>
                                             <ul className="list-item clearfix">
-                                                <li>Denounce with righteous indignation.</li>
-                                                <li>Belongs to those who fail.</li>
+                                                <li>ServiceNow ITSM & ITOM implementation</li>
+                                                <li>Regulatory compliance automation (GRC)</li>
                                             </ul>
-                                            <Link href="/" className="theme-btn btn-two">Explore More</Link>
+                                            <Link href="/contact" className="theme-btn btn-two">Explore More</Link>
                                         </div>
                                     </div>
                                     <div className={`tab ${activeTab === 'tab-2' ? 'active-tab' : ''}`} id="tab-2">
                                         <div className="inner-box">
-                                            <h3>Banking & Financial</h3>
-                                            <p>Pleasure is to be welcomed & every pain avoided in certain circumstances claims of duty obligations.</p>
+                                            <h3>Banking & Financial Services</h3>
+                                            <p>We help banking and financial institutions streamline operations, strengthen security posture, and automate governance through integrated IT platforms.</p>
                                             <ul className="list-item clearfix">
-                                                <li>Denounce with righteous indignation.</li>
-                                                <li>Belongs to those who fail.</li>
+                                                <li>GRC & compliance management on ServiceNow</li>
+                                                <li>Cybersecurity assessments & ISO 27001 alignment</li>
                                             </ul>
-                                            <Link href="/" className="theme-btn btn-two">Explore More</Link>
+                                            <Link href="/contact" className="theme-btn btn-two">Explore More</Link>
                                         </div>
                                     </div>
                                     <div className={`tab ${activeTab === 'tab-3' ? 'active-tab' : ''}`} id="tab-3">
                                         <div className="inner-box">
                                             <h3>Commercial Real Estate</h3>
-                                            <p>Pleasure is to be welcomed & every pain avoided in certain circumstances claims of duty obligations.</p>
+                                            <p>BitString supports real estate enterprises in digitizing their IT workflows, managing field service operations, and delivering responsive tenant and employee experiences.</p>
                                             <ul className="list-item clearfix">
-                                                <li>Denounce with righteous indignation.</li>
-                                                <li>Belongs to those who fail.</li>
+                                                <li>ITSM for facilities & asset management</li>
+                                                <li>CSM for tenant service portals</li>
                                             </ul>
-                                            <Link href="/" className="theme-btn btn-two">Explore More</Link>
+                                            <Link href="/contact" className="theme-btn btn-two">Explore More</Link>
                                         </div>
                                     </div>
                                     <div className={`tab ${activeTab === 'tab-4' ? 'active-tab' : ''}`} id="tab-4">
                                         <div className="inner-box">
                                             <h3>Manufacturing</h3>
-                                            <p>Pleasure is to be welcomed & every pain avoided in certain circumstances claims of duty obligations.</p>
+                                            <p>We help manufacturing companies reduce downtime and drive operational efficiency by connecting IT, OT, and asset management in a unified ServiceNow platform.</p>
                                             <ul className="list-item clearfix">
-                                                <li>Denounce with righteous indignation.</li>
-                                                <li>Belongs to those who fail.</li>
+                                                <li>ITOM for infrastructure visibility</li>
+                                                <li>ITAM for asset lifecycle management</li>
                                             </ul>
-                                            <Link href="/" className="theme-btn btn-two">Explore More</Link>
+                                            <Link href="/contact" className="theme-btn btn-two">Explore More</Link>
                                         </div>
                                     </div>
                                 </div>

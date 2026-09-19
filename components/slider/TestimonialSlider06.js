@@ -69,16 +69,14 @@ export default function TestimonialSlider06() {
                         <div className="icon-box">
                             <i className="flaticon-quote" />
                         </div>
-                        <h4>Great Experience!</h4>
+                        <h4>Outstanding ServiceNow Delivery!</h4>
                         <p>
-                            I have been financially advised by counsolve investment
-                            Planners since 2022 I have had a very good experience.
-                            The sound financial advice they gave me helped me to
-                            achieve.
+                            BitString implemented our ITSM module ahead of schedule and with zero disruption to our operations.
+                            Their certified team understood our workflows deeply and delivered a solution that exceeded expectations.
                         </p>
-                        <h3>Nathan Felix</h3>
+                        <h3>Rahul Sharma</h3>
                         <span className="designation">
-                            Director - Naxly Info tech
+                            VP of IT Operations - Schoolnet India
                         </span>
                         </div>
                     </div>
@@ -97,16 +95,14 @@ export default function TestimonialSlider06() {
                       <div className="icon-box">
                         <i className="flaticon-quote" />
                       </div>
-                      <h4>Great Experience!</h4>
+                      <h4>Trusted IT Partner</h4>
                       <p>
-                        I have been financially advised by counsolve investment
-                        Planners since 2022 I have had a very good experience.
-                        The sound financial advice they gave me helped me to
-                        achieve.
+                        From discovery to go-live, BitString was a true partner. Their expertise in ServiceNow GRC helped us
+                        achieve compliance readiness 40% faster than our previous timeline.
                       </p>
-                      <h3>Nathan Felix</h3>
+                      <h3>Priya Nair</h3>
                       <span className="designation">
-                        Director - Naxly Info tech
+                        Head of Compliance - Hadron Technologies
                       </span>
                     </div>
                   </div>
@@ -125,16 +121,14 @@ export default function TestimonialSlider06() {
                       <div className="icon-box">
                         <i className="flaticon-quote" />
                       </div>
-                      <h4>Great Experience!</h4>
+                      <h4>Expert Talent, Zero Ramp-Up Time</h4>
                       <p>
-                        I have been financially advised by counsolve investment
-                        Planners since 2022 I have had a very good experience.
-                        The sound financial advice they gave me helped me to
-                        achieve.
+                        We engaged BitString for talent provisioning and had certified ServiceNow developers on-board within a week.
+                        The quality and professionalism of their consultants is truly best-in-class.
                       </p>
-                      <h3>Nathan Felix</h3>
+                      <h3>Arjun Mehta</h3>
                       <span className="designation">
-                        Director - Naxly Info tech
+                        CTO - Successive Digital
                       </span>
                     </div>
                   </div>

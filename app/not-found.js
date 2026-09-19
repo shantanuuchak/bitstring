@@ -1,8 +1,10 @@
 import Link from "next/link"
+import Layout from "@/components/layout/Layout"
+
 export default function Error404() {
 
     return (
-        <>
+        <Layout headerStyle={1} footerStyle={1}>
             {/* error-section */}
             <section className="error-section centred">
                     <div className="scroll-text">
@@ -42,6 +44,6 @@ export default function Error404() {
                     </div>
                 </section>
               {/* error-section end */}
-        </>
+        </Layout>
     )
 }

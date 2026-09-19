@@ -44,7 +44,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                     <Link href="/" onClick={handleMobileMenu}>Home</Link>
                                 </li>
                                 <li className={isActive.key == 3 ? "dropdown current" : "dropdown"}>
-                                    <Link href="/service" onClick={handleMobileMenu}>Services</Link>
+                                    <Link href="/services" onClick={handleMobileMenu}>Services</Link>
                                     <ul style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
                                         <li className={isActive.subMenuKey == 1 ? "dropdown current" : "dropdown"}>
                                             <Link href="#" onClick={(e) => { e.preventDefault(); handleToggle(3, 1); }}>ServiceNow Consulting</Link>

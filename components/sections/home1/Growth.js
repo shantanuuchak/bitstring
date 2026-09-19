@@ -1,3 +1,4 @@
+
 import Link from "next/link"
 import Brand from "@/components/slider/Brand"
 export default function Growth() {
@@ -19,29 +20,29 @@ export default function Growth() {
                     <img src="assets/images/resource/growth-1.png" alt="" />
                   </figure>
                   <div className="sec-title light">
-                    <span className="sub-title">Our Growth</span>
+                    <span className="sub-title">Our Expertise</span>
                     <h2>
-                      Thinking <br />
-                      Beyond Ordinary <br />
-                      Strategies
+                      100+ Years <br />
+                      of Combined <br />
+                      IT Experience
                     </h2>
                   </div>
                   <div className="text-box">
                     <p>
-                      The wise man therefore always holds in these <br />
-                      matters to this principle of selection.
+                      Our team of domain experts brings decades of experience <br />
+                      across ServiceNow, cybersecurity, cloud, and IT consulting.
                     </p>
-                    <Link href="/" className="theme-btn btn-two">
-                      <span>Annual Report</span>
+                    <Link href="/about" className="theme-btn btn-two">
+                      <span>About BitString</span>
                     </Link>
                   </div>
                   <div className="progress-box">
-                    <h5>Monthly Growth</h5>
+                    <h5>Client Satisfaction</h5>
                     <div className="progress-inner">
-                      <h5>$48,560,25</h5>
+                      <h5>Trusted by Leading Enterprises</h5>
                       <div className="bar">
-                        <div className="bar-inner count-bar" data-percent="60%" />
-                        <div className="count-text">+18%</div>
+                        <div className="bar-inner count-bar" data-percent="95%" />
+                        <div className="count-text">95%</div>
                       </div>
                     </div>
                   </div>
@@ -52,17 +53,17 @@ export default function Growth() {
                   <div className="growth-block-one">
                     <div className="inner-box">
                       <h3>
-                        <Link href="/">Global Impact</Link>
+                        <Link href="/services/itsm">ServiceNow Excellence</Link>
                       </h3>
                       <p>
-                        Ever undertakes labor physic exercise except some advantage.
+                        Full-spectrum ServiceNow services from ITSM to GRC — implemented by certified experts.
                       </p>
                       <div className="icon-box">
                         <i className="flaticon-development" />
                       </div>
                       <div className="link-box">
-                        <Link href="/">
-                          <span>Read More</span>
+                        <Link href="/services/itsm">
+                          <span>Explore Services</span>
                         </Link>
                       </div>
                     </div>
@@ -70,18 +71,17 @@ export default function Growth() {
                   <div className="growth-block-one">
                     <div className="inner-box">
                       <h3>
-                        <Link href="/">Corporate Sustainability</Link>
+                        <Link href="/career">Talent Provisioning</Link>
                       </h3>
                       <p>
-                        Take a trivial example, which of ever laborious too obtain
-                        some.
+                        Get the right professionals with the precise skills and certifications your projects demand.
                       </p>
                       <div className="icon-box">
                         <i className="flaticon-strategy" />
                       </div>
                       <div className="link-box">
-                        <Link href="/">
-                          <span>Read More</span>
+                        <Link href="/career">
+                          <span>Learn More</span>
                         </Link>
                       </div>
                     </div>
@@ -94,8 +94,8 @@ export default function Growth() {
             <Brand />
             <div className="more-text centred">
               <h5>
-                2.6k Companies &amp; Individuals Trusted Us.{" "}
-                <Link href="/">
+                Trusted by Schoolnet, Hadron, Successive Digital, Infosys & more.{" "}
+                <Link href="/about">
                   <i className="flaticon-right-chevron" />
                   View All Clients
                 </Link>

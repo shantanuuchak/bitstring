@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 
 export default function Chooseus() {
@@ -11,8 +12,8 @@ export default function Chooseus() {
           </span>
           <div className="auto-container">
             <div className="sec-title centred">
-              <span className="sub-title">Why Coose Us</span>
-              <h2>Reason for Choosee Counsolve</h2>
+              <span className="sub-title">Why Choose Us</span>
+              <h2>Reasons to Partner with BitString IT Services</h2>
             </div>
             <div className="row align-items-center">
               <div className="col-lg-4 col-md-6 col-sm-12 left-column">
@@ -23,14 +24,12 @@ export default function Chooseus() {
                         <i className="flaticon-knowledge" />
                       </div>
                       <div className="static-content">
-                        <h3>Extensive Knowledge</h3>
-                        <p>Foresee the pain trouble all that rationally encounter</p>
+                        <h3>Deep Domain Expertise</h3>
+                        <p>20+ years of industry experience across IT & ServiceNow</p>
                       </div>
                       <div className="overlay-content">
                         <p>
-                          Foresee the pain trouble all that rationally encounter to
-                          the claims of the obligations of business it will frequently
-                          occur.
+                          Our team brings over two decades of hands-on experience across ServiceNow modules, cybersecurity, and cloud — giving you expertise you can rely on.
                         </p>
                       </div>
                     </div>
@@ -41,14 +40,12 @@ export default function Chooseus() {
                         <i className="flaticon-united" />
                       </div>
                       <div className="static-content">
-                        <h3>Team Approach</h3>
-                        <p>How all this mistaken idea any denouncing pleasure</p>
+                        <h3>Collaborative Approach</h3>
+                        <p>Connect :: Collaborate :: Deliver Values</p>
                       </div>
                       <div className="overlay-content">
                         <p>
-                          How all this mistaken idea any denouncing pleasure to the
-                          claims of the obligations of business it will frequently
-                          occur.
+                          We work closely alongside your team to understand your unique challenges and co-create solutions that drive lasting value.
                         </p>
                       </div>
                     </div>
@@ -59,14 +56,12 @@ export default function Chooseus() {
                         <i className="flaticon-clock" />
                       </div>
                       <div className="static-content">
-                        <h3>Time Savings</h3>
-                        <p>Actual teachings of the great it explorer of the truth</p>
+                        <h3>Faster Time-to-Value</h3>
+                        <p>Efficient delivery from Day 1 to go-live</p>
                       </div>
                       <div className="overlay-content">
                         <p>
-                          Actual teachings of the great it explorer of the truth to
-                          the claims of the obligations of business it will frequently
-                          occur.
+                          With proven delivery frameworks and certified professionals, we accelerate your ServiceNow implementations without compromising quality.
                         </p>
                       </div>
                     </div>
@@ -91,14 +86,12 @@ export default function Chooseus() {
                         <i className="flaticon-risk-management" />
                       </div>
                       <div className="static-content">
-                        <h3>Risk Management</h3>
-                        <p>One rejects, dislikes, or avoids pleasure all itself</p>
+                        <h3>ISO Certified Quality</h3>
+                        <p>ISO 27001 & ISO 9001 certified operations</p>
                       </div>
                       <div className="overlay-content">
                         <p>
-                          One rejects, dislikes, or avoids pleasure all itself to the
-                          claims of the obligations of business it will frequently
-                          occur.
+                          Our dual ISO certifications reflect our commitment to information security management and consistent, high-quality service delivery.
                         </p>
                       </div>
                     </div>
@@ -109,14 +102,12 @@ export default function Chooseus() {
                         <i className="flaticon-monitor" />
                       </div>
                       <div className="static-content">
-                        <h3>Advanced Tech</h3>
-                        <p>Rationally encounter that are consequences extremely</p>
+                        <h3>ServiceNow Specialists</h3>
+                        <p>End-to-end ServiceNow implementation & support</p>
                       </div>
                       <div className="overlay-content">
                         <p>
-                          Rationally encounter that are consequences extremely to the
-                          claims of the obligations of business it will frequently
-                          occur.
+                          From ITSM to GRC, we cover the full ServiceNow ecosystem — implementation, customization, and ongoing managed support.
                         </p>
                       </div>
                     </div>
@@ -127,14 +118,12 @@ export default function Chooseus() {
                         <i className="flaticon-advice" />
                       </div>
                       <div className="static-content">
-                        <h3>Customized Advice</h3>
-                        <p>How all this mistaken idea of denouncing pleasure</p>
+                        <h3>Right Talent, Right Time</h3>
+                        <p>Skilled professionals delivered on-demand</p>
                       </div>
                       <div className="overlay-content">
                         <p>
-                          How all this mistaken idea of denouncing pleasure to the
-                          claims of the obligations of business it will frequently
-                          occur.
+                          Our talent provisioning service ensures you get certified, experienced professionals with precisely the skills your project demands.
                         </p>
                       </div>
                     </div>
@@ -146,6 +135,5 @@ export default function Chooseus() {
         </section>
         {/* chooseus-section end */}
         </>
-      
     );
 }

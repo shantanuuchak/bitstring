@@ -1,3 +1,4 @@
+
 import Link from "next/link"
 
 
@@ -8,8 +9,8 @@ export default function Working() {
         <section className="working-section centred">
             <div className="auto-container">
             <div className="sec-title">
-                <span className="sub-title">How we works</span>
-                <h2>We Plan for your Growth</h2>
+                <span className="sub-title">How We Work</span>
+                <h2>Our Engagement Process</h2>
             </div>
             <div className="inner-content">
                 <div
@@ -29,10 +30,9 @@ export default function Working() {
                         </div>
                         </div>
                         <div className="lower-content">
-                        <h3>Appointment</h3>
+                        <h3>Discovery & Consultation</h3>
                         <p>
-                            That they cannot foresee the pain trouble that are bound
-                            ensue equal blame of business .
+                            We start by deeply understanding your business challenges, goals, and IT landscape.
                         </p>
                         <h2>
                             01 <span>st step</span>
@@ -53,10 +53,9 @@ export default function Working() {
                         </div>
                         </div>
                         <div className="lower-content">
-                        <h3>Know Client Needs</h3>
+                        <h3>Solution Design</h3>
                         <p>
-                            Pursue pleasure rational all counter consequence that
-                            extremely painful duty or the obligations.
+                            We craft a tailored ServiceNow or technology solution aligned to your specific requirements.
                         </p>
                         <h2>
                             02 <span>nd step</span>
@@ -77,10 +76,9 @@ export default function Working() {
                         </div>
                         </div>
                         <div className="lower-content">
-                        <h3>Market Research</h3>
+                        <h3>Implement & Deliver</h3>
                         <p>
-                            Takes a trivial example, which ever it undertake laborios
-                            physical exercise secure other greater.
+                            Our certified experts implement, test, and hand over a solution that drives measurable results.
                         </p>
                         <h2>
                             03 <span>rd step</span>
@@ -93,10 +91,10 @@ export default function Working() {
             </div>
             <div className="more-text centred">
                 <h5>
-                Start Investing with Smart Ideas.{" "}
-                <Link href="/">
+                Ready to Transform Your IT Operations?{" "}
+                <Link href="/contact">
                     <i className="flaticon-right-chevron" />
-                    Appointment
+                    Schedule a Consultation
                 </Link>
                 </h5>
             </div>

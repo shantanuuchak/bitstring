@@ -38,8 +38,7 @@ export default function Footer1() {
                         </div>
                         <h3>Newsletter</h3>
                         <p>
-                            By submitting this form, you consent to receive marketing
-                            updates from Counsolve.
+                            Stay updated with the latest IT insights and news from BitString.
                         </p>
                         <div className="form-inner">
                             <form method="post" action="/contact">
@@ -83,7 +82,7 @@ export default function Footer1() {
                             </div>
                             <h6>
                                 <Link
-                                href="https://www.google.com/maps/@23.235815,89.5731704,17.1z"
+                                href="https://maps.google.com/?q=A-304,+Nyati+Empress,+Vimamnagar,+Pune,+Maharashtra+411014"
                                 target="_blank"
                                 >
                                 Google Map
@@ -161,24 +160,24 @@ export default function Footer1() {
                         </div>
                         <div className="post-inner">
                             <div className="post">
-                            <span className="category">Investment</span>
+                            <span className="category">ServiceNow</span>
                             <h4>
-                                <Link href="/blog-details">
-                                Revisiting Your Investment &amp; Distribution Goals
+                                <Link href="/blog">
+                                How ITSM Transforms IT Operations for Enterprises
                                 </Link>
                             </h4>
                             </div>
                             <div className="post">
-                            <span className="category">Business</span>
+                            <span className="category">Cybersecurity</span>
                             <h4>
-                                <Link href="/blog-details">
-                                Dimensional Fund Advisors Interview with Director
+                                <Link href="/blog">
+                                Building a Resilient Cybersecurity Strategy in 2024
                                 </Link>
                             </h4>
                             </div>
                             <div className="link-box">
                             <Link href="/blog">
-                                <span>View All Post</span>
+                                <span>View All Posts</span>
                             </Link>
                             </div>
                         </div>
@@ -201,7 +200,7 @@ export default function Footer1() {
                         <Link href="/">Sitemap</Link>
                         </li>
                         <li>
-                        <Link href="/">Investor Policy</Link>
+                        <Link href="/contact">Contact Us</Link>
                         </li>
                     </ul>
                     <a className="scroll-to-top scroll-to-target d-block" href="#top">

@@ -25,16 +25,13 @@ const swiperOptions = {
         el: '.swiper-pagination',
         clickable: true,
     },
-
-
-
 }
 
 export default function Banner() {
     return (
         <>
             <section className="banner-section p_relative">
-                <Swiper {...swiperOptions} className="banner-carousel">                    
+                <Swiper {...swiperOptions} className="banner-carousel">
                     <SwiperSlide className="slide-item p_relative">
                     <div
                         className="image-layer"
@@ -43,18 +40,17 @@ export default function Banner() {
                     <div className="auto-container">
                         <div className="content-box">
                         <h2>
-                            Showing <span>You the way</span> of Success
+                            We Provide <span>Solutions</span> To Your IT Needs
                         </h2>
                         <div className="lower-box">
                             <div className="icon-box">
                             <i className="flaticon-conversation" />
                             </div>
                             <div className="text">
-                            The moment, so blinded by desire, that they cannot foresee and trouble
-                            that are bound to ensue.
+                            ISO 27001 & ISO 9001 certified. Experience you can trust — technology that delivers.
                             </div>
-                            <Link href="/" className="theme-btn btn-two">
-                            Services &amp; Plan
+                            <Link href="/about" className="theme-btn btn-two">
+                            Our Services
                             </Link>
                         </div>
                         </div>
@@ -68,18 +64,17 @@ export default function Banner() {
                         <div className="auto-container">
                             <div className="content-box">
                             <h2>
-                                Business <span>&amp; Individual</span> Consulting!..
+                                ServiceNow <span>Consulting</span> & Implementation
                             </h2>
                             <div className="lower-box">
                                 <div className="icon-box">
                                 <i className="flaticon-conversation" />
                                 </div>
                                 <div className="text">
-                                On the other hand, we denounce with righteous indignation and dislike
-                                men who are so beguiled &amp; demoralized.
+                                From ITSM to HRSD — we implement, customize, and optimize your ServiceNow ecosystem for maximum value.
                                 </div>
-                                <Link href="/" className="theme-btn btn-two">
-                                Services &amp; Plan
+                                <Link href="/contact" className="theme-btn btn-two">
+                                Get In Touch
                                 </Link>
                             </div>
                             </div>
@@ -93,24 +88,22 @@ export default function Banner() {
                         <div className="auto-container">
                             <div className="content-box">
                             <h2>
-                                Ideas for <span>Your Better</span> Investment!..
+                                Connect <span>::</span> Collaborate <span>::</span> Deliver Values
                             </h2>
                             <div className="lower-box">
                                 <div className="icon-box">
                                 <i className="flaticon-conversation" />
                                 </div>
                                 <div className="text">
-                                The moment, so blinded by desire, that they cannot foresee and trouble
-                                that are bound to ensue.
+                                Over 100 years of combined expertise helping businesses transform through technology and talent.
                                 </div>
-                                <Link href="/" className="theme-btn btn-two">
-                                Services &amp; Plan
+                                <Link href="/contact" className="theme-btn btn-two">
+                                Start a Conversation
                                 </Link>
                             </div>
                             </div>
                         </div>
                     </SwiperSlide>
-                   
                 </Swiper>
 
             </section>

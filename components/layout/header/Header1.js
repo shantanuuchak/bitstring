@@ -10,17 +10,15 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
   <div className="header-top">
     <div className="outer-container">
       <ul className="info-list clearfix">
+      <ul className="info-list clearfix">
         <li>
-          <Link href="/">News &amp; Media</Link>
+          <Link href="/about">About Us</Link>
         </li>
         <li>
-          <Link href="/">Investors</Link>
+          <Link href="/career">Careers</Link>
         </li>
         <li>
-          <Link href="/">Downloads</Link>
-        </li>
-        <li>
-          <Link href="/">Career</Link>
+          <Link href="/contact">Contact</Link>
         </li>
       </ul>
       <ul className="social-links clearfix">
@@ -34,12 +32,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
         </li>
         <li>
           <Link href="/">
-            <i className="fa-brands fa-square-twitter" />
-          </Link>
-        </li>
-        <li>
-          <Link href="/">
-            <i className="fa-solid fa-basketball" />
+            <i className="fa-brands fa-linkedin" />
           </Link>
         </li>
         <li>
@@ -64,8 +57,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
             <img src="assets/images/icons/award-1.png" alt="" />
           </div>
           <h5>
-            Leading providers of investment <br />
-            advisory solutions.
+            ISO 27001 & ISO 9001 <br />
+            Certified IT Services.
           </h5>
         </div>
       </div>
@@ -83,12 +76,12 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
         </div>
         <div className="phone">
           <h3>
-            <Link href="tel:4188822333">(+41) 888.22.333</Link>
+            <Link href="tel:02069011184">(020) 69011184</Link>
           </h3>
         </div>
         <div className="btn-box">
-          <Link href="/" className="theme-btn btn-one">
-            Start Consult
+          <Link href="/contact" className="theme-btn btn-one">
+            Get In Touch
           </Link>
         </div>
       </div>

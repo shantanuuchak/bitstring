@@ -54,7 +54,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
         </figure>
         <div className="award-box">
           <div className="award-image" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <i className="fa-solid fa-certificate" style={{ fontSize: '40px', color: '#0052cc' }} />
+            <i className="fa-solid fa-certificate spin-slow" style={{ fontSize: '40px', color: '#0052cc' }} />
           </div>
           <h5>
             ISO 27001 & ISO 9001 <br />

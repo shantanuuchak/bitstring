@@ -17840,3 +17840,11 @@ button.ltr {
     100% { background-position: 0% 50%; }
 }
 
+
+.spin-slow {
+    animation: slowRotate 20s linear infinite !important;
+}
+@keyframes slowRotate {
+    100% { transform: rotate(360deg); }
+}
+

@@ -12,7 +12,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSide
                     <div className="left-column">
                         <figure className="logo-box">
                         <Link href="/index-4">
-                            <img src="assets/images/logo-7.png" alt="" />
+                            <img src="/assets/images/logo-7.png" alt="" />
                         </Link>
                         </figure>
                         <ul className="links-list clearfix">
@@ -83,7 +83,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSide
                     <div className="outer-container">
                     <div className="outer-box">
                         <div className="nav-btn nav-toggler navSidebar-button clearfix" onClick={handleSidebar}>
-                        <img src="assets/images/icons/icon-24.png" alt="" />
+                        <img src="/assets/images/icons/icon-24.png" alt="" />
                         </div>
                         <div className="menu-area">
                         {/*Mobile Navigation Toggler*/}
@@ -103,7 +103,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSide
                         </div>
                         <div className="search-box">
                         <div className="search-box-outer search-toggler" onClick={handlePopup}>
-                            <img src="assets/images/icons/icon-25.png" alt="" />
+                            <img src="/assets/images/icons/icon-25.png" alt="" />
                         </div>
                         </div>
                     </div>
@@ -117,7 +117,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSide
                     <div className="outer-container">
                     <div className="outer-box">
                         <div className="nav-btn nav-toggler navSidebar-button clearfix" onClick={handleSidebar}>
-                        <img src="assets/images/icons/icon-24.png" alt="" />
+                        <img src="/assets/images/icons/icon-24.png" alt="" />
                         </div>
                         <div className="menu-area">
                         {/*Mobile Navigation Toggler*/}
@@ -137,7 +137,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSide
                         </div>
                         <div className="search-box">
                         <div className="search-box-outer search-toggler" onClick={handlePopup}>
-                            <img src="assets/images/icons/icon-25.png" alt="" />
+                            <img src="/assets/images/icons/icon-25.png" alt="" />
                         </div>
                         </div>
                     </div>

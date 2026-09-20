@@ -7,7 +7,7 @@ export default function Team() {
       <section className="team-style-two">
         <div
           className="pattern-layer"
-          style={{ backgroundImage: "url(assets/images/shape/shape-37.png)" }}
+          style={{ backgroundImage: "url(/assets/images/shape/shape-37.png)" }}
         />
         <div className="auto-container">
           <div className="sec-title centred">

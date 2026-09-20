@@ -22,7 +22,7 @@ export default function News() {
                         <h6>Investment</h6>
                         <figure className="image">
                         <Link href="blog-details">
-                            <img src="assets/images/news/news-6.jpg" alt="" />
+                            <img src="/assets/images/news/news-6.jpg" alt="" />
                         </Link>
                         </figure>
                         <div className="view-btn">
@@ -36,7 +36,7 @@ export default function News() {
                         </div>
                         <div className="author-box">
                         <figure className="thumb-box">
-                            <img src="assets/images/news/thumb-1.png" alt="" />
+                            <img src="/assets/images/news/thumb-1.png" alt="" />
                         </figure>
                         <h5>Colmin Neil</h5>
                         <ul className="post-info clearfix">
@@ -68,7 +68,7 @@ export default function News() {
                         <h6>Business</h6>
                         <figure className="image">
                         <Link href="blog-details">
-                            <img src="assets/images/news/news-7.jpg" alt="" />
+                            <img src="/assets/images/news/news-7.jpg" alt="" />
                         </Link>
                         </figure>
                         <div className="view-btn">
@@ -82,7 +82,7 @@ export default function News() {
                         </div>
                         <div className="author-box">
                         <figure className="thumb-box">
-                            <img src="assets/images/news/thumb-1.png" alt="" />
+                            <img src="/assets/images/news/thumb-1.png" alt="" />
                         </figure>
                         <h5>Colmin Neil</h5>
                         <ul className="post-info clearfix">
@@ -114,7 +114,7 @@ export default function News() {
                     <div className="inner-box">
                         <figure className="image-box">
                         <Link href="blog-details">
-                            <img src="assets/images/news/post-4.jpg" alt="" />
+                            <img src="/assets/images/news/post-4.jpg" alt="" />
                         </Link>
                         </figure>
                         <h5>Feb 05, 2023</h5>
@@ -130,7 +130,7 @@ export default function News() {
                     <div className="inner-box">
                         <figure className="image-box">
                         <Link href="blog-details">
-                            <img src="assets/images/news/post-5.jpg" alt="" />
+                            <img src="/assets/images/news/post-5.jpg" alt="" />
                         </Link>
                         </figure>
                         <h5>Jan 28, 2023</h5>
@@ -147,7 +147,7 @@ export default function News() {
                     <div className="inner-box">
                         <figure className="image-box">
                         <Link href="blog-details">
-                            <img src="assets/images/news/post-6.jpg" alt="" />
+                            <img src="/assets/images/news/post-6.jpg" alt="" />
                         </Link>
                         </figure>
                         <h5>Jan 14, 2023</h5>

@@ -10,7 +10,7 @@ export default function Testimonial() {
                 <div className="outer-container">
                 <div
                     className="pattern-layer"
-                    style={{ backgroundImage: "url(assets/images/shape/shape-16.png)" }}
+                    style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}
                 />
                 <span className="big-text">Praise</span>
                 <div className="auto-container">
@@ -22,7 +22,7 @@ export default function Testimonial() {
                     <li>
                     <div className="single-item">
                         <figure className="image">
-                        <img src="assets/images/resource/thumb-1.jpg" alt="" />
+                        <img src="/assets/images/resource/thumb-1.jpg" alt="" />
                         </figure>
                     </div>
                     </li>
@@ -37,7 +37,7 @@ export default function Testimonial() {
                     <li>
                     <div className="single-item">
                         <figure className="image">
-                        <img src="assets/images/resource/thumb-2.jpg" alt="" />
+                        <img src="/assets/images/resource/thumb-2.jpg" alt="" />
                         </figure>
                     </div>
                     </li>
@@ -52,14 +52,14 @@ export default function Testimonial() {
                     <li>
                     <div className="single-item">
                         <figure className="image">
-                        <img src="assets/images/resource/thumb-3.jpg" alt="" />
+                        <img src="/assets/images/resource/thumb-3.jpg" alt="" />
                         </figure>
                     </div>
                     </li>
                     <li>
                     <div className="single-item">
                         <figure className="image">
-                        <img src="assets/images/resource/thumb-4.jpg" alt="" />
+                        <img src="/assets/images/resource/thumb-4.jpg" alt="" />
                         </figure>
                     </div>
                     </li>

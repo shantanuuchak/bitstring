@@ -42,14 +42,14 @@ export default function Home() {
                                 <div className="image_block_two">
                                 <div className="image-box">
                                     <div className="image-shape">
-                                    <div className="shape-1" style={{ backgroundImage: 'url(assets/images/shape/shape-11.png)' }}></div>
-                                    <div className="shape-2" style={{ backgroundImage: 'url(assets/images/shape/shape-11.png)' }}></div>
+                                    <div className="shape-1" style={{ backgroundImage: 'url(/assets/images/shape/shape-11.png)' }}></div>
+                                    <div className="shape-2" style={{ backgroundImage: 'url(/assets/images/shape/shape-11.png)' }}></div>
                                     </div>
                                     <div className="row clearfix">
                                     <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                         <div className="image-inner">
                                         <figure className="image mb_30">
-                                            <img src="assets/images/resource/about-2.jpg" alt="" />
+                                            <img src="/assets/images/resource/about-2.jpg" alt="" />
                                         </figure>
                                         <div className="experience-box">
                                             <h2>
@@ -62,7 +62,7 @@ export default function Home() {
                                     <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                         <div className="image-inner">
                                         <figure className="image pt_115">
-                                            <img src="assets/images/resource/about-3.jpg" alt="" />
+                                            <img src="/assets/images/resource/about-3.jpg" alt="" />
                                         </figure>
                                         </div>
                                     </div>
@@ -77,7 +77,7 @@ export default function Home() {
 
                     {/* Career-section  */}
                      <section className="career-section pt_120 pb_90">
-                        <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/career-bg.jpg)' }}></div>
+                        <div className="bg-layer" style={{ backgroundImage: 'url(/assets/images/background/career-bg.jpg)' }}></div>
                         <div className="auto-container">
                             <div className="sec-title centred mb_70">
                             <h6>Current Jobs</h6>
@@ -87,7 +87,7 @@ export default function Home() {
                                 <div className="career-block-one">
                                     <div className="inner-box">
                                     <div className="author-box">
-                                        <figure className="thumb-box"><img src="assets/images/resource/career-1.jpg" alt="" /></figure>
+                                        <figure className="thumb-box"><img src="/assets/images/resource/career-1.jpg" alt="" /></figure>
                                         <div className="text-box">
                                         <h3>ServiceNow Technical Consultant</h3>
                                         <span className="designation">IT Consulting Department</span>
@@ -105,7 +105,7 @@ export default function Home() {
                                 <div className="career-block-one">
                                     <div className="inner-box">
                                     <div className="author-box">
-                                        <figure className="thumb-box"><img src="assets/images/resource/career-2.jpg" alt="" /></figure>
+                                        <figure className="thumb-box"><img src="/assets/images/resource/career-2.jpg" alt="" /></figure>
                                         <div className="text-box">
                                         <h3>ITSM Implementation Specialist</h3>
                                         <span className="designation">ITSM Department</span>
@@ -123,7 +123,7 @@ export default function Home() {
                                 <div className="career-block-one">
                                     <div className="inner-box">
                                     <div className="author-box">
-                                        <figure className="thumb-box"><img src="assets/images/resource/career-3.jpg" alt="" /></figure>
+                                        <figure className="thumb-box"><img src="/assets/images/resource/career-3.jpg" alt="" /></figure>
                                         <div className="text-box">
                                         <h3>ITOM Solution Architect</h3>
                                         <span className="designation">ITOM Department</span>
@@ -141,7 +141,7 @@ export default function Home() {
                                 <div className="career-block-one">
                                     <div className="inner-box">
                                     <div className="author-box">
-                                        <figure className="thumb-box"><img src="assets/images/resource/career-4.jpg" alt="" /></figure>
+                                        <figure className="thumb-box"><img src="/assets/images/resource/career-4.jpg" alt="" /></figure>
                                         <div className="text-box">
                                         <h3>Cybersecurity Analyst</h3>
                                         <span className="designation">Security Department</span>
@@ -159,7 +159,7 @@ export default function Home() {
                                 <div className="career-block-one">
                                     <div className="inner-box">
                                     <div className="author-box">
-                                        <figure className="thumb-box"><img src="assets/images/resource/career-5.jpg" alt="" /></figure>
+                                        <figure className="thumb-box"><img src="/assets/images/resource/career-5.jpg" alt="" /></figure>
                                         <div className="text-box">
                                         <h3>HRSD Developer</h3>
                                         <span className="designation">HRSD Department</span>
@@ -181,7 +181,7 @@ export default function Home() {
 
                     {/* subscribe-section */}
                         <section className="subscribe-section">
-                            <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+                            <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                             <div className="auto-container">
                                 <div className="row align-items-center">
                                 <div className="col-lg-6 col-md-12 col-sm-12 text-column">

@@ -7,7 +7,7 @@ export default function Chooseus() {
         <section className="chooseus-style-three">
           <div
             className="pattern-layer"
-            style={{ backgroundImage: "url(assets/images/shape/shape-27.png)" }}
+            style={{ backgroundImage: "url(/assets/images/shape/shape-27.png)" }}
           />
           <div className="auto-container">
             <div className="sec-title centred">

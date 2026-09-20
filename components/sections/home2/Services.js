@@ -9,7 +9,7 @@ export default function service() {
         <section className="service-style-two sec-pad">
             <div
             className="pattern-layer"
-            style={{ backgroundImage: "url(assets/images/shape/shape-14.png)" }}
+            style={{ backgroundImage: "url(/assets/images/shape/shape-14.png)" }}
             />
             <div className="auto-container">
             <div className="sec-title centred light">

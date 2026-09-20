@@ -19,14 +19,14 @@ export default function Home() {
                                 <div
                                 className="image-shape"
                                 style={{
-                                    backgroundImage: "url(assets/images/shape/shape-44.png)"
+                                    backgroundImage: "url(/assets/images/shape/shape-44.png)"
                                 }}
                                 />
                                 <figure className="image image-1">
-                                <img src="assets/images/resource/about-2.jpg" alt="" />
+                                <img src="/assets/images/resource/about-2.jpg" alt="" />
                                 </figure>
                                 <figure className="image image-2">
-                                <img src="assets/images/resource/about-3.jpg" alt="" />
+                                <img src="/assets/images/resource/about-3.jpg" alt="" />
                                 </figure>
                                 <div className="image-content">
                                 <h6>Feb’2023</h6>
@@ -68,7 +68,7 @@ export default function Home() {
                         <div className="outer-container sec-pad">
                         <div
                             className="pattern-layer"
-                            style={{ backgroundImage: "url(assets/images/shape/shape-45.png)" }}
+                            style={{ backgroundImage: "url(/assets/images/shape/shape-45.png)" }}
                         />
                         <div className="auto-container">
                             <div className="sec-title centred light">
@@ -187,35 +187,35 @@ export default function Home() {
                             <li>
                                 <figure className="clients-logo">
                                 <Link href="/index-2">
-                                    <img src="assets/images/clients/clients-11.png" alt="" />
+                                    <img src="/assets/images/clients/clients-11.png" alt="" />
                                 </Link>
                                 </figure>
                             </li>
                             <li>
                                 <figure className="clients-logo">
                                 <Link href="/index-2">
-                                    <img src="assets/images/clients/clients-12.png" alt="" />
+                                    <img src="/assets/images/clients/clients-12.png" alt="" />
                                 </Link>
                                 </figure>
                             </li>
                             <li>
                                 <figure className="clients-logo">
                                 <Link href="/index-2">
-                                    <img src="assets/images/clients/clients-13.png" alt="" />
+                                    <img src="/assets/images/clients/clients-13.png" alt="" />
                                 </Link>
                                 </figure>
                             </li>
                             <li>
                                 <figure className="clients-logo">
                                 <Link href="/index-2">
-                                    <img src="assets/images/clients/clients-14.png" alt="" />
+                                    <img src="/assets/images/clients/clients-14.png" alt="" />
                                 </Link>
                                 </figure>
                             </li>
                             <li>
                                 <figure className="clients-logo">
                                 <Link href="/index-2">
-                                    <img src="assets/images/clients/clients-15.png" alt="" />
+                                    <img src="/assets/images/clients/clients-15.png" alt="" />
                                 </Link>
                                 </figure>
                             </li>
@@ -224,35 +224,35 @@ export default function Home() {
                             <li>
                                 <figure className="clients-logo">
                                 <Link href="/index-2">
-                                    <img src="assets/images/clients/clients-16.png" alt="" />
+                                    <img src="/assets/images/clients/clients-16.png" alt="" />
                                 </Link>
                                 </figure>
                             </li>
                             <li>
                                 <figure className="clients-logo">
                                 <Link href="/index-2">
-                                    <img src="assets/images/clients/clients-17.png" alt="" />
+                                    <img src="/assets/images/clients/clients-17.png" alt="" />
                                 </Link>
                                 </figure>
                             </li>
                             <li>
                                 <figure className="clients-logo">
                                 <Link href="/index-2">
-                                    <img src="assets/images/clients/clients-18.png" alt="" />
+                                    <img src="/assets/images/clients/clients-18.png" alt="" />
                                 </Link>
                                 </figure>
                             </li>
                             <li>
                                 <figure className="clients-logo">
                                 <Link href="/index-2">
-                                    <img src="assets/images/clients/clients-19.png" alt="" />
+                                    <img src="/assets/images/clients/clients-19.png" alt="" />
                                 </Link>
                                 </figure>
                             </li>
                             <li>
                                 <figure className="clients-logo">
                                 <Link href="/index-2">
-                                    <img src="assets/images/clients/clients-20.png" alt="" />
+                                    <img src="/assets/images/clients/clients-20.png" alt="" />
                                 </Link>
                                 </figure>
                             </li>
@@ -293,7 +293,7 @@ export default function Home() {
                                 </div>
                                 <div className="author-box">
                                 <figure className="author-thumb">
-                                    <img src="assets/images/resource/author-1.png" alt="" />
+                                    <img src="/assets/images/resource/author-1.png" alt="" />
                                 </figure>
                                 <h3>Roman Harry</h3>
                                 <span className="designation">Advisor</span>
@@ -389,11 +389,11 @@ export default function Home() {
                         <div className="outer-container">
                         <div
                             className="pattern-layer"
-                            style={{ backgroundImage: "url(assets/images/shape/shape-25.png)" }}
+                            style={{ backgroundImage: "url(/assets/images/shape/shape-25.png)" }}
                         />
                         <div className="image-box-one">
                             <figure className="image">
-                            <img src="assets/images/resource/cta-1.jpg" alt="" />
+                            <img src="/assets/images/resource/cta-1.jpg" alt="" />
                             </figure>
                             <div className="phone">
                             <h4>
@@ -403,7 +403,7 @@ export default function Home() {
                         </div>
                         <div className="image-box-two">
                             <figure className="image">
-                            <img src="assets/images/resource/cta-2.jpg" alt="" />
+                            <img src="/assets/images/resource/cta-2.jpg" alt="" />
                             </figure>
                             <div className="text-box">
                             <h6>
@@ -423,7 +423,7 @@ export default function Home() {
                                 </h2>
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/resource/cart-1.jpg" alt="" />
+                                    <img src="/assets/images/resource/cart-1.jpg" alt="" />
                                     </figure>
                                     <p>
                                     The moment, so blinded by desire, that they cannot foresee and

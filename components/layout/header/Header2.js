@@ -46,7 +46,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                     <div className="outer-box">
                         <figure className="logo-box">
                         <Link href="/">
-                            <img src="assets/images/logo-3.png" alt="" />
+                            <img src="/assets/images/logo-3.png" alt="" />
                         </Link>
                         </figure>
                         <div className="menu-area">
@@ -67,14 +67,14 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="menu-right-content">
                             <div className="support-box">
                             <button>
-                                <img src="assets/images/icons/icon-12.png" alt="" />
+                                <img src="/assets/images/icons/icon-12.png" alt="" />
                                 Consult
                                 <span>with our experts</span>
                             </button>
                             </div>
                             <div className="search-box">
                             <div className="search-box-outer search-toggler" onClick={handlePopup}>
-                                <img src="assets/images/icons/icon-2.png" alt="" />
+                                <img src="/assets/images/icons/icon-2.png" alt="" />
                                 Search
                             </div>
                             </div>
@@ -96,7 +96,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                             </li>
                             </ul>
                             <div className="nav-btn nav-toggler navSidebar-button clearfix" onClick={handleSidebar}>
-                            <img src="assets/images/icons/icon-14.png" alt="" />
+                            <img src="/assets/images/icons/icon-14.png" alt="" />
                             </div>
                         </div>
                         </div>
@@ -113,7 +113,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                     <div className="outer-box">
                         <figure className="logo-box">
                         <Link href="/">
-                            <img src="assets/images/logo-3.png" alt="" />
+                            <img src="/assets/images/logo-3.png" alt="" />
                         </Link>
                         </figure>
                         <div className="menu-area">
@@ -134,14 +134,14 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="menu-right-content">
                             <div className="support-box">
                             <button>
-                                <img src="assets/images/icons/icon-12.png" alt="" />
+                                <img src="/assets/images/icons/icon-12.png" alt="" />
                                 Consult
                                 <span>with our experts</span>
                             </button>
                             </div>
                             <div className="search-box">
                             <div className="search-box-outer search-toggler" onClick={handlePopup}>
-                                <img src="assets/images/icons/icon-2.png" alt="" />
+                                <img src="/assets/images/icons/icon-2.png" alt="" />
                                 Search
                             </div>
                             </div>
@@ -163,7 +163,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                             </li>
                             </ul>
                             <div className="nav-btn nav-toggler navSidebar-button clearfix" onClick={handleSidebar}>
-                            <img src="assets/images/icons/icon-14.png" alt="" />
+                            <img src="/assets/images/icons/icon-14.png" alt="" />
                             </div>
                         </div>
                         </div>

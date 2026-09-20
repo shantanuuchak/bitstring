@@ -61,7 +61,7 @@ export default function TestimonialSlider12() {
                     <div className="inner-box">
                     <div className="image-box">
                         <figure className="image">
-                        <img src="assets/images/project/project-8.jpg" alt="" />
+                        <img src="/assets/images/project/project-8.jpg" alt="" />
                         </figure>
                         <div className="view-btn">
                         <Link
@@ -100,7 +100,7 @@ export default function TestimonialSlider12() {
                     <div className="inner-box">
                     <div className="image-box">
                         <figure className="image">
-                        <img src="assets/images/project/project-9.jpg" alt="" />
+                        <img src="/assets/images/project/project-9.jpg" alt="" />
                         </figure>
                         <div className="view-btn">
                         <Link
@@ -139,7 +139,7 @@ export default function TestimonialSlider12() {
                     <div className="inner-box">
                     <div className="image-box">
                         <figure className="image">
-                        <img src="assets/images/project/project-8.jpg" alt="" />
+                        <img src="/assets/images/project/project-8.jpg" alt="" />
                         </figure>
                         <div className="view-btn">
                         <Link
@@ -178,7 +178,7 @@ export default function TestimonialSlider12() {
                     <div className="inner-box">
                     <div className="image-box">
                         <figure className="image">
-                        <img src="assets/images/project/project-9.jpg" alt="" />
+                        <img src="/assets/images/project/project-9.jpg" alt="" />
                         </figure>
                         <div className="view-btn">
                         <Link

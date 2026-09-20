@@ -7,7 +7,7 @@ export default function Footer4() {
       <section className="footer-style-four">
         <div
           className="pattern-layer"
-          style={{ backgroundImage: "url(assets/images/shape/shape-43.png)" }}
+          style={{ backgroundImage: "url(/assets/images/shape/shape-43.png)" }}
         />
         <div className="auto-container">
           <div className="widget-section">
@@ -16,7 +16,7 @@ export default function Footer4() {
                 <div className="footer-widget logo-widget">
                   <figure className="footer-logo">
                     <Link href="/index-4">
-                      <img src="assets/images/logo-7.png" alt="" />
+                      <img src="/assets/images/logo-7.png" alt="" />
                     </Link>
                   </figure>
                   <p>

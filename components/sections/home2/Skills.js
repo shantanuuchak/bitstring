@@ -11,10 +11,10 @@ export default function Skills() {
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                 <div className="image-box">
                     <figure className="image image-1">
-                    <img src="assets/images/resource/skills-1.jpg" alt="" />
+                    <img src="/assets/images/resource/skills-1.jpg" alt="" />
                     </figure>
                     <figure className="image image-2">
-                    <img src="assets/images/resource/skills-2.jpg" alt="" />
+                    <img src="/assets/images/resource/skills-2.jpg" alt="" />
                     </figure>
                     <div className="chart-box">
                     <h3>Total Product</h3>
@@ -22,13 +22,13 @@ export default function Skills() {
                     <h2>3,456</h2>
                     <h4>+25% per week</h4>
                     <div className="graph">
-                        <img src="assets/images/icons/graph-1.png" alt="" />
+                        <img src="/assets/images/icons/graph-1.png" alt="" />
                     </div>
                     </div>
                     <div
                     className="image-shape"
                     style={{
-                        backgroundImage: "url(assets/images/shape/shape-15.png)"
+                        backgroundImage: "url(/assets/images/shape/shape-15.png)"
                     }}
                     />
                 </div>

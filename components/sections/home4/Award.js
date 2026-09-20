@@ -7,11 +7,11 @@ export default function Award() {
       <section className="award-section centred">
         <div
           className="bg-layer"
-          style={{ backgroundImage: "url(assets/images/background/award-bg.jpg)" }}
+          style={{ backgroundImage: "url(/assets/images/background/award-bg.jpg)" }}
         />
         <div
           className="pattern-layer"
-          style={{ backgroundImage: "url(assets/images/shape/shape-37.png)" }}
+          style={{ backgroundImage: "url(/assets/images/shape/shape-37.png)" }}
         />
         <div className="auto-container">
           <div className="content-box">
@@ -20,13 +20,13 @@ export default function Award() {
                 <div
                   className="arrow-1"
                   style={{
-                    backgroundImage: "url(assets/images/shape/shape-40.png)"
+                    backgroundImage: "url(/assets/images/shape/shape-40.png)"
                   }}
                 />
                 <div
                   className="arrow-2"
                   style={{
-                    backgroundImage: "url(assets/images/shape/shape-41.png)"
+                    backgroundImage: "url(/assets/images/shape/shape-41.png)"
                   }}
                 />
               </div>
@@ -34,7 +34,7 @@ export default function Award() {
                 <div
                   className="shape"
                   style={{
-                    backgroundImage: "url(assets/images/shape/shape-39.png)"
+                    backgroundImage: "url(/assets/images/shape/shape-39.png)"
                   }}
                 />
                 <div className="inner-box">
@@ -53,7 +53,7 @@ export default function Award() {
                 <div
                   className="shape"
                   style={{
-                    backgroundImage: "url(assets/images/shape/shape-39.png)"
+                    backgroundImage: "url(/assets/images/shape/shape-39.png)"
                   }}
                 />
                 <div className="inner-box">

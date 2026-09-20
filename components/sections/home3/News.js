@@ -28,7 +28,7 @@ export default function News() {
                         <div className="image-box">
                         <figure className="image">
                             <Link href="/blog-details">
-                            <img src="assets/images/news/news-4.jpg" alt="" />
+                            <img src="/assets/images/news/news-4.jpg" alt="" />
                             </Link>
                         </figure>
                         <h6>Investment</h6>
@@ -70,7 +70,7 @@ export default function News() {
                         <div className="image-box">
                         <figure className="image">
                             <Link href="/blog-details">
-                            <img src="assets/images/news/news-5.jpg" alt="" />
+                            <img src="/assets/images/news/news-5.jpg" alt="" />
                             </Link>
                         </figure>
                         <h6>Business</h6>

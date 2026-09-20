@@ -60,7 +60,7 @@ export default function TestimonialSlider07() {
                 <div className="project-block-one">
                     <div className="inner-box">
                       <figure className="image-box">
-                        <img src="assets/images/project/project-1.jpg" alt="" />
+                        <img src="/assets/images/project/project-1.jpg" alt="" />
                       </figure>
                       <div className="content-inner">
                         <div className="text-box">
@@ -84,7 +84,7 @@ export default function TestimonialSlider07() {
                 <div className="project-block-one">
                     <div className="inner-box">
                       <figure className="image-box">
-                        <img src="assets/images/project/project-2.jpg" alt="" />
+                        <img src="/assets/images/project/project-2.jpg" alt="" />
                       </figure>
                       <div className="content-inner">
                         <div className="text-box">
@@ -108,7 +108,7 @@ export default function TestimonialSlider07() {
                 <div className="project-block-one">
                     <div className="inner-box">
                       <figure className="image-box">
-                        <img src="assets/images/project/project-3.jpg" alt="" />
+                        <img src="/assets/images/project/project-3.jpg" alt="" />
                       </figure>
                       <div className="content-inner">
                         <div className="text-box">
@@ -132,7 +132,7 @@ export default function TestimonialSlider07() {
                 <div className="project-block-one">
                     <div className="inner-box">
                       <figure className="image-box">
-                        <img src="assets/images/project/project-4.jpg" alt="" />
+                        <img src="/assets/images/project/project-4.jpg" alt="" />
                       </figure>
                       <div className="content-inner">
                         <div className="text-box">
@@ -156,7 +156,7 @@ export default function TestimonialSlider07() {
                 <div className="project-block-one">
                     <div className="inner-box">
                       <figure className="image-box">
-                        <img src="assets/images/project/project-1.jpg" alt="" />
+                        <img src="/assets/images/project/project-1.jpg" alt="" />
                       </figure>
                       <div className="content-inner">
                         <div className="text-box">
@@ -180,7 +180,7 @@ export default function TestimonialSlider07() {
                 <div className="project-block-one">
                     <div className="inner-box">
                       <figure className="image-box">
-                        <img src="assets/images/project/project-2.jpg" alt="" />
+                        <img src="/assets/images/project/project-2.jpg" alt="" />
                       </figure>
                       <div className="content-inner">
                         <div className="text-box">
@@ -204,7 +204,7 @@ export default function TestimonialSlider07() {
                 <div className="project-block-one">
                     <div className="inner-box">
                       <figure className="image-box">
-                        <img src="assets/images/project/project-3.jpg" alt="" />
+                        <img src="/assets/images/project/project-3.jpg" alt="" />
                       </figure>
                       <div className="content-inner">
                         <div className="text-box">
@@ -228,7 +228,7 @@ export default function TestimonialSlider07() {
                 <div className="project-block-one">
                     <div className="inner-box">
                       <figure className="image-box">
-                        <img src="assets/images/project/project-4.jpg" alt="" />
+                        <img src="/assets/images/project/project-4.jpg" alt="" />
                       </figure>
                       <div className="content-inner">
                         <div className="text-box">

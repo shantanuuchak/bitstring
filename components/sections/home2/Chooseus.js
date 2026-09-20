@@ -16,7 +16,7 @@ export default function Chooseus() {
                     <div
                     className="bg-layer"
                     style={{
-                        backgroundImage: "url(assets/images/background/chooseus-bg.jpg)"
+                        backgroundImage: "url(/assets/images/background/chooseus-bg.jpg)"
                     }}
                     />
                     <div className="inner-content clearfix">

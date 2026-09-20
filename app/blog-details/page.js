@@ -16,7 +16,7 @@ export default function Home() {
             <div className="content-one">
               <div className="author-post">
                 <figure className="author-thumb">
-                  <img src="assets/images/news/thumb-2.jpg" alt="" />
+                  <img src="/assets/images/news/thumb-2.jpg" alt="" />
                 </figure>
                 <h6>Business</h6>
                 <ul className="post-info clearfix">
@@ -56,7 +56,7 @@ export default function Home() {
                 </p>
               </div>
               <figure className="image-box">
-                <img src="assets/images/news/news-21.jpg" alt="" />
+                <img src="/assets/images/news/news-21.jpg" alt="" />
               </figure>
             </div>
             <div className="content-two">
@@ -117,7 +117,7 @@ export default function Home() {
                 <ul className="tags-list clearfix">
                   <li>
                     <h5>
-                      <img src="assets/images/icons/icon-33.png" alt="" />
+                      <img src="/assets/images/icons/icon-33.png" alt="" />
                       Post Tags:
                     </h5>
                   </li>
@@ -135,7 +135,7 @@ export default function Home() {
             </div>
             <div className="author-box">
               <figure className="author-thumb">
-                <img src="assets/images/news/author-1.jpg" alt="" />
+                <img src="/assets/images/news/author-1.jpg" alt="" />
               </figure>
               <h6>Post By</h6>
               <h3>Colmin Neil</h3>
@@ -267,7 +267,7 @@ export default function Home() {
                       required=""
                     />
                     <button type="submit">
-                      <img src="assets/images/icons/icon-32.png" alt="" />
+                      <img src="/assets/images/icons/icon-32.png" alt="" />
                     </button>
                   </div>
                 </form>
@@ -320,7 +320,7 @@ export default function Home() {
                 <div className="post">
                   <figure className="post-thumb">
                     <Link href="/blog-details">
-                      <img src="assets/images/news/post-7.jpg" alt="" />
+                      <img src="/assets/images/news/post-7.jpg" alt="" />
                     </Link>
                   </figure>
                   <h6>Financial Plan</h6>
@@ -333,7 +333,7 @@ export default function Home() {
                 <div className="post">
                   <figure className="post-thumb">
                     <Link href="/blog-details">
-                      <img src="assets/images/news/post-8.jpg" alt="" />
+                      <img src="/assets/images/news/post-8.jpg" alt="" />
                     </Link>
                   </figure>
                   <h6>Management</h6>
@@ -347,7 +347,7 @@ export default function Home() {
                 <div className="post">
                   <figure className="post-thumb">
                     <Link href="/blog-details">
-                      <img src="assets/images/news/post-9.jpg" alt="" />
+                      <img src="/assets/images/news/post-9.jpg" alt="" />
                     </Link>
                   </figure>
                   <h6>Technology</h6>
@@ -404,10 +404,10 @@ export default function Home() {
           </div>
           <div className="support-widget">
             <div className="icon-box">
-              <img src="assets/images/icons/icon-31.png" alt="" />
+              <img src="/assets/images/icons/icon-31.png" alt="" />
             </div>
             <figure className="image-box">
-              <img src="assets/images/resource/support-1.jpg" alt="" />
+              <img src="/assets/images/resource/support-1.jpg" alt="" />
             </figure>
             <span className="big-text">Counsolve</span>
             <h3>
@@ -429,11 +429,11 @@ export default function Home() {
     <div className="outer-container">
       <div
         className="pattern-layer"
-        style={{ backgroundImage: "url(assets/images/shape/shape-25.png)" }}
+        style={{ backgroundImage: "url(/assets/images/shape/shape-25.png)" }}
       />
       <div className="image-box-one">
         <figure className="image">
-          <img src="assets/images/resource/cta-1.jpg" alt="" />
+          <img src="/assets/images/resource/cta-1.jpg" alt="" />
         </figure>
         <div className="phone">
           <h4>
@@ -443,7 +443,7 @@ export default function Home() {
       </div>
       <div className="image-box-two">
         <figure className="image">
-          <img src="assets/images/resource/cta-2.jpg" alt="" />
+          <img src="/assets/images/resource/cta-2.jpg" alt="" />
         </figure>
         <div className="text-box">
           <h6>
@@ -463,7 +463,7 @@ export default function Home() {
               </h2>
               <div className="inner-box">
                 <figure className="image-box">
-                  <img src="assets/images/resource/cart-1.jpg" alt="" />
+                  <img src="/assets/images/resource/cart-1.jpg" alt="" />
                 </figure>
                 <p>
                   The moment, so blinded by desire, that they cannot foresee and

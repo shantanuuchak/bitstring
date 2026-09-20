@@ -18,7 +18,7 @@ export default function Home() {
                                     <div className="service-details-content">
                                         <div className="content-one">
                                             <figure className="image-box">
-                                                <img src="assets/images/service/service-8.jpg" alt="" />
+                                                <img src="/assets/images/service/service-8.jpg" alt="" />
                                             </figure>
                                             <div className="text-box">
                                                 <h2>Traditional Consulting</h2>
@@ -248,10 +248,10 @@ export default function Home() {
                                         </div>
                                         <div className="support-widget">
                                             <div className="icon-box">
-                                                <img src="assets/images/icons/icon-31.png" alt="" />
+                                                <img src="/assets/images/icons/icon-31.png" alt="" />
                                             </div>
                                             <figure className="image-box">
-                                                <img src="assets/images/resource/support-1.jpg" alt="" />
+                                                <img src="/assets/images/resource/support-1.jpg" alt="" />
                                             </figure>
                                             <span className="big-text">Counsolve</span>
                                             <h3>
@@ -275,11 +275,11 @@ export default function Home() {
                         <div className="outer-container">
                         <div
                             className="pattern-layer"
-                            style={{ backgroundImage: "url(assets/images/shape/shape-25.png)" }}
+                            style={{ backgroundImage: "url(/assets/images/shape/shape-25.png)" }}
                         />
                         <div className="image-box-one">
                             <figure className="image">
-                            <img src="assets/images/resource/cta-1.jpg" alt="" />
+                            <img src="/assets/images/resource/cta-1.jpg" alt="" />
                             </figure>
                             <div className="phone">
                             <h4>
@@ -289,7 +289,7 @@ export default function Home() {
                         </div>
                         <div className="image-box-two">
                             <figure className="image">
-                            <img src="assets/images/resource/cta-2.jpg" alt="" />
+                            <img src="/assets/images/resource/cta-2.jpg" alt="" />
                             </figure>
                             <div className="text-box">
                             <h6>
@@ -309,7 +309,7 @@ export default function Home() {
                                 </h2>
                                 <div className="inner-box">
                                     <figure className="image-box">
-                                    <img src="assets/images/resource/cart-1.jpg" alt="" />
+                                    <img src="/assets/images/resource/cart-1.jpg" alt="" />
                                     </figure>
                                     <p>
                                     The moment, so blinded by desire, that they cannot foresee and

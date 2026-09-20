@@ -8,7 +8,7 @@ export default function Testimonial() {
         <section className="testimonial-section sec-pad">
             <div
             className="pattern-layer"
-            style={{ backgroundImage: "url(assets/images/shape/shape-11.png)" }}
+            style={{ backgroundImage: "url(/assets/images/shape/shape-11.png)" }}
             />
             <div className="auto-container">
             <div className="row clearfix">
@@ -23,7 +23,7 @@ export default function Testimonial() {
                     <div className="inner-box">
                     <div className="single-item">
                         <div className="icon-box">
-                        <img src="assets/images/icons/icon-7.png" alt="" />
+                        <img src="/assets/images/icons/icon-7.png" alt="" />
                         </div>
                         <h5>
                         Avg.Rating 4.8/5 <br />

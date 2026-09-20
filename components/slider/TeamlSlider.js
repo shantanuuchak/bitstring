@@ -60,7 +60,7 @@ export default function TeamlSlider() {
                 <div className="team-block-one">
                   <div className="inner-box">
                     <figure className="image-box">
-                      <img src="assets/images/team/team-1.jpg" alt="" />
+                      <img src="/assets/images/team/team-1.jpg" alt="" />
                     </figure>
                     <div className="lower-content">
                       <div className="share-box">
@@ -100,7 +100,7 @@ export default function TeamlSlider() {
                 <div className="team-block-one">
                   <div className="inner-box">
                     <figure className="image-box">
-                      <img src="assets/images/team/team-2.jpg" alt="" />
+                      <img src="/assets/images/team/team-2.jpg" alt="" />
                     </figure>
                     <div className="lower-content">
                       <div className="share-box">
@@ -140,7 +140,7 @@ export default function TeamlSlider() {
                 <div className="team-block-one">
                   <div className="inner-box">
                     <figure className="image-box">
-                      <img src="assets/images/team/team-1.jpg" alt="" />
+                      <img src="/assets/images/team/team-1.jpg" alt="" />
                     </figure>
                     <div className="lower-content">
                       <div className="share-box">
@@ -181,7 +181,7 @@ export default function TeamlSlider() {
                 <div className="team-block-one">
                   <div className="inner-box">
                     <figure className="image-box">
-                      <img src="assets/images/team/team-2.jpg" alt="" />
+                      <img src="/assets/images/team/team-2.jpg" alt="" />
                     </figure>
                     <div className="lower-content">
                       <div className="share-box">
@@ -221,7 +221,7 @@ export default function TeamlSlider() {
                 <div className="team-block-one">
                   <div className="inner-box">
                     <figure className="image-box">
-                      <img src="assets/images/team/team-3.jpg" alt="" />
+                      <img src="/assets/images/team/team-3.jpg" alt="" />
                     </figure>
                     <div className="lower-content">
                       <div className="share-box">
@@ -261,7 +261,7 @@ export default function TeamlSlider() {
                 <div className="team-block-one">
                   <div className="inner-box">
                     <figure className="image-box">
-                      <img src="assets/images/team/team-1.jpg" alt="" />
+                      <img src="/assets/images/team/team-1.jpg" alt="" />
                     </figure>
                     <div className="lower-content">
                       <div className="share-box">
@@ -301,7 +301,7 @@ export default function TeamlSlider() {
                 <div className="team-block-one">
                   <div className="inner-box">
                     <figure className="image-box">
-                      <img src="assets/images/team/team-2.jpg" alt="" />
+                      <img src="/assets/images/team/team-2.jpg" alt="" />
                     </figure>
                     <div className="lower-content">
                       <div className="share-box">
@@ -341,7 +341,7 @@ export default function TeamlSlider() {
                 <div className="team-block-one">
                   <div className="inner-box">
                     <figure className="image-box">
-                      <img src="assets/images/team/team-3.jpg" alt="" />
+                      <img src="/assets/images/team/team-3.jpg" alt="" />
                     </figure>
                     <div className="lower-content">
                       <div className="share-box">

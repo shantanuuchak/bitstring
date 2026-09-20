@@ -6,7 +6,7 @@ export default function SearchPopup({ isPopup, handlePopup }) {
                     <div className="upper-box clearfix">
                         <figure className="logo-box pull-left">
                         <a href="/">
-                            <img src="assets/images/logo.svg" alt="" />
+                            <img src="/assets/images/logo.svg" alt="" />
                         </a>
                         </figure>
                         <div className="close-search pull-right" onClick={handlePopup}>

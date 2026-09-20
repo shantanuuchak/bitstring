@@ -59,70 +59,70 @@ export default function Brand() {
                 <SwiperSlide className="slide">
                     <figure className="clients-logo">
                     <Link href="/">
-                        <img src="assets/images/clients/clients-1.png" alt="" />
+                        <img src="/assets/images/clients/clients-1.png" alt="" />
                     </Link>
                     </figure>
                 </SwiperSlide>
                 <SwiperSlide className="slide">
                 <figure className="clients-logo">
                   <Link href="/">
-                    <img src="assets/images/clients/clients-2.png" alt="" />
+                    <img src="/assets/images/clients/clients-2.png" alt="" />
                   </Link>
                 </figure>
                 </SwiperSlide>
                 <SwiperSlide className="slide">
                 <figure className="clients-logo">
                   <Link href="/">
-                    <img src="assets/images/clients/clients-3.png" alt="" />
+                    <img src="/assets/images/clients/clients-3.png" alt="" />
                   </Link>
                 </figure>
                 </SwiperSlide>
                 <SwiperSlide className="slide">
                 <figure className="clients-logo">
                   <Link href="/">
-                    <img src="assets/images/clients/clients-4.png" alt="" />
+                    <img src="/assets/images/clients/clients-4.png" alt="" />
                   </Link>
                 </figure>
                 </SwiperSlide>
                 <SwiperSlide className="slide">
                 <figure className="clients-logo">
                   <Link href="/">
-                    <img src="assets/images/clients/clients-5.png" alt="" />
+                    <img src="/assets/images/clients/clients-5.png" alt="" />
                   </Link>
                 </figure>
                 </SwiperSlide>
                 <SwiperSlide className="slide">
                     <figure className="clients-logo">
                     <Link href="/">
-                        <img src="assets/images/clients/clients-1.png" alt="" />
+                        <img src="/assets/images/clients/clients-1.png" alt="" />
                     </Link>
                     </figure>
                 </SwiperSlide>
                 <SwiperSlide className="slide">
                 <figure className="clients-logo">
                   <Link href="/">
-                    <img src="assets/images/clients/clients-2.png" alt="" />
+                    <img src="/assets/images/clients/clients-2.png" alt="" />
                   </Link>
                 </figure>
                 </SwiperSlide>
                 <SwiperSlide className="slide">
                 <figure className="clients-logo">
                   <Link href="/">
-                    <img src="assets/images/clients/clients-3.png" alt="" />
+                    <img src="/assets/images/clients/clients-3.png" alt="" />
                   </Link>
                 </figure>
                 </SwiperSlide>
                 <SwiperSlide className="slide">
                 <figure className="clients-logo">
                   <Link href="/">
-                    <img src="assets/images/clients/clients-4.png" alt="" />
+                    <img src="/assets/images/clients/clients-4.png" alt="" />
                   </Link>
                 </figure>
                 </SwiperSlide>
                 <SwiperSlide className="slide">
                 <figure className="clients-logo">
                   <Link href="/">
-                    <img src="assets/images/clients/clients-5.png" alt="" />
+                    <img src="/assets/images/clients/clients-5.png" alt="" />
                   </Link>
                 </figure>
                 </SwiperSlide>

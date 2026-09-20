@@ -60,10 +60,10 @@ export default function TestimonialSlider09() {
                         <div className="author-box">
                         <div className="thumb-box">
                             <figure className="thumb">
-                            <img src="assets/images/resource/testimonial-1.jpg" alt="" />
+                            <img src="/assets/images/resource/testimonial-1.jpg" alt="" />
                             </figure>
                             <div className="icon-box">
-                            <img src="assets/images/icons/icon-16.png" alt="" />
+                            <img src="/assets/images/icons/icon-16.png" alt="" />
                             </div>
                         </div>
                         <h3>Nathan Felix</h3>
@@ -85,10 +85,10 @@ export default function TestimonialSlider09() {
                         <div className="author-box">
                         <div className="thumb-box">
                             <figure className="thumb">
-                            <img src="assets/images/resource/testimonial-1.jpg" alt="" />
+                            <img src="/assets/images/resource/testimonial-1.jpg" alt="" />
                             </figure>
                             <div className="icon-box">
-                            <img src="assets/images/icons/icon-16.png" alt="" />
+                            <img src="/assets/images/icons/icon-16.png" alt="" />
                             </div>
                         </div>
                         <h3>Nathan Felix</h3>
@@ -110,10 +110,10 @@ export default function TestimonialSlider09() {
                         <div className="author-box">
                         <div className="thumb-box">
                             <figure className="thumb">
-                            <img src="assets/images/resource/testimonial-1.jpg" alt="" />
+                            <img src="/assets/images/resource/testimonial-1.jpg" alt="" />
                             </figure>
                             <div className="icon-box">
-                            <img src="assets/images/icons/icon-16.png" alt="" />
+                            <img src="/assets/images/icons/icon-16.png" alt="" />
                             </div>
                         </div>
                         <h3>Nathan Felix</h3>

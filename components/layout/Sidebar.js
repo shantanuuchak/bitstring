@@ -22,7 +22,7 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                     <div className="content-inner">
                     <div className="logo">
                         <Link href="/">
-                        <img src="assets/images/logo.svg" alt="" />
+                        <img src="/assets/images/logo.svg" alt="" />
                         </Link>
                     </div>
                     <div className="content-box">

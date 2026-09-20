@@ -60,7 +60,7 @@ export default function CaseStudiesSlider() {
                   <div className="project-block-one">
                     <div className="inner-box">
                         <figure className="image-box">
-                        <img src="assets/images/project/project-5.jpg" alt="" />
+                        <img src="/assets/images/project/project-5.jpg" alt="" />
                         </figure>
                         <div className="content-inner">
                         <div className="text-box">
@@ -93,7 +93,7 @@ export default function CaseStudiesSlider() {
                   <div className="project-block-one">
                     <div className="inner-box">
                         <figure className="image-box">
-                        <img src="assets/images/project/project-6.jpg" alt="" />
+                        <img src="/assets/images/project/project-6.jpg" alt="" />
                         </figure>
                         <div className="content-inner">
                         <div className="text-box">
@@ -126,7 +126,7 @@ export default function CaseStudiesSlider() {
                   <div className="project-block-one">
                     <div className="inner-box">
                         <figure className="image-box">
-                        <img src="assets/images/project/project-7.jpg" alt="" />
+                        <img src="/assets/images/project/project-7.jpg" alt="" />
                         </figure>
                         <div className="content-inner">
                         <div className="text-box">
@@ -159,7 +159,7 @@ export default function CaseStudiesSlider() {
                   <div className="project-block-one">
                     <div className="inner-box">
                         <figure className="image-box">
-                        <img src="assets/images/project/project-5.jpg" alt="" />
+                        <img src="/assets/images/project/project-5.jpg" alt="" />
                         </figure>
                         <div className="content-inner">
                         <div className="text-box">
@@ -192,7 +192,7 @@ export default function CaseStudiesSlider() {
                   <div className="project-block-one">
                     <div className="inner-box">
                         <figure className="image-box">
-                        <img src="assets/images/project/project-6.jpg" alt="" />
+                        <img src="/assets/images/project/project-6.jpg" alt="" />
                         </figure>
                         <div className="content-inner">
                         <div className="text-box">
@@ -225,7 +225,7 @@ export default function CaseStudiesSlider() {
                   <div className="project-block-one">
                     <div className="inner-box">
                         <figure className="image-box">
-                        <img src="assets/images/project/project-7.jpg" alt="" />
+                        <img src="/assets/images/project/project-7.jpg" alt="" />
                         </figure>
                         <div className="content-inner">
                         <div className="text-box">
@@ -258,7 +258,7 @@ export default function CaseStudiesSlider() {
                   <div className="project-block-one">
                     <div className="inner-box">
                         <figure className="image-box">
-                        <img src="assets/images/project/project-5.jpg" alt="" />
+                        <img src="/assets/images/project/project-5.jpg" alt="" />
                         </figure>
                         <div className="content-inner">
                         <div className="text-box">
@@ -291,7 +291,7 @@ export default function CaseStudiesSlider() {
                   <div className="project-block-one">
                     <div className="inner-box">
                         <figure className="image-box">
-                        <img src="assets/images/project/project-6.jpg" alt="" />
+                        <img src="/assets/images/project/project-6.jpg" alt="" />
                         </figure>
                         <div className="content-inner">
                         <div className="text-box">

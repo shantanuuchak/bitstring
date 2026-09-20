@@ -11,7 +11,7 @@ export default function Testimonial() {
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                 <div className="image-box">
                     <figure className="image">
-                    <img src="assets/images/resource/testimonial-2.jpg" alt="" />
+                    <img src="/assets/images/resource/testimonial-2.jpg" alt="" />
                     </figure>
                     <div className="text-box">
                     <div className="icon-box">

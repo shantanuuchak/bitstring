@@ -66,7 +66,7 @@ export default function TestimonialSlider1() {
                             </Link>
                             </h3>
                             <figure className="image-box">
-                            <img src="assets/images/service/service-1.jpg" alt="" />
+                            <img src="/assets/images/service/service-1.jpg" alt="" />
                             </figure>
                         </div>
                         <div className="link-box">
@@ -86,7 +86,7 @@ export default function TestimonialSlider1() {
                             </Link>
                             </h3>
                             <figure className="image-box">
-                            <img src="assets/images/service/service-2.jpg" alt="" />
+                            <img src="/assets/images/service/service-2.jpg" alt="" />
                             </figure>
                         </div>
                         <div className="link-box">
@@ -106,7 +106,7 @@ export default function TestimonialSlider1() {
                             </Link>
                             </h3>
                             <figure className="image-box">
-                            <img src="assets/images/service/service-3.jpg" alt="" />
+                            <img src="/assets/images/service/service-3.jpg" alt="" />
                             </figure>
                         </div>
                         <div className="link-box">
@@ -126,7 +126,7 @@ export default function TestimonialSlider1() {
                             </Link>
                             </h3>
                             <figure className="image-box">
-                            <img src="assets/images/service/service-4.jpg" alt="" />
+                            <img src="/assets/images/service/service-4.jpg" alt="" />
                             </figure>
                         </div>
                         <div className="link-box">
@@ -146,7 +146,7 @@ export default function TestimonialSlider1() {
                         </Link>
                         </h3>
                         <figure className="image-box">
-                        <img src="assets/images/service/service-1.jpg" alt="" />
+                        <img src="/assets/images/service/service-1.jpg" alt="" />
                         </figure>
                     </div>
                     <div className="link-box">
@@ -166,7 +166,7 @@ export default function TestimonialSlider1() {
                             </Link>
                             </h3>
                             <figure className="image-box">
-                            <img src="assets/images/service/service-2.jpg" alt="" />
+                            <img src="/assets/images/service/service-2.jpg" alt="" />
                             </figure>
                         </div>
                         <div className="link-box">
@@ -186,7 +186,7 @@ export default function TestimonialSlider1() {
                             </Link>
                             </h3>
                             <figure className="image-box">
-                            <img src="assets/images/service/service-3.jpg" alt="" />
+                            <img src="/assets/images/service/service-3.jpg" alt="" />
                             </figure>
                         </div>
                         <div className="link-box">

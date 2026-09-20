@@ -8,15 +8,15 @@ export default function Banner() {
             <div className="pattern-layer">
             <div
                 className="pattern-2"
-                style={{ backgroundImage: "url(assets/images/shape/shape-22.png)" }}
+                style={{ backgroundImage: "url(/assets/images/shape/shape-22.png)" }}
             />
             <div
                 className="pattern-1"
-                style={{ backgroundImage: "url(assets/images/shape/shape-21.png)" }}
+                style={{ backgroundImage: "url(/assets/images/shape/shape-21.png)" }}
             />
             <div
                 className="pattern-3"
-                style={{ backgroundImage: "url(assets/images/shape/shape-23.png)" }}
+                style={{ backgroundImage: "url(/assets/images/shape/shape-23.png)" }}
             />
             </div>
             <div className="auto-container">
@@ -33,7 +33,7 @@ export default function Banner() {
                     <div
                         className="shape"
                         style={{
-                        backgroundImage: "url(assets/images/shape/shape-18.png)"
+                        backgroundImage: "url(/assets/images/shape/shape-18.png)"
                         }}
                     />
                     <div className="single-item">
@@ -64,18 +64,18 @@ export default function Banner() {
                     <div
                         className="shape-1"
                         style={{
-                        backgroundImage: "url(assets/images/shape/shape-19.png)"
+                        backgroundImage: "url(/assets/images/shape/shape-19.png)"
                         }}
                     />
                     <div
                         className="shape-2"
                         style={{
-                        backgroundImage: "url(assets/images/shape/shape-20.png)"
+                        backgroundImage: "url(/assets/images/shape/shape-20.png)"
                         }}
                     />
                     </div>
                     <figure className="image">
-                    <img src="assets/images/banner/banner-img-1.jpg" alt="" />
+                    <img src="/assets/images/banner/banner-img-1.jpg" alt="" />
                     </figure>
                     <div className="growth-box">
                     <h5>Monthly Growth</h5>

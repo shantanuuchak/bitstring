@@ -363,7 +363,7 @@
 }
 
 .home_2 .theme-btn.btn-two{
-	background: #2ec1ad;
+	background: var(--primary-color);
 }
 
 .home_2 .theme-btn.btn-two:before{
@@ -507,35 +507,35 @@
 }
 
 .home_2 .pricing-block-one.active-block .pricing-table .feature-list li:before{
-	border-color: #2ec1ad;
+	border-color: var(--primary-color);
 }
 
 .home_2 .pricing-block-one.active-block .pricing-table .table-content h2{
-	color: #2ec1ad;
+	color: var(--primary-color);
 }
 
 .home_2 .pricing-block-one.active-block .pricing-table .theme-btn:before{
-	background: #2ec1ad;
+	background: var(--primary-color);
 }
 
 .home_2 .pricing-block-one.active-block .pricing-table .theme-btn:hover{
-	background: #2ec1ad;
+	background: var(--primary-color);
 }
 
 .home_2 .pricing-block-one .pricing-table .discount-text{
-	background: #2ec1ad;
+	background: var(--primary-color);
 }
 
 .home_2 .testimonial-style-two .testimonial-content .author-box h5{
-	color: #2ec1ad;
+	color: var(--primary-color);
 }
 
 .home_2 .testimonial-style-two .testimonial-content .quote-box{
-	color: #2ec1ad;
+	color: var(--primary-color);
 }
 
 .home_2 .testimonial-style-two .owl-nav button:hover{
-	color: #2ec1ad;
+	color: var(--primary-color);
 }
 
 .home_2 .testimonial-style-two .thumb-list li .single-item .icon-box{
@@ -616,12 +616,12 @@
 }
 
 .footer-style-two .footer-bottom .copyright p a{
-	color: #2ec1ad;
+	color: var(--primary-color);
 }
 
 .home_2 .sidebar-info-contents .content-inner .social-box li a:hover{
-	background: #2ec1ad;
-	border-color: #2ec1ad;
+	background: var(--primary-color);
+	border-color: var(--primary-color);
 }
 
 

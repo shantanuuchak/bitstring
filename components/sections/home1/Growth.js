@@ -9,7 +9,7 @@ export default function Growth() {
       <section className="growth-section">
         <div
           className="pattern-layer"
-          style={{ backgroundImage: "url(assets/images/shape/shape-7.png)" }}
+          style={{ backgroundImage: "url(/assets/images/shape/shape-7.png)" }}
         />
         <div className="auto-container">
           <div className="growth-inner">
@@ -17,7 +17,7 @@ export default function Growth() {
               <div className="col-lg-8 col-md-12 col-sm-12 content-column">
                 <div className="content-box">
                   <figure className="image-box">
-                    <img src="assets/images/resource/growth-1.png" alt="" />
+                    <img src="/assets/images/resource/growth-1.png" alt="" />
                   </figure>
                   <div className="sec-title light">
                     <span className="sub-title">Our Expertise</span>

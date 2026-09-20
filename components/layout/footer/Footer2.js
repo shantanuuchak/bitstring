@@ -13,15 +13,15 @@ export default function Footer2() {
                     <div
                         className="widget-content"
                         style={{
-                        backgroundImage: "url(assets/images/resource/footer-1.jpg)"
+                        backgroundImage: "url(/assets/images/resource/footer-1.jpg)"
                         }}
                     >
                         <div className="award-image">
-                        <img src="assets/images/icons/award-2.png" alt="" />
+                        <img src="/assets/images/icons/award-2.png" alt="" />
                         </div>
                         <figure className="footer-logo">
                         <Link href="/index-2">
-                            <img src="assets/images/logo-2.png" alt="" />
+                            <img src="/assets/images/logo-2.png" alt="" />
                         </Link>
                         </figure>
                         <h3>Thinking &amp; Planning for your Future</h3>

@@ -12,7 +12,7 @@ export default function Subscribe() {
                 <div
                   className="shape-2"
                   style={{
-                    backgroundImage: "url(assets/images/shape/shape-29.png)"
+                    backgroundImage: "url(/assets/images/shape/shape-29.png)"
                   }}
                 />
                 <div className="icon-box">
@@ -25,7 +25,7 @@ export default function Subscribe() {
                       <div
                         className="shape"
                         style={{
-                          backgroundImage: "url(assets/images/shape/shape-17.png)"
+                          backgroundImage: "url(/assets/images/shape/shape-17.png)"
                         }}
                       />
                       <h2>Subscribe Us</h2>

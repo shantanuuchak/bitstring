@@ -64,7 +64,7 @@ export default function ServiceSlider() {
                           <div className="inner-box">
                             <div className="image-box">
                               <figure className="image">
-                                <img src="assets/images/service/service-5.jpg" alt="" />
+                                <img src="/assets/images/service/service-5.jpg" alt="" />
                               </figure>
                               <div className="icon-box">
                                 <i className="flaticon-analytics" />
@@ -95,7 +95,7 @@ export default function ServiceSlider() {
                           <div className="inner-box">
                             <div className="image-box">
                               <figure className="image">
-                                <img src="assets/images/service/service-6.jpg" alt="" />
+                                <img src="/assets/images/service/service-6.jpg" alt="" />
                               </figure>
                               <div className="icon-box">
                                 <i className="flaticon-office-building" />
@@ -126,7 +126,7 @@ export default function ServiceSlider() {
                           <div className="inner-box">
                             <div className="image-box">
                               <figure className="image">
-                                <img src="assets/images/service/service-7.jpg" alt="" />
+                                <img src="/assets/images/service/service-7.jpg" alt="" />
                               </figure>
                               <div className="icon-box">
                                 <i className="flaticon-retirement" />
@@ -163,7 +163,7 @@ export default function ServiceSlider() {
                           <div className="inner-box">
                             <div className="image-box">
                               <figure className="image">
-                                <img src="assets/images/service/service-5.jpg" alt="" />
+                                <img src="/assets/images/service/service-5.jpg" alt="" />
                               </figure>
                               <div className="icon-box">
                                 <i className="flaticon-analytics" />
@@ -194,7 +194,7 @@ export default function ServiceSlider() {
                           <div className="inner-box">
                             <div className="image-box">
                               <figure className="image">
-                                <img src="assets/images/service/service-6.jpg" alt="" />
+                                <img src="/assets/images/service/service-6.jpg" alt="" />
                               </figure>
                               <div className="icon-box">
                                 <i className="flaticon-office-building" />
@@ -225,7 +225,7 @@ export default function ServiceSlider() {
                           <div className="inner-box">
                             <div className="image-box">
                               <figure className="image">
-                                <img src="assets/images/service/service-7.jpg" alt="" />
+                                <img src="/assets/images/service/service-7.jpg" alt="" />
                               </figure>
                               <div className="icon-box">
                                 <i className="flaticon-retirement" />
@@ -262,7 +262,7 @@ export default function ServiceSlider() {
                           <div className="inner-box">
                             <div className="image-box">
                               <figure className="image">
-                                <img src="assets/images/service/service-5.jpg" alt="" />
+                                <img src="/assets/images/service/service-5.jpg" alt="" />
                               </figure>
                               <div className="icon-box">
                                 <i className="flaticon-analytics" />
@@ -293,7 +293,7 @@ export default function ServiceSlider() {
                           <div className="inner-box">
                             <div className="image-box">
                               <figure className="image">
-                                <img src="assets/images/service/service-6.jpg" alt="" />
+                                <img src="/assets/images/service/service-6.jpg" alt="" />
                               </figure>
                               <div className="icon-box">
                                 <i className="flaticon-office-building" />
@@ -324,7 +324,7 @@ export default function ServiceSlider() {
                           <div className="inner-box">
                             <div className="image-box">
                               <figure className="image">
-                                <img src="assets/images/service/service-7.jpg" alt="" />
+                                <img src="/assets/images/service/service-7.jpg" alt="" />
                               </figure>
                               <div className="icon-box">
                                 <i className="flaticon-retirement" />

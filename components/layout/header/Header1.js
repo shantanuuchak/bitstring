@@ -49,7 +49,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
       <div className="left-column">
         <figure className="logo-box">
           <Link href="/">
-            <img src="assets/images/logo.svg" alt="" />
+            <img src="/assets/images/logo.svg" alt="" />
           </Link>
         </figure>
         <div className="award-box">

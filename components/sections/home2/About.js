@@ -7,7 +7,7 @@ export default function About() {
         <section className="about-style-two sec-pad">
             <div
             className="pattern-layer"
-            style={{ backgroundImage: "url(assets/images/shape/shape-13.png)" }}
+            style={{ backgroundImage: "url(/assets/images/shape/shape-13.png)" }}
             />
             <div className="auto-container">
             <div className="sec-title">

@@ -13,7 +13,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="menu-area">
                         <figure className="logo-box">
                             <a href="/">
-                            <img src="assets/images/logo-5.png" alt="" />
+                            <img src="/assets/images/logo-5.png" alt="" />
                             </a>
                         </figure>
                         {/*Mobile Navigation Toggler*/}
@@ -34,13 +34,13 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="menu-right-content">
                         <div className="search-box">
                             <div className="search-box-outer search-toggler" onClick={handlePopup}>
-                            <img src="assets/images/icons/icon-2.png" alt="" />
+                            <img src="/assets/images/icons/icon-2.png" alt="" />
                             Search
                             </div>
                         </div>
                         <div className="language-box">
                             <h5>
-                            <img src="assets/images/icons/icon-3.png" alt="" />
+                            <img src="/assets/images/icons/icon-3.png" alt="" />
                             Global:
                             </h5>
                             <div className="select-box">
@@ -58,7 +58,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
                             </a>
                         </div>
                         <div className="nav-btn nav-toggler navSidebar-button clearfix" onClick={handleSidebar}>
-                            <img src="assets/images/icons/icon-18.png" alt="" />
+                            <img src="/assets/images/icons/icon-18.png" alt="" />
                         </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="menu-area">
                         <figure className="logo-box">
                             <a href="/">
-                            <img src="assets/images/logo-5.png" alt="" />
+                            <img src="/assets/images/logo-5.png" alt="" />
                             </a>
                         </figure>
                         {/*Mobile Navigation Toggler*/}
@@ -95,13 +95,13 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="menu-right-content">
                         <div className="search-box">
                             <div className="search-box-outer search-toggler" onClick={handlePopup}>
-                            <img src="assets/images/icons/icon-2.png" alt="" />
+                            <img src="/assets/images/icons/icon-2.png" alt="" />
                             Search
                             </div>
                         </div>
                         <div className="language-box">
                             <h5>
-                            <img src="assets/images/icons/icon-3.png" alt="" />
+                            <img src="/assets/images/icons/icon-3.png" alt="" />
                             Global:
                             </h5>
                             <div className="select-box">
@@ -119,7 +119,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
                             </a>
                         </div>
                         <div className="nav-btn nav-toggler navSidebar-button clearfix" onClick={handleSidebar}>
-                            <img src="assets/images/icons/icon-18.png" alt="" />
+                            <img src="/assets/images/icons/icon-18.png" alt="" />
                         </div>
                         </div>
                     </div>

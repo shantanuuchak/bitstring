@@ -16,35 +16,35 @@ export default function Clients() {
                 <li>
                     <figure className="clients-logo">
                     <Link href="/index-2">
-                        <img src="assets/images/clients/clients-1.png" alt="" />
+                        <img src="/assets/images/clients/clients-1.png" alt="" />
                     </Link>
                     </figure>
                 </li>
                 <li>
                     <figure className="clients-logo">
                     <Link href="/index-2">
-                        <img src="assets/images/clients/clients-2.png" alt="" />
+                        <img src="/assets/images/clients/clients-2.png" alt="" />
                     </Link>
                     </figure>
                 </li>
                 <li>
                     <figure className="clients-logo">
                     <Link href="/index-2">
-                        <img src="assets/images/clients/clients-3.png" alt="" />
+                        <img src="/assets/images/clients/clients-3.png" alt="" />
                     </Link>
                     </figure>
                 </li>
                 <li>
                     <figure className="clients-logo">
                     <Link href="/index-2">
-                        <img src="assets/images/clients/clients-4.png" alt="" />
+                        <img src="/assets/images/clients/clients-4.png" alt="" />
                     </Link>
                     </figure>
                 </li>
                 <li>
                     <figure className="clients-logo">
                     <Link href="/index-2">
-                        <img src="assets/images/clients/clients-5.png" alt="" />
+                        <img src="/assets/images/clients/clients-5.png" alt="" />
                     </Link>
                     </figure>
                 </li>
@@ -53,35 +53,35 @@ export default function Clients() {
                 <li>
                     <figure className="clients-logo">
                     <Link href="/index-2">
-                        <img src="assets/images/clients/clients-6.png" alt="" />
+                        <img src="/assets/images/clients/clients-6.png" alt="" />
                     </Link>
                     </figure>
                 </li>
                 <li>
                     <figure className="clients-logo">
                     <Link href="/index-2">
-                        <img src="assets/images/clients/clients-7.png" alt="" />
+                        <img src="/assets/images/clients/clients-7.png" alt="" />
                     </Link>
                     </figure>
                 </li>
                 <li>
                     <figure className="clients-logo">
                     <Link href="/index-2">
-                        <img src="assets/images/clients/clients-8.png" alt="" />
+                        <img src="/assets/images/clients/clients-8.png" alt="" />
                     </Link>
                     </figure>
                 </li>
                 <li>
                     <figure className="clients-logo">
                     <Link href="/index-2">
-                        <img src="assets/images/clients/clients-9.png" alt="" />
+                        <img src="/assets/images/clients/clients-9.png" alt="" />
                     </Link>
                     </figure>
                 </li>
                 <li>
                     <figure className="clients-logo">
                     <Link href="/index-2">
-                        <img src="assets/images/clients/clients-10.png" alt="" />
+                        <img src="/assets/images/clients/clients-10.png" alt="" />
                     </Link>
                     </figure>
                 </li>

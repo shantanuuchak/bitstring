@@ -15,7 +15,7 @@ export default function Footer1() {
                         <div className="logo-widget">
                         <figure className="footer-logo">
                             <Link href="/">
-                            <img src="assets/images/logo.svg" alt="" />
+                            <img src="/assets/images/logo.svg" alt="" />
                             </Link>
                         </figure>
                         <div className="copyright">
@@ -34,7 +34,7 @@ export default function Footer1() {
                     <div className="col-lg-6 col-md-12 col-sm-12 footer-column">
                         <div className="newsletter-widget">
                         <div className="icon-box">
-                            <img src="assets/images/icons/icon-8.png" alt="" />
+                            <img src="/assets/images/icons/icon-8.png" alt="" />
                         </div>
                         <h3>Newsletter</h3>
                         <p>

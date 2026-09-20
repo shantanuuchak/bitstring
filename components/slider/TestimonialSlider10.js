@@ -62,7 +62,7 @@ export default function TestimonialSlider10() {
                             <div className="thumb-box">
                             <figure className="thumb">
                                 <img
-                                src="assets/images/resource/testimonial-2.png"
+                                src="/assets/images/resource/testimonial-2.png"
                                 alt=""
                                 />
                             </figure>
@@ -101,7 +101,7 @@ export default function TestimonialSlider10() {
                             <div className="thumb-box">
                             <figure className="thumb">
                                 <img
-                                src="assets/images/resource/testimonial-3.png"
+                                src="/assets/images/resource/testimonial-3.png"
                                 alt=""
                                 />
                             </figure>
@@ -144,7 +144,7 @@ export default function TestimonialSlider10() {
                             <div className="thumb-box">
                             <figure className="thumb">
                                 <img
-                                src="assets/images/resource/testimonial-2.png"
+                                src="/assets/images/resource/testimonial-2.png"
                                 alt=""
                                 />
                             </figure>
@@ -183,7 +183,7 @@ export default function TestimonialSlider10() {
                             <div className="thumb-box">
                             <figure className="thumb">
                                 <img
-                                src="assets/images/resource/testimonial-3.png"
+                                src="/assets/images/resource/testimonial-3.png"
                                 alt=""
                                 />
                             </figure>
@@ -226,7 +226,7 @@ export default function TestimonialSlider10() {
                             <div className="thumb-box">
                             <figure className="thumb">
                                 <img
-                                src="assets/images/resource/testimonial-2.png"
+                                src="/assets/images/resource/testimonial-2.png"
                                 alt=""
                                 />
                             </figure>
@@ -265,7 +265,7 @@ export default function TestimonialSlider10() {
                             <div className="thumb-box">
                             <figure className="thumb">
                                 <img
-                                src="assets/images/resource/testimonial-3.png"
+                                src="/assets/images/resource/testimonial-3.png"
                                 alt=""
                                 />
                             </figure>

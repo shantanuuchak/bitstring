@@ -12,14 +12,14 @@ export default function About() {
                     <div
                     className="image-shape"
                     style={{
-                        backgroundImage: "url(assets/images/shape/shape-24.png)"
+                        backgroundImage: "url(/assets/images/shape/shape-24.png)"
                     }}
                     />
                     <figure className="image image-1">
-                    <img src="assets/images/resource/about-2.jpg" alt="" />
+                    <img src="/assets/images/resource/about-2.jpg" alt="" />
                     </figure>
                     <figure className="image image-2">
-                    <img src="assets/images/resource/about-3.jpg" alt="" />
+                    <img src="/assets/images/resource/about-3.jpg" alt="" />
                     </figure>
                     <div className="image-content">
                     <h6>Feb’2023</h6>

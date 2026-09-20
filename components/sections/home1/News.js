@@ -34,7 +34,7 @@ export default function News() {
                     <div className="image-box">
                         <figure className="image">
                         <Link href="/blog">
-                            <img src="assets/images/news/news-1.jpg" alt="" />
+                            <img src="/assets/images/news/news-1.jpg" alt="" />
                         </Link>
                         </figure>
                         <div className="view-btn">
@@ -83,7 +83,7 @@ export default function News() {
                     <div className="image-box">
                         <figure className="image">
                         <Link href="/blog">
-                            <img src="assets/images/news/news-2.jpg" alt="" />
+                            <img src="/assets/images/news/news-2.jpg" alt="" />
                         </Link>
                         </figure>
                         <div className="view-btn">
@@ -133,7 +133,7 @@ export default function News() {
                     <div className="image-box">
                         <figure className="image">
                         <Link href="/blog">
-                            <img src="assets/images/news/news-3.jpg" alt="" />
+                            <img src="/assets/images/news/news-3.jpg" alt="" />
                         </Link>
                         </figure>
                         <div className="view-btn">

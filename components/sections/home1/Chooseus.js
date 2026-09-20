@@ -71,10 +71,10 @@ export default function Chooseus() {
               <div className="col-lg-4 col-md-6 col-sm-12 image-column">
                 <div className="image-box">
                   <figure className="image">
-                    <img src="assets/images/resource/chooseus-1.jpg" alt="" />
+                    <img src="/assets/images/resource/chooseus-1.jpg" alt="" />
                   </figure>
                   <div className="image-shape">
-                    <img src="assets/images/shape/shape-8.png" alt="" />
+                    <img src="/assets/images/shape/shape-8.png" alt="" />
                   </div>
                 </div>
               </div>

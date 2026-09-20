@@ -61,7 +61,7 @@ export default function TestimonialSlider06() {
                     <div className="testimonial-block-one">
                         <figure className="thumb-box">
                         <img
-                            src="assets/images/resource/testimonial-1.png"
+                            src="/assets/images/resource/testimonial-1.png"
                             alt=""
                         />
                         </figure>
@@ -87,7 +87,7 @@ export default function TestimonialSlider06() {
                   <div className="testimonial-block-one">
                     <figure className="thumb-box">
                       <img
-                        src="assets/images/resource/testimonial-1.png"
+                        src="/assets/images/resource/testimonial-1.png"
                         alt=""
                       />
                     </figure>
@@ -113,7 +113,7 @@ export default function TestimonialSlider06() {
                   <div className="testimonial-block-one">
                     <figure className="thumb-box">
                       <img
-                        src="assets/images/resource/testimonial-1.png"
+                        src="/assets/images/resource/testimonial-1.png"
                         alt=""
                       />
                     </figure>

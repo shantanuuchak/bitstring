@@ -22,7 +22,7 @@ export default function Footer3() {
               </h5>
               <div className="footer-logo">
                 <Link href="/index-3">
-                  <img src="assets/images/logo-6.png" alt="" />
+                  <img src="/assets/images/logo-6.png" alt="" />
                 </Link>
               </div>
             </div>
@@ -96,7 +96,7 @@ export default function Footer3() {
                         className="lightbox-image"
                         data-fancybox="gallery"
                       >
-                        <img src="assets/images/resource/footer-2.jpg" alt="" />
+                        <img src="/assets/images/resource/footer-2.jpg" alt="" />
                       </Link>
                     </figure>
                   </li>
@@ -107,7 +107,7 @@ export default function Footer3() {
                         className="lightbox-image"
                         data-fancybox="gallery"
                       >
-                        <img src="assets/images/resource/footer-3.jpg" alt="" />
+                        <img src="/assets/images/resource/footer-3.jpg" alt="" />
                       </Link>
                     </figure>
                   </li>
@@ -118,7 +118,7 @@ export default function Footer3() {
                         className="lightbox-image"
                         data-fancybox="gallery"
                       >
-                        <img src="assets/images/resource/footer-4.jpg" alt="" />
+                        <img src="/assets/images/resource/footer-4.jpg" alt="" />
                       </Link>
                     </figure>
                   </li>
@@ -129,7 +129,7 @@ export default function Footer3() {
                         className="lightbox-image"
                         data-fancybox="gallery"
                       >
-                        <img src="assets/images/resource/footer-5.jpg" alt="" />
+                        <img src="/assets/images/resource/footer-5.jpg" alt="" />
                       </Link>
                     </figure>
                   </li>
@@ -140,7 +140,7 @@ export default function Footer3() {
                         className="lightbox-image"
                         data-fancybox="gallery"
                       >
-                        <img src="assets/images/resource/footer-6.jpg" alt="" />
+                        <img src="/assets/images/resource/footer-6.jpg" alt="" />
                       </Link>
                     </figure>
                   </li>
@@ -151,7 +151,7 @@ export default function Footer3() {
                         className="lightbox-image"
                         data-fancybox="gallery"
                       >
-                        <img src="assets/images/resource/footer-7.jpg" alt="" />
+                        <img src="/assets/images/resource/footer-7.jpg" alt="" />
                       </Link>
                     </figure>
                   </li>

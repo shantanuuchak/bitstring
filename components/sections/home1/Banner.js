@@ -35,7 +35,7 @@ export default function Banner() {
                     <SwiperSlide className="slide-item p_relative">
                     <div
                         className="image-layer"
-                        style={{ backgroundImage: "url(assets/images/banner/banner-1.jpg)" }}
+                        style={{ backgroundImage: "url(/assets/images/banner/banner-1.jpg)" }}
                     />
                     <div className="auto-container">
                         <div className="content-box">
@@ -59,7 +59,7 @@ export default function Banner() {
                     <SwiperSlide className="slide-item p_relative">
                         <div
                             className="image-layer"
-                            style={{ backgroundImage: "url(assets/images/banner/banner-2.jpg)" }}
+                            style={{ backgroundImage: "url(/assets/images/banner/banner-2.jpg)" }}
                         />
                         <div className="auto-container">
                             <div className="content-box">
@@ -83,7 +83,7 @@ export default function Banner() {
                     <SwiperSlide className="slide-item p_relative">
                         <div
                             className="image-layer"
-                            style={{ backgroundImage: "url(assets/images/banner/banner-3.jpg)" }}
+                            style={{ backgroundImage: "url(/assets/images/banner/banner-3.jpg)" }}
                         />
                         <div className="auto-container">
                             <div className="content-box">

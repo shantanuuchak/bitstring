@@ -15,7 +15,7 @@ export default function Working() {
             <div className="inner-content">
                 <div
                 className="shape"
-                style={{ backgroundImage: "url(assets/images/shape/shape-9.png)" }}
+                style={{ backgroundImage: "url(/assets/images/shape/shape-9.png)" }}
                 />
                 <div className="row clearfix">
                 <div className="col-lg-4 col-md-6 col-sm-12 working-block">
@@ -23,7 +23,7 @@ export default function Working() {
                     <div className="inner-box">
                         <div className="image-box">
                         <figure className="image">
-                            <img src="assets/images/resource/working-1.jpg" alt="" />
+                            <img src="/assets/images/resource/working-1.jpg" alt="" />
                         </figure>
                         <div className="icon-box">
                             <i className="flaticon-meeting" />
@@ -46,7 +46,7 @@ export default function Working() {
                     <div className="inner-box">
                         <div className="image-box">
                         <figure className="image">
-                            <img src="assets/images/resource/working-2.jpg" alt="" />
+                            <img src="/assets/images/resource/working-2.jpg" alt="" />
                         </figure>
                         <div className="icon-box">
                             <i className="flaticon-paper" />
@@ -69,7 +69,7 @@ export default function Working() {
                     <div className="inner-box">
                         <div className="image-box">
                         <figure className="image">
-                            <img src="assets/images/resource/working-3.jpg" alt="" />
+                            <img src="/assets/images/resource/working-3.jpg" alt="" />
                         </figure>
                         <div className="icon-box">
                             <i className="flaticon-analysis" />

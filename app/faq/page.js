@@ -158,11 +158,11 @@ export default function Home() {
                     <div className="outer-container">
                     <div
                         className="pattern-layer"
-                        style={{ backgroundImage: "url(assets/images/shape/shape-25.png)" }}
+                        style={{ backgroundImage: "url(/assets/images/shape/shape-25.png)" }}
                     />
                     <div className="image-box-one">
                         <figure className="image">
-                        <img src="assets/images/resource/cta-1.jpg" alt="" />
+                        <img src="/assets/images/resource/cta-1.jpg" alt="" />
                         </figure>
                         <div className="phone">
                         <h4>
@@ -172,7 +172,7 @@ export default function Home() {
                     </div>
                     <div className="image-box-two">
                         <figure className="image">
-                        <img src="assets/images/resource/cta-2.jpg" alt="" />
+                        <img src="/assets/images/resource/cta-2.jpg" alt="" />
                         </figure>
                         <div className="text-box">
                         <h6>
@@ -192,7 +192,7 @@ export default function Home() {
                             </h2>
                             <div className="inner-box">
                                 <figure className="image-box">
-                                <img src="assets/images/resource/cart-1.jpg" alt="" />
+                                <img src="/assets/images/resource/cart-1.jpg" alt="" />
                                 </figure>
                                 <p>
                                 Partner with us to solve your IT challenges. From ServiceNow implementation to talent provisioning, we are here to help you succeed.

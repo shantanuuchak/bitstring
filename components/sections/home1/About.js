@@ -14,24 +14,24 @@ export default function About() {
                         <div
                             className="shape-1"
                             style={{
-                            backgroundImage: "url(assets/images/shape/shape-1.png)"
+                            backgroundImage: "url(/assets/images/shape/shape-1.png)"
                             }}
                         />
                         <div
                             className="shape-2"
                             style={{
-                            backgroundImage: "url(assets/images/shape/shape-2.png)"
+                            backgroundImage: "url(/assets/images/shape/shape-2.png)"
                             }}
                         />
                         <div
                             className="shape-3"
                             style={{
-                            backgroundImage: "url(assets/images/shape/shape-3.png)"
+                            backgroundImage: "url(/assets/images/shape/shape-3.png)"
                             }}
                         />
                         </div>
                         <figure className="image">
-                        <img src="assets/images/resource/about-1.jpg" alt="" />
+                        <img src="/assets/images/resource/about-1.jpg" alt="" />
                         </figure>
                         <div className="experience-box">
                         <h2>10+</h2>

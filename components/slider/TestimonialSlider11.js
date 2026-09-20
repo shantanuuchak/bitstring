@@ -64,23 +64,23 @@ export default function TestimonialSlider11() {
                         <i className="flaticon-speech-balloon" />
                       </div>
                       <figure className="thumb-box">
-                        <img src="assets/images/resource/testimonial-4.png" alt="" />
+                        <img src="/assets/images/resource/testimonial-4.png" alt="" />
                       </figure>
                       <ul className="rating clearfix">
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                       </ul>
                       <h3>Nathan Felix</h3>
@@ -104,23 +104,23 @@ export default function TestimonialSlider11() {
                         <i className="flaticon-speech-balloon" />
                       </div>
                       <figure className="thumb-box">
-                        <img src="assets/images/resource/testimonial-5.png" alt="" />
+                        <img src="/assets/images/resource/testimonial-5.png" alt="" />
                       </figure>
                       <ul className="rating clearfix">
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                       </ul>
                       <h3>Nora Penelope</h3>
@@ -144,23 +144,23 @@ export default function TestimonialSlider11() {
                         <i className="flaticon-speech-balloon" />
                       </div>
                       <figure className="thumb-box">
-                        <img src="assets/images/resource/testimonial-6.png" alt="" />
+                        <img src="/assets/images/resource/testimonial-6.png" alt="" />
                       </figure>
                       <ul className="rating clearfix">
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                         <li>
-                          <img src="assets/images/icons/icon-29.png" alt="" />
+                          <img src="/assets/images/icons/icon-29.png" alt="" />
                         </li>
                       </ul>
                       <h3>Rhys Damian</h3>
@@ -184,23 +184,23 @@ export default function TestimonialSlider11() {
                         <i className="flaticon-speech-balloon" />
                       </div>
                       <figure className="thumb-box">
-                        <img src="assets/images/resource/testimonial-7.png" alt="" />
+                        <img src="/assets/images/resource/testimonial-7.png" alt="" />
                       </figure>
                       <ul className="rating clearfix">
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                       </ul>
                       <h3>Kyle George</h3>
@@ -225,23 +225,23 @@ export default function TestimonialSlider11() {
                         <i className="flaticon-speech-balloon" />
                       </div>
                       <figure className="thumb-box">
-                        <img src="assets/images/resource/testimonial-8.png" alt="" />
+                        <img src="/assets/images/resource/testimonial-8.png" alt="" />
                       </figure>
                       <ul className="rating clearfix">
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                         <li>
-                          <img src="assets/images/icons/icon-28.png" alt="" />
+                          <img src="/assets/images/icons/icon-28.png" alt="" />
                         </li>
                       </ul>
                       <h3>Tracy Margaret</h3>

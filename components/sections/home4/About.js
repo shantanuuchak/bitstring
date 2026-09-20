@@ -11,17 +11,17 @@ export default function About() {
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                 <div className="image-box">
                     <figure className="image image-1">
-                    <img src="assets/images/resource/about-4.jpg" alt="" />
+                    <img src="/assets/images/resource/about-4.jpg" alt="" />
                     </figure>
                     <figure className="image image-2">
-                    <img src="assets/images/resource/about-5.jpg" alt="" />
+                    <img src="/assets/images/resource/about-5.jpg" alt="" />
                     </figure>
                     <figure className="image image-3">
-                    <img src="assets/images/resource/about-6.jpg" alt="" />
+                    <img src="/assets/images/resource/about-6.jpg" alt="" />
                     </figure>
                     <div className="image-content">
                     <div className="light-icon">
-                        <img src="assets/images/icons/icon-27.png" alt="" />
+                        <img src="/assets/images/icons/icon-27.png" alt="" />
                     </div>
                     <div className="icon-box">
                         <i className="flaticon-analysis-1" />

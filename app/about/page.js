@@ -41,7 +41,7 @@ export default function Home() {
                         </div>
                         <div className="col-lg-4 col-md-12 col-sm-12 image-column">
                         <figure className="image-box">
-                            <img src="assets/images/resource/about-7.jpg" alt="" />
+                            <img src="/assets/images/resource/about-7.jpg" alt="" />
                         </figure>
                         </div>
                         <div className="col-lg-4 col-md-12 col-sm-12 inner-column">
@@ -98,10 +98,10 @@ export default function Home() {
                         <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                         <div className="image-box">
                             <figure className="image image-1">
-                            <img src="assets/images/resource/skills-1.jpg" alt="" />
+                            <img src="/assets/images/resource/skills-1.jpg" alt="" />
                             </figure>
                             <figure className="image image-2">
-                            <img src="assets/images/resource/skills-2.jpg" alt="" />
+                            <img src="/assets/images/resource/skills-2.jpg" alt="" />
                             </figure>
                             <div className="chart-box">
                             <h3>Total Product</h3>
@@ -109,7 +109,7 @@ export default function Home() {
                             <h2>3,456</h2>
                             <h4>+25% per week</h4>
                             <div className="graph">
-                                <img src="assets/images/icons/graph-2.png" alt="" />
+                                <img src="/assets/images/icons/graph-2.png" alt="" />
                             </div>
                             </div>
                         </div>
@@ -336,11 +336,11 @@ export default function Home() {
                     <div className="outer-container">
                     <div
                         className="pattern-layer"
-                        style={{ backgroundImage: "url(assets/images/shape/shape-25.png)" }}
+                        style={{ backgroundImage: "url(/assets/images/shape/shape-25.png)" }}
                     />
                     <div className="image-box-one">
                         <figure className="image">
-                        <img src="assets/images/resource/cta-1.jpg" alt="" />
+                        <img src="/assets/images/resource/cta-1.jpg" alt="" />
                         </figure>
                         <div className="phone">
                         <h4>
@@ -350,7 +350,7 @@ export default function Home() {
                     </div>
                     <div className="image-box-two">
                         <figure className="image">
-                        <img src="assets/images/resource/cta-2.jpg" alt="" />
+                        <img src="/assets/images/resource/cta-2.jpg" alt="" />
                         </figure>
                         <div className="text-box">
                         <h6>
@@ -370,7 +370,7 @@ export default function Home() {
                             </h2>
                             <div className="inner-box">
                                 <figure className="image-box">
-                                <img src="assets/images/resource/cart-1.jpg" alt="" />
+                                <img src="/assets/images/resource/cart-1.jpg" alt="" />
                                 </figure>
                                 <p>
                                 Partner with us to solve your IT challenges. From ServiceNow implementation to talent provisioning and cybersecurity, we are here to help you succeed.

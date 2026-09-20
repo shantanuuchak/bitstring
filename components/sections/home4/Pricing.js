@@ -26,7 +26,7 @@ export default function Pricing() {
                 </div>
                 <div className="author-box">
                   <figure className="author-thumb">
-                    <img src="assets/images/resource/author-1.png" alt="" />
+                    <img src="/assets/images/resource/author-1.png" alt="" />
                   </figure>
                   <h3>Roman Harry</h3>
                   <span className="designation">Advisor</span>

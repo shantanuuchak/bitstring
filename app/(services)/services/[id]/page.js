@@ -17,7 +17,7 @@ export default function ServiceDetails({ params }) {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle={service.title}>
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle={service.title} isServicePage={true}>
                 <div>
                     {/* Service Details */}
                     <section className="service-details sec-pad">

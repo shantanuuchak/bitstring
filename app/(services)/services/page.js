@@ -8,7 +8,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Services">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Services" isServicePage={true}>
                 <div>
                     {/* about-style-three */}
                     <section className="about-style-three sec-pad">

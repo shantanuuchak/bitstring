@@ -17812,3 +17812,16 @@ button.ltr {
     100% { background-position: 0% 50%; }
 }
 
+
+.animated-gradient-bg {
+    background: linear-gradient(-45deg, #0a1112, #162223, #2a4143, #162223) !important;
+    background-size: 400% 400% !important;
+    animation: gradientBG 15s ease infinite !important;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+

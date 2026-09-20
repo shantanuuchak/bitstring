@@ -1,0 +1,8 @@
+<svg width="250" height="50" viewBox="0 0 250 50" xmlns="http://www.w3.org/2000/svg">
+  <!-- Data Wave Icon -->
+  <path d="M 5 35 Q 15 15 25 25 T 45 15" fill="none" stroke="#63df4e" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 12 40 Q 22 20 32 30 T 52 20" fill="none" stroke="#293E40" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Text -->
+  <text x="65" y="34" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#293E40">bit<tspan fill="#63df4e" font-style="italic">string</tspan></text>
+</svg>

@@ -1,0 +1,9 @@
+<svg width="250" height="50" viewBox="0 0 250 50" xmlns="http://www.w3.org/2000/svg">
+  <!-- Monogram Icon (B & S intertwined) -->
+  <rect x="5" y="10" width="30" height="30" rx="8" fill="#293E40"/>
+  <path d="M 15 18 L 22 18 C 25 18 25 21 22 21 L 18 21 C 15 21 15 24 18 24 L 22 24 C 27 24 27 28 22 28 L 15 28 Z" fill="none" stroke="#63df4e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 15 15 L 15 32" stroke="#63df4e" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Text -->
+  <text x="45" y="34" font-family="'Segoe UI', Roboto, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="1" fill="#293E40">BIT<tspan fill="#63df4e">STRING</tspan></text>
+</svg>

@@ -22,13 +22,13 @@ export default function ProjectPage() {
                                     className={`filter ${activeFilter === "all" ? "active" : ""}`}
                                     onClick={() => handleFilterClick("all")}
                                 >
-                                    View All <span>22</span>
+                                    View All <span>6</span>
                                 </li>
                                 <li
                                     className={`filter ${activeFilter === "business" ? "active" : ""}`}
                                     onClick={() => handleFilterClick("business")}
                                 >
-                                    Business
+                                    ITSM
                                 </li>
                                 <li
                                     className={`filter ${activeFilter === "consulting" ? "active" : ""}`}
@@ -40,13 +40,13 @@ export default function ProjectPage() {
                                     className={`filter ${activeFilter === "innovative" ? "active" : ""}`}
                                     onClick={() => handleFilterClick("innovative")}
                                 >
-                                    Innovative
+                                    ITOM
                                 </li>
                                 <li
                                     className={`filter ${activeFilter === "investment" ? "active" : ""}`}
                                     onClick={() => handleFilterClick("investment")}
                                 >
-                                    Investment
+                                    Talent
                                 </li>
                                 <li
                                     className={`filter ${activeFilter === "management" ? "active" : ""}`}
@@ -63,43 +63,43 @@ export default function ProjectPage() {
                                 {
                                     id: 1,
                                     classes: "all innovative business consulting",
-                                    category: "Business",
-                                    title: "Investing in Emerging Markets",
+                                    category: "ITSM",
+                                    title: "ServiceNow ITSM Implementation",
                                     imgSrc: "/assets/images/project/project-10.jpg",
                                 },
                                 {
                                     id: 2,
                                     classes: "all business innovative investment",
-                                    category: "Investment",
-                                    title: "Revisiting Your Investment Goals",
+                                    category: "ITOM",
+                                    title: "Infrastructure Visibility Optimization",
                                     imgSrc: "/assets/images/project/project-11.jpg",
                                 },
                                 {
                                     id: 3,
                                     classes: "all innovative consulting investment management",
-                                    category: "Business",
-                                    title: "Dimensional Fund Advisors Interview",
+                                    category: "HRSD",
+                                    title: "Streamlining Employee Workflows",
                                     imgSrc: "/assets/images/project/project-12.jpg",
                                 },
                                 {
                                     id: 4,
                                     classes: "all business consulting investment",
-                                    category: "Financial Plan",
-                                    title: "Interested in Giving Back this year",
+                                    category: "Talent Provisioning",
+                                    title: "Scaling IT Teams On-Demand",
                                     imgSrc: "/assets/images/project/project-13.jpg",
                                 },
                                 {
                                     id: 5,
                                     classes: "all innovative consulting investment",
-                                    category: "Business",
-                                    title: "Investing in Emerging Markets",
+                                    category: "GRC",
+                                    title: "Risk Management & Compliance",
                                     imgSrc: "/assets/images/project/project-14.jpg",
                                 },
                                 {
                                     id: 6,
                                     classes: "all business investment management",
-                                    category: "Business",
-                                    title: "Revisiting Your Investment Goals",
+                                    category: "Consulting",
+                                    title: "Enterprise Architecture Advisory",
                                     imgSrc: "/assets/images/project/project-15.jpg",
                                 },
                             ]
@@ -115,11 +115,11 @@ export default function ProjectPage() {
                                                     <div className="text-box">
                                                         <h6>{item.category}</h6>
                                                         <h3>
-                                                            <Link href="/project-details">{item.title}</Link>
+                                                            <Link href="/services">{item.title}</Link>
                                                         </h3>
                                                     </div>
                                                     <div className="link">
-                                                        <Link href="/project-details">
+                                                        <Link href="/services">
                                                             <i className="flaticon-diagonal-arrow"></i>
                                                         </Link>
                                                     </div>
@@ -181,7 +181,7 @@ export default function ProjectPage() {
                     </figure>
                     <div className="phone">
                     <h4>
-                        Call: <Link href="tel:41888765432">(+41) 888.76.5432</Link>
+                        Call: <Link href="tel:02069011184">(020) 69011184</Link>
                     </h4>
                     </div>
                 </div>
@@ -191,9 +191,9 @@ export default function ProjectPage() {
                     </figure>
                     <div className="text-box">
                     <h6>
-                        Do you Have <br />
-                        any idea to Join <br />
-                        With Us
+                        Ready to <br />
+                        Transform <br />
+                        Your IT?
                     </h6>
                     </div>
                 </div>
@@ -202,18 +202,17 @@ export default function ProjectPage() {
                     <div className="col-lg-8 col-md-12 col-sm-12 offset-lg-2 content-column">
                         <div className="content-box">
                         <h2>
-                            Believe us when <br />
-                            it comes to investment
+                            Connect with BitString <br />
+                            and Deliver Real Value
                         </h2>
                         <div className="inner-box">
                             <figure className="image-box">
                             <img src="assets/images/resource/cart-1.jpg" alt="" />
                             </figure>
                             <p>
-                            The moment, so blinded by desire, that they cannot foresee and
-                            trouble that are bound to ensue.
+                            Partner with us to solve your IT challenges. From ServiceNow implementation to talent provisioning, we are here to help you succeed.
                             </p>
-                            <Link href="/index-3" className="theme-btn btn-two">
+                            <Link href="/contact" className="theme-btn btn-two">
                             Send Request
                             </Link>
                         </div>

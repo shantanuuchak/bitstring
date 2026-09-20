@@ -40,7 +40,7 @@ export default function Home() {
                             </figure>
                             <div className="phone">
                             <h4>
-                                Call: <Link href="tel:41888765432">(+41) 888.76.5432</Link>
+                                Call: <Link href="tel:02069011184">(020) 69011184</Link>
                             </h4>
                             </div>
                         </div>
@@ -50,9 +50,9 @@ export default function Home() {
                             </figure>
                             <div className="text-box">
                             <h6>
-                                Do you Have <br />
-                                any idea to Join <br />
-                                With Us
+                                Ready to <br />
+                                Transform <br />
+                                Your IT?
                             </h6>
                             </div>
                         </div>
@@ -61,18 +61,17 @@ export default function Home() {
                             <div className="col-lg-8 col-md-12 col-sm-12 offset-lg-2 content-column">
                                 <div className="content-box">
                                 <h2>
-                                    Believe us when <br />
-                                    it comes to investment
+                                    Connect with BitString <br />
+                                    and Deliver Real Value
                                 </h2>
                                 <div className="inner-box">
                                     <figure className="image-box">
                                     <img src="assets/images/resource/cart-1.jpg" alt="" />
                                     </figure>
                                     <p>
-                                    The moment, so blinded by desire, that they cannot foresee and
-                                    trouble that are bound to ensue.
+                                    Partner with us to solve your IT challenges. From ServiceNow implementation to talent provisioning, we are here to help you succeed.
                                     </p>
-                                    <Link href="/index-3" className="theme-btn btn-two">
+                                    <Link href="/contact" className="theme-btn btn-two">
                                     Send Request
                                     </Link>
                                 </div>

@@ -137,24 +137,24 @@ export default function Home() {
                                     <i className="flaticon-downloads" />
                                     </div>
                                     <h3>
-                                    Personal <br />
-                                    Consulting Service
+                                    ITSM <br />
+                                    Implementation
                                     </h3>
                                     <h5>
-                                    <Link href="/index-2">Explore Projects</Link>
+                                    <Link href="/services/itsm">Explore Services</Link>
                                     </h5>
                                 </div>
                                 </div>
                                 <div className="col-lg-6 col-md-6 col-sm-12 skills-column">
                                 <div className="progress-box">
                                     <p>
-                                    Complete account of the syste all expound the teachings.
+                                    Delivering efficient service workflows.
                                     </p>
-                                    <h5>38.5%</h5>
+                                    <h5>98%</h5>
                                     <div className="bar">
                                     <div
                                         className="bar-inner count-bar"
-                                        data-percent="38.5%"
+                                        data-percent="98%"
                                     />
                                     </div>
                                 </div>
@@ -165,25 +165,24 @@ export default function Home() {
                                     <i className="flaticon-downloads" />
                                     </div>
                                     <h3>
-                                    Corporate <br />
-                                    Consulting Service
+                                    ITOM <br />
+                                    Solutions
                                     </h3>
                                     <h5>
-                                    <Link href="/index-2">Explore Projects</Link>
+                                    <Link href="/services/itom">Explore Services</Link>
                                     </h5>
                                 </div>
                                 </div>
                                 <div className="col-lg-6 col-md-6 col-sm-12 skills-column">
                                 <div className="progress-box">
                                     <p>
-                                    Right to find fault with a man who chooses to enjoy
-                                    produces.
+                                    Optimizing operations and maximizing uptime.
                                     </p>
-                                    <h5>61.5%</h5>
+                                    <h5>95%</h5>
                                     <div className="bar">
                                     <div
                                         className="bar-inner count-bar"
-                                        data-percent="61.5%"
+                                        data-percent="95%"
                                     />
                                     </div>
                                 </div>
@@ -218,7 +217,7 @@ export default function Home() {
                                                 >
                                                     <span className="count-text">01</span>
                                                     <h3>Technology & Life Sciences</h3>
-                                                    <Link href="/">
+                                                    <Link href="/project">
                                                         <i className="flaticon-diagonal-arrow"></i>
                                                     </Link>
                                                 </div>
@@ -228,7 +227,7 @@ export default function Home() {
                                                 >
                                                     <span className="count-text">02</span>
                                                     <h3>Banking & Financial</h3>
-                                                    <Link href="/">
+                                                    <Link href="/project">
                                                         <i className="flaticon-diagonal-arrow"></i>
                                                     </Link>
                                                 </div>
@@ -238,7 +237,7 @@ export default function Home() {
                                                 >
                                                     <span className="count-text">03</span>
                                                     <h3>Commercial Real Estate</h3>
-                                                    <Link href="/">
+                                                    <Link href="/project">
                                                         <i className="flaticon-diagonal-arrow"></i>
                                                     </Link>
                                                 </div>
@@ -248,7 +247,7 @@ export default function Home() {
                                                 >
                                                     <span className="count-text">04</span>
                                                     <h3>Manufacturing</h3>
-                                                    <Link href="/">
+                                                    <Link href="/project">
                                                         <i className="flaticon-diagonal-arrow"></i>
                                                     </Link>
                                                 </div>

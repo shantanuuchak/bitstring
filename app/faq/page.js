@@ -27,10 +27,10 @@ export default function Home() {
                         <div className="faq-sidebar">
                             <div className="text-box">
                             <h3>Ask your Question</h3>
-                            <p>Belongs to those who fail in their duty through weakness.</p>
+                            <p>Have questions about ServiceNow implementation or ITOM? Let us know.</p>
                             </div>
                             <div className="form-inner">
-                            <form method="post" action="/faq">
+                            <form method="post" action="/contact">
                                 <div className="form-group">
                                 <input
                                     type="text"
@@ -51,10 +51,10 @@ export default function Home() {
                                 <div className="select-box">
                                     <select className="selectmenu">
                                     <option>Category</option>
-                                    <option>Traditional Consulting</option>
-                                    <option>Portfolio Management</option>
-                                    <option>Asset Allocation</option>
-                                    <option>Risk Management</option>
+                                    <option>ServiceNow Consulting</option>
+                                    <option>ITSM Implementation</option>
+                                    <option>ITOM Implementation</option>
+                                    <option>Talent Provisioning</option>
                                     </select>
                                 </div>
                                 </div>
@@ -80,7 +80,7 @@ export default function Home() {
 
                             {/* Management FAQs */}
                             <div className="accordion-content">
-                                <h3>Management</h3>
+                                <h3>ServiceNow & IT Consulting</h3>
                                 <ul className="accordion-box">
                                 {/* FAQ Item */}
                                 <li className="accordion block">
@@ -91,18 +91,17 @@ export default function Home() {
                                     <div className="icon-box">
                                         <i className="flaticon-right-chevron" />
                                     </div>
-                                    <h4>What does Counsolve do?</h4>
+                                    <h4>What does BitString do?</h4>
                                     </div>
                                     <div className={isActive.key === 1 ? 'acc-content current' : 'acc-content'}>
                                     <p>
-                                        Our power of choice is untrammelled and when nothing prevents our being able
-                                        to do what we like best, every circumstance owing to the claims.
+                                        BitString is a specialized IT consulting firm focusing on ServiceNow implementation, ITSM, ITOM, HRSD, and Talent Provisioning to optimize your business operations.
                                     </p>
                                     </div>
                                 </li>
 
                                 {/* Additional FAQ Items */}
-                                {[{ key: 2, question: 'What industries do you specialize in?' }, { key: 3, question: 'Can you guarantee growth?' }, { key: 4, question: 'What makes your business plans special?' }].map((faq) => (
+                                {[{ key: 2, question: 'What industries do you specialize in?', answer: 'We specialize in Technology & Life Sciences, Banking & Financial, Commercial Real Estate, and Manufacturing sectors.' }, { key: 3, question: 'How do you ensure successful ServiceNow implementation?', answer: 'We follow industry best practices, align technology with your specific business goals, and provide comprehensive training and support.' }, { key: 4, question: 'Do you offer custom ITOM solutions?', answer: 'Yes, we tailor IT Operations Management (ITOM) strategies to ensure infrastructure visibility and operational efficiency.' }].map((faq) => (
                                     <li key={faq.key} className="accordion block">
                                     <div
                                         className={isActive.key === faq.key ? 'acc-btn active' : 'acc-btn'}
@@ -115,8 +114,7 @@ export default function Home() {
                                     </div>
                                     <div className={isActive.key === faq.key ? 'acc-content current' : 'acc-content'}>
                                         <p>
-                                        Our power of choice is untrammelled and when nothing prevents our being able
-                                        to do what we like best, every circumstance owing to the claims.
+                                        {faq.answer}
                                         </p>
                                     </div>
                                     </li>
@@ -126,9 +124,9 @@ export default function Home() {
 
                             {/* Service FAQs */}
                             <div className="accordion-content">
-                                <h3>Service</h3>
+                                <h3>Services & Delivery</h3>
                                 <ul className="accordion-box">
-                                {[{ key: 5, question: 'How long does it take?' }, { key: 6, question: 'How do you price your services?' }, { key: 7, question: 'What is your refund policy?' }].map((faq) => (
+                                {[{ key: 5, question: 'How long does an implementation take?', answer: 'Timelines vary based on complexity, ranging from a few weeks for standard ITSM to several months for full-scale enterprise transformation.' }, { key: 6, question: 'How do you structure talent provisioning?', answer: 'We connect you with highly vetted IT and ServiceNow professionals tailored to fit your specific project and organizational needs.' }, { key: 7, question: 'Do you provide post-implementation support?', answer: 'Absolutely. We offer ongoing managed services and support to ensure your platforms run smoothly post-deployment.' }].map((faq) => (
                                     <li key={faq.key} className="accordion block">
                                     <div
                                         className={isActive.key === faq.key ? 'acc-btn active' : 'acc-btn'}
@@ -141,8 +139,7 @@ export default function Home() {
                                     </div>
                                     <div className={isActive.key === faq.key ? 'acc-content current' : 'acc-content'}>
                                         <p>
-                                        Our power of choice is untrammelled and when nothing prevents our being able
-                                        to do what we like best, every circumstance owing to the claims.
+                                        {faq.answer}
                                         </p>
                                     </div>
                                     </li>
@@ -169,7 +166,7 @@ export default function Home() {
                         </figure>
                         <div className="phone">
                         <h4>
-                            Call: <a href="tel:41888765432">(+41) 888.76.5432</a>
+                            Call: <Link href="tel:02069011184">(020) 69011184</Link>
                         </h4>
                         </div>
                     </div>
@@ -179,9 +176,9 @@ export default function Home() {
                         </figure>
                         <div className="text-box">
                         <h6>
-                            Do you Have <br />
-                            any idea to Join <br />
-                            With Us
+                            Ready to <br />
+                            Transform <br />
+                            Your IT?
                         </h6>
                         </div>
                     </div>
@@ -190,18 +187,17 @@ export default function Home() {
                         <div className="col-lg-8 col-md-12 col-sm-12 offset-lg-2 content-column">
                             <div className="content-box">
                             <h2>
-                                Believe us when <br />
-                                it comes to investment
+                                Connect with BitString <br />
+                                and Deliver Real Value
                             </h2>
                             <div className="inner-box">
                                 <figure className="image-box">
                                 <img src="assets/images/resource/cart-1.jpg" alt="" />
                                 </figure>
                                 <p>
-                                The moment, so blinded by desire, that they cannot foresee and
-                                trouble that are bound to ensue.
+                                Partner with us to solve your IT challenges. From ServiceNow implementation to talent provisioning, we are here to help you succeed.
                                 </p>
-                                <Link href="/index-3" className="theme-btn btn-two">
+                                <Link href="/contact" className="theme-btn btn-two">
                                 Send Request
                                 </Link>
                             </div>

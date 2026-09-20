@@ -18,17 +18,16 @@ export default function Home() {
                                 <div className="content-box mr_110">
                                     <div className="sec-title mb_20">
                                     <h6>About US</h6>
-                                    <h2>The Finance Guide on All Stage of Life.</h2>
+                                    <h2>Join the BitString Team.</h2>
                                     </div>
                                     <div className="text-box mb_40">
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis, suscipit you take action against
-                                        fraud. See it the Security Center for and Mobile and Online Banking.
+                                        At BitString, we are looking for passionate individuals who want to build the future of IT Operations and ServiceNow implementations. Join us in transforming enterprise IT.
                                     </p>
                                     <ul className="list-style-one clearfix">
-                                        <li>Improving all types of opportunities</li>
-                                        <li>Quick solutions for daily problems</li>
-                                        <li>Community that grows larger</li>
+                                        <li>Opportunities to work on cutting-edge ITOM/ITSM projects</li>
+                                        <li>Collaborative culture focused on growth and learning</li>
+                                        <li>Competitive benefits and work-life balance</li>
                                     </ul>
                                     </div>
                                     <div className="btn-box">
@@ -54,9 +53,9 @@ export default function Home() {
                                         </figure>
                                         <div className="experience-box">
                                             <h2>
-                                            25<span>Years</span>
+                                            7<span>Years</span>
                                             </h2>
-                                            <h5>of Experience in the Finance Service</h5>
+                                            <h5>of Excellence in IT Consulting</h5>
                                         </div>
                                         </div>
                                     </div>
@@ -81,7 +80,7 @@ export default function Home() {
                         <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/career-bg.jpg)' }}></div>
                         <div className="auto-container">
                             <div className="sec-title centred mb_70">
-                            <h6>Current JObs</h6>
+                            <h6>Current Jobs</h6>
                             <h2>Current Job Positions</h2>
                             </div>
                             <div className="inner-container">
@@ -90,16 +89,16 @@ export default function Home() {
                                     <div className="author-box">
                                         <figure className="thumb-box"><img src="assets/images/resource/career-1.jpg" alt="" /></figure>
                                         <div className="text-box">
-                                        <h3>Application Technical Analyst</h3>
-                                        <span className="designation">Marketing Department</span>
+                                        <h3>ServiceNow Technical Consultant</h3>
+                                        <span className="designation">IT Consulting Department</span>
                                         </div>
                                     </div>
                                     <ul className="info-box clearfix">
-                                        <li><i className="icon-34"></i>Manhattan, New York</li>
+                                        <li><i className="icon-34"></i>Pune, India</li>
                                         <li><i className="icon-35"></i>22th July, 2023</li>
                                     </ul>
                                     <div className="btn-box">
-                                        <Link href="/career-details">Apply Now</Link>
+                                        <Link href="/contact">Apply Now</Link>
                                     </div>
                                     </div>
                                 </div>
@@ -108,16 +107,16 @@ export default function Home() {
                                     <div className="author-box">
                                         <figure className="thumb-box"><img src="assets/images/resource/career-2.jpg" alt="" /></figure>
                                         <div className="text-box">
-                                        <h3>Marketing Coordinator</h3>
-                                        <span className="designation">Marketing Department</span>
+                                        <h3>ITSM Implementation Specialist</h3>
+                                        <span className="designation">ITSM Department</span>
                                         </div>
                                     </div>
                                     <ul className="info-box clearfix">
-                                        <li><i className="icon-34"></i>Manhattan, New York</li>
+                                        <li><i className="icon-34"></i>Pune, India</li>
                                         <li><i className="icon-35"></i>22th July, 2023</li>
                                     </ul>
                                     <div className="btn-box">
-                                        <Link href="/career-details">Apply Now</Link>
+                                        <Link href="/contact">Apply Now</Link>
                                     </div>
                                     </div>
                                 </div>
@@ -126,16 +125,16 @@ export default function Home() {
                                     <div className="author-box">
                                         <figure className="thumb-box"><img src="assets/images/resource/career-3.jpg" alt="" /></figure>
                                         <div className="text-box">
-                                        <h3>Software Development Manager</h3>
-                                        <span className="designation">Marketing Department</span>
+                                        <h3>ITOM Solution Architect</h3>
+                                        <span className="designation">ITOM Department</span>
                                         </div>
                                     </div>
                                     <ul className="info-box clearfix">
-                                        <li><i className="icon-34"></i>Manhattan, New York</li>
+                                        <li><i className="icon-34"></i>Pune, India / Remote</li>
                                         <li><i className="icon-35"></i>22th July, 2023</li>
                                     </ul>
                                     <div className="btn-box">
-                                        <Link href="/career-details">Apply Now</Link>
+                                        <Link href="/contact">Apply Now</Link>
                                     </div>
                                     </div>
                                 </div>
@@ -144,16 +143,16 @@ export default function Home() {
                                     <div className="author-box">
                                         <figure className="thumb-box"><img src="assets/images/resource/career-4.jpg" alt="" /></figure>
                                         <div className="text-box">
-                                        <h3>Shell - Cardamon - DC-01</h3>
-                                        <span className="designation">Marketing Department</span>
+                                        <h3>Cybersecurity Analyst</h3>
+                                        <span className="designation">Security Department</span>
                                         </div>
                                     </div>
                                     <ul className="info-box clearfix">
-                                        <li><i className="icon-34"></i>Manhattan, New York</li>
+                                        <li><i className="icon-34"></i>USA / Remote</li>
                                         <li><i className="icon-35"></i>22th July, 2023</li>
                                     </ul>
                                     <div className="btn-box">
-                                        <Link href="/career-details">Apply Now</Link>
+                                        <Link href="/contact">Apply Now</Link>
                                     </div>
                                     </div>
                                 </div>
@@ -162,16 +161,16 @@ export default function Home() {
                                     <div className="author-box">
                                         <figure className="thumb-box"><img src="assets/images/resource/career-5.jpg" alt="" /></figure>
                                         <div className="text-box">
-                                        <h3>Office Manager</h3>
-                                        <span className="designation">Marketing Department</span>
+                                        <h3>HRSD Developer</h3>
+                                        <span className="designation">HRSD Department</span>
                                         </div>
                                     </div>
                                     <ul className="info-box clearfix">
-                                        <li><i className="icon-34"></i>Manhattan, New York</li>
+                                        <li><i className="icon-34"></i>Pune, India</li>
                                         <li><i className="icon-35"></i>22th July, 2023</li>
                                     </ul>
                                     <div className="btn-box">
-                                        <Link href="/career-details">Apply Now</Link>
+                                        <Link href="/contact">Apply Now</Link>
                                     </div>
                                     </div>
                                 </div>

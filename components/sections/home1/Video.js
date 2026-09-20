@@ -35,11 +35,11 @@ export default function Video() {
                                             </div>
                                             <div className="count-outer count-box">
                                                 <span className="count-text">
-                                                    <CountUp end={840} duration={1.5} />
+                                                    <CountUp end={100} duration={1.5} />
                                                 </span>
-                                                <span className="text">Billion</span>
+                                                <span className="text">+ Years</span>
                                             </div>
-                                            <p>Client assets under advisement.</p>
+                                            <p>Combined team experience.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -52,11 +52,11 @@ export default function Video() {
                                                 <i className="flaticon-searching" />
                                             </div>
                                             <h3>
-                                                <a href="/index">Start Your Project</a>
+                                                <a href="/contact">Start Your Project</a>
                                             </h3>
-                                            <p>The claims of duty obligationsbusiness frequently occur.</p>
+                                            <p>Let's discuss how we can accelerate your digital transformation.</p>
                                             <div className="link">
-                                                <a href="/index">
+                                                <a href="/contact">
                                                     <span>Free Consultation</span>
                                                 </a>
                                             </div>

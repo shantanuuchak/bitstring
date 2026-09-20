@@ -79,6 +79,10 @@ export default function Appointment() {
                                             <h4><a href="tel:02069011184">(020) 69011184</a></h4>
                                         </li>
                                         <li>
+                                            <h6>USA Phone</h6>
+                                            <h4><a href="tel:9494246646">(949) 424-6646</a></h4>
+                                        </li>
+                                        <li>
                                             <h6>Email</h6>
                                             <h4><a href="mailto:connect@bitstringit.com">connect@bitstringit.com</a></h4>
                                         </li>

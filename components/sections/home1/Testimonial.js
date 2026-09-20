@@ -33,7 +33,7 @@ export default function Testimonial() {
                     <div className="tag">Excellent Service</div>
                     </div>
                     <div className="link">
-                    <Link href="/">
+                    <Link href="/about">
                         <span>Read All Reviews</span>
                     </Link>
                     </div>

@@ -33,7 +33,7 @@ export default function Industries() {
                                         >
                                             <span className="count-text">01</span>
                                             <h3>Technology & Life Sciences</h3>
-                                            <Link href="/">
+                                            <Link href="/services">
                                                 <i className="flaticon-diagonal-arrow"></i>
                                             </Link>
                                         </div>
@@ -43,7 +43,7 @@ export default function Industries() {
                                         >
                                             <span className="count-text">02</span>
                                             <h3>Banking & Financial</h3>
-                                            <Link href="/">
+                                            <Link href="/services">
                                                 <i className="flaticon-diagonal-arrow"></i>
                                             </Link>
                                         </div>
@@ -53,7 +53,7 @@ export default function Industries() {
                                         >
                                             <span className="count-text">03</span>
                                             <h3>Commercial Real Estate</h3>
-                                            <Link href="/">
+                                            <Link href="/services">
                                                 <i className="flaticon-diagonal-arrow"></i>
                                             </Link>
                                         </div>
@@ -63,7 +63,7 @@ export default function Industries() {
                                         >
                                             <span className="count-text">04</span>
                                             <h3>Manufacturing</h3>
-                                            <Link href="/">
+                                            <Link href="/services">
                                                 <i className="flaticon-diagonal-arrow"></i>
                                             </Link>
                                         </div>

@@ -55,7 +55,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
                 <Sidebar isSidebar={isSidebar} handleSidebar={handleSidebar} />
                 
                 <SearchPopup isPopup={isPopup} handlePopup={handlePopup} />
-                {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} isServicePage={isServicePage} />}
+                {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
 
                 {children}
 

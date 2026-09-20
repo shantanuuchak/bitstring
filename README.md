@@ -52,8 +52,13 @@ This project utilizes the **Next.js App Router** for optimized routing and layou
 - **`public/`**: Static assets including branding, imagery, and base CSS stylesheets.
 - **`business_data/`**: Centralized mapping logic for business content, extracting hardcoded text out of components into manageable datasets.
 
+## 🤖 AI Agent Guidelines
+
+For AI coding agents assisting with this project, please refer to our explicit instructions and phase plans in the [AGENTS.md](file:///home/chak/github/bitstring/AGENTS.md) file. This document governs all architectural and content decisions made by autonomous tools.
+
 ## 🎨 Design & Content Philosophy
 
 - **Typography**: Uses **Figtree** system-wide for a clean, modern, and highly legible corporate aesthetic.
 - **Tone**: Content is engineered to be action-oriented, practical, and devoid of AI-generated fluff. Em-dashes are strictly prohibited in the copy structure.
+- **UI & Animations**: Strict adherence to enterprise-grade (e.g. ServiceNow-inspired) aesthetics. Animations are subtle, avoiding bright sliding gradients or blurred blobs in favor of slow, low-contrast breathing gradients (`-45deg`, 25s loops) using core brand colors.
 - **Performance**: Optimized asset loading, statically generated pages where applicable, and dynamic routing mapped securely to business data.

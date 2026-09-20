@@ -4,15 +4,24 @@ export default function Breadcrumb({ breadcrumbTitle }) {
     return (
         <>
             <style>{`
-                .animated-breadcrumb-bg {
-                    background: linear-gradient(135deg, #1a2728 0%, #293e40 40%, var(--primary-color) 80%, #1a2728 100%);
-                    background-size: 300% 300%;
-                    animation: panGradient 12s ease infinite;
+                .page-title .bg-layer.animated-breadcrumb-bg {
+                    /* A very subtle, low-contrast gradient matching modern enterprise UI */
+                    background: linear-gradient(
+                        -45deg, 
+                        #1a2728, 
+                        #1f3032, 
+                        #293e40, 
+                        #152021
+                    );
+                    background-size: 400% 400%;
+                    animation: gradientFlow 25s ease infinite;
                 }
-                .page-title .animated-breadcrumb-bg:before {
+                
+                .page-title .bg-layer.animated-breadcrumb-bg:before {
                     display: none !important;
                 }
-                @keyframes panGradient {
+
+                @keyframes gradientFlow {
                     0% { background-position: 0% 50%; }
                     50% { background-position: 100% 50%; }
                     100% { background-position: 0% 50%; }

@@ -1,10 +1,14 @@
 import Link from "next/link"
 
 export default function Breadcrumb({ breadcrumbTitle }) {
+    const bgStyle = { 
+        background: 'linear-gradient(135deg, #1a2728 0%, #293e40 60%, var(--primary-color) 100%)' 
+    };
+
     return (
         <>
             <section className="page-title centred">
-                <div className="bg-layer animated-gradient-bg"></div>
+                <div className="bg-layer" style={bgStyle}></div>
                 <div className="pattern-layer">
                     <div className="pattern-1" style={{ backgroundImage: 'url(/assets/images/shape/shape-18.png)' }}></div>
                     <div className="pattern-2" style={{ backgroundImage: 'url(/assets/images/shape/shape-17.png)' }}></div>
